@@ -6,7 +6,7 @@
 感谢您对我的支持  
 Copyright by 2023 Mingcheng Network Studio  
 
-en-us：
+en-us：  
 This is an open source Minecraft website  
 This is my first open source project and I hope you will not do it well, but I hope you will give me more suggestions.  
 The preview site for this project is https://beta.b4qaq.top.  
