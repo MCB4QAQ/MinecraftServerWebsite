@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>通知消息 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li class="active"> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">通知消息</div></header>
+              <div class="card-body">
+
+                <p>通过 toast、轻量级且易于自定义的警报消息向您的访问者推送通知。</p>
+
+                <p>Toast 是轻量级通知，旨在模仿移动和桌面操作系统已经普及的推送通知。它们是用 flexbox 构建的，因此它们很容易对齐和定位。</p>
+
+                <h6>概述</h6>
+                <p>使用 toast 插件时要知道的事情：</p>
+                <ul>
+                  <li>出于性能原因，Toast 是可选的，因此您必须自己初始化它们。</li>
+                  <li>如果您不指定 <code>autohide: false</code>，Toast 将自动隐藏。</li>
+                </ul>
+                <p>该组件的动画效果依赖于 prefers-reduced-motion 媒体查询。请参阅我们可访问性文档的减少运动部分。</p>
+
+                <h6>基本的</h6>
+                <p>为了鼓励可扩展和可预测的 toast，我们建议使用 header 和 body。 Toast 标题使用 <code>display: flex</code>，由于我们的 <code>margin</code> 和 <code>flexbox</code> 实用程序，可以轻松对齐内容。</p>
+                <p>Toast 可以根据您的需要灵活使用，并且所需的标记非常少。至少，我们需要一个元素来包含您的 “toasted” 内容，并强烈建议使用关闭按钮。</p>
+                <div class="border-example">
+                  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small>11分钟之前</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      《隋唐演义》既是中国古代一部白话小说，也是一部演绎历史风云、歌颂的经典传奇英雄之作。
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+        &lt;div class="toast-header"&gt;
+          &lt;img src="..." class="rounded me-2" alt="..."&gt;
+          &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+          &lt;small&gt;11分钟之前&lt;/small&gt;
+          &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="toast-body"&gt;
+          《隋唐演义》既是中国古代一部白话小说，也是一部演绎历史风云、歌颂的经典传奇英雄之作。
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="callout callout-warning mb-3">以前，我们的脚本动态添加了 <code>.hide</code> 类来完全隐藏 toast（使用 <code>display:none</code>，而不仅仅是使用 <code>opacity:0</code>）。现在不再需要了。但是，为了向后兼容，我们的脚本将继续切换类（即使实际上没有必要），直到下一个主要版本。</div>
+
+                <h6>在线示例</h6>
+                <p>单击下面的按钮以显示默认隐藏的 toast（与我们的实用程序一起位于右下角）。</p>
+                <div class="border-example">
+                  <button type="button" class="btn btn-primary" id="liveToastBtn">显示 toast</button>
+
+                  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11分钟之前</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        《历代诗话》，古代中国诗歌理论著作，诗话丛书。清代何文焕辑。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;button type="button" class="btn btn-primary" id="liveToastBtn"&gt;显示 toast&lt;/button&gt;
+
+      &lt;div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11"&gt;
+        &lt;div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+          &lt;div class="toast-header"&gt;
+            &lt;img src="..." class="rounded me-2" alt="..."&gt;
+            &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+            &lt;small&gt;11分钟之前&lt;/small&gt;
+            &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="toast-body"&gt;
+            《历代诗话》，古代中国诗歌理论著作，诗话丛书。清代何文焕辑。
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>我们使用以下 JavaScript 来触发我们的 toast 在线演示：</p>
+                <pre>var toastTrigger = document.getElementById('liveToastBtn')
+      var toastLiveExample = document.getElementById('liveToast')
+      if (toastTrigger) {
+        toastTrigger.addEventListener('click', function () {
+          var toast = new bootstrap.Toast(toastLiveExample)
+
+          toast.show()
+        })
+      }</pre>
+
+                <h6>半透明</h6>
+                <p>Toast 有点半透明，可以与下面的东西融为一体。</p>
+                <div class="border-example bg-dark">
+                  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small class="text-muted">11分钟之前</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      又名《真仙传道集》或《钟吕传道记》。五代，施肩吾整理。
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+        &lt;div class="toast-header"&gt;
+          &lt;img src="..." class="rounded me-2" alt="..."&gt;
+          &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+          &lt;small class="text-muted"&gt;11分钟之前&lt;/small&gt;
+          &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="toast-body"&gt;
+          又名《真仙传道集》或《钟吕传道记》。五代，施肩吾整理。
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>堆叠</h6>
+                <p>您可以通过将 toast 包装在 toast 容器中来堆叠，这将垂直增加一些间距。</p>
+                <div class="border-example">
+                  <div class="toast-container">
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-muted">刚刚</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        《管子》基本上是稷下道家推尊管仲之作的集结。即以此为稷下之学的管子学派。
+                      </div>
+                    </div>
+
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-muted">2秒前</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        《绣花大盗》是武侠小说家古龙-陆小凤系列的第二个的故事。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast-container"&gt;
+        &lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+          &lt;div class="toast-header"&gt;
+            &lt;img src="..." class="rounded me-2" alt="..."&gt;
+            &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+            &lt;small class="text-muted"&gt;刚刚&lt;/small&gt;
+            &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="toast-body"&gt;
+            《管子》基本上是稷下道家推尊管仲之作的集结。即以此为稷下之学的管子学派。
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+          &lt;div class="toast-header"&gt;
+            &lt;img src="..." class="rounded me-2" alt="..."&gt;
+            &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+            &lt;small class="text-muted"&gt;2秒前&lt;/small&gt;
+            &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="toast-body"&gt;
+            《绣花大盗》是武侠小说家古龙-陆小凤系列的第二个的故事。
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>自定义内容</h6>
+                <p>通过删除子组件、使用实用程序调整它们或添加您自己的标记来自定义您的 toast。在这里，我们通过删除默认的 <code>.toast-header</code>、从 Bootstrap Icons 添加自定义隐藏图标并使用一些 <code>flexbox</code> 实用程序来调整布局，创建了一个更简单的 toast。</p>
+                <div class="border-example">
+                  <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body">
+                      《古今词话》是清初一部辑录类词话。
+                      </div>
+                      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+        &lt;div class="d-flex"&gt;
+          &lt;div class="toast-body"&gt;
+          《古今词话》是清初一部辑录类词话。
+          &lt;/div&gt;
+          &lt;button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>或者，您还可以向 toast 添加其他控件和组件。</p>
+                <div class="border-example">
+                  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-body">
+                      《吴越春秋》，东汉赵晔撰，是一部记述春秋时期吴、越两国史事为主的史学著作。
+                      <div class="mt-2 pt-2 border-top">
+                        <button type="button" class="btn btn-primary btn-sm">行动起来</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">关闭</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+        &lt;div class="toast-body"&gt;
+          《吴越春秋》，东汉赵晔撰，是一部记述春秋时期吴、越两国史事为主的史学著作。
+          &lt;div class="mt-2 pt-2 border-top"&gt;
+            &lt;button type="button" class="btn btn-primary btn-sm"&gt;行动起来&lt;/button&gt;
+            &lt;button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast"&gt;关闭&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>配色方案</h6>
+                <p>在上述示例的基础上，您可以使用我们的颜色和背景实用程序创建不同的吐司配色方案。在这里，我们将 <code>.bg-primary</code> 和 <code>.text-white</code> 添加到 <code>.toast</code>，然后将 <code>.btn-close-white</code> 添加到关闭按钮。对于清晰的边缘，我们使用 <code>.border-0</code> 删除默认边框。</p>
+                <div class="border-example">
+                  <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body">
+                        《唐国史补》又称《国史补》，为中唐人李肇所撰。
+                      </div>
+                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+        &lt;div class="d-flex"&gt;
+          &lt;div class="toast-body"&gt;
+            《唐国史补》又称《国史补》，为中唐人李肇所撰。
+          &lt;/div&gt;
+          &lt;button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>放置</h6>
+                <p>根据需要使用自定义 CSS 放置 toast。右上角通常用于通知，顶部中间也是如此。如果您一次只显示一个 toast，请将定位样式放在 <code>.toast</code> 上。</p>
+                <div class="border-example form-floating">
+                  <form>
+                    <div class="mb-3">
+                      <label for="selectToastPlacement">Toast 放置方式</label>
+                      <select class="form-select mt-2" id="selectToastPlacement">
+                        <option value="" selected>选择一个位置...</option>
+                        <option value="top-0 start-0">左上角</option>
+                        <option value="top-0 start-50 translate-middle-x">顶部中心</option>
+                        <option value="top-0 end-0">右上角</option>
+                        <option value="top-50 start-0 translate-middle-y">中左</option>
+                        <option value="top-50 start-50 translate-middle">水平垂直正中</option>
+                        <option value="top-50 end-0 translate-middle-y">中右</option>
+                        <option value="bottom-0 start-0">左下角</option>
+                        <option value="bottom-0 start-50 translate-middle-x">底部中心</option>
+                        <option value="bottom-0 end-0">右下角</option>
+                      </select>
+                    </div>
+                  </form>
+                  <div aria-live="polite" aria-atomic="true" class="bg-dark position-relative border-example-toasts">
+                    <div class="toast-container position-absolute p-3" id="toastPlacement">
+                      <div class="toast">
+                        <div class="toast-header">
+                          <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                          <strong class="me-auto">Bootstrap</strong>
+                          <small>11分钟前</small>
+                        </div>
+                        <div class="toast-body">
+                          《靖康传信录》由李纲著，出自《旧唐书卷六十二列传第十二》。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;form&gt;
+        &lt;div class="mb-3"&gt;
+          &lt;label for="selectToastPlacement"&gt;Toast 放置方式&lt;/label&gt;
+          &lt;select class="form-select mt-2" id="selectToastPlacement"&gt;
+            &lt;option value="" selected&gt;选择一个位置...&lt;/option&gt;
+            &lt;option value="top-0 start-0"&gt;左上角&lt;/option&gt;
+            &lt;option value="top-0 start-50 translate-middle-x"&gt;顶部中心&lt;/option&gt;
+            &lt;option value="top-0 end-0"&gt;右上角&lt;/option&gt;
+            &lt;option value="top-50 start-0 translate-middle-y"&gt;中左&lt;/option&gt;
+            &lt;option value="top-50 start-50 translate-middle"&gt;水平垂直正中&lt;/option&gt;
+            &lt;option value="top-50 end-0 translate-middle-y"&gt;中右&lt;/option&gt;
+            &lt;option value="bottom-0 start-0"&gt;左下角&lt;/option&gt;
+            &lt;option value="bottom-0 start-50 translate-middle-x"&gt;底部中心&lt;/option&gt;
+            &lt;option value="bottom-0 end-0"&gt;右下角&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+      &lt;div aria-live="polite" aria-atomic="true" class="bg-dark position-relative border-example-toasts"&gt;
+        &lt;div class="toast-container position-absolute p-3" id="toastPlacement"&gt;
+          &lt;div class="toast"&gt;
+            &lt;div class="toast-header"&gt;
+              &lt;img src="..." class="rounded me-2" alt="..."&gt;
+              &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+              &lt;small&gt;11分钟前&lt;/small&gt;
+            &lt;/div&gt;
+            &lt;div class="toast-body"&gt;
+              《靖康传信录》由李纲著，出自《旧唐书卷六十二列传第十二》。
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>对于生成更多通知的系统，请考虑使用包装元素，以便它们可以轻松堆叠。</p>
+                <div class="border-example bg-dark border-example-toasts p-0">
+                  <div aria-live="polite" aria-atomic="true" class="position-relative">
+                    <div class="toast-container position-absolute top-0 end-0 p-3">
+
+                      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                          <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                          <strong class="me-auto">Bootstrap</strong>
+                          <small class="text-muted">刚刚</small>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                          《青红帮演义》讲述青红帮发展的历史。
+                        </div>
+                      </div>
+
+                      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                          <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                          <strong class="me-auto">Bootstrap</strong>
+                          <small class="text-muted">2秒钟之前</small>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                          《随园诗话》是袁枚的诗歌美学和诗歌理论著作。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div aria-live="polite" aria-atomic="true" class="position-relative"&gt;
+        &lt;!-- 定位: --&gt;
+        &lt;!-- - `.toast-container` 用于 toast 之间留间隔 --&gt;
+        &lt;!-- - `.position-absolute`, `top-0` & `end-0` 把 toast 定位到右上角 --&gt;
+        &lt;!-- - `.p-3` 防止 toast 粘在容器边缘  --&gt;
+        &lt;div class="toast-container position-absolute top-0 end-0 p-3"&gt;
+
+          &lt;!-- 然后把 toast 放进去 --&gt;
+          &lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+            &lt;div class="toast-header"&gt;
+              &lt;img src="..." class="rounded me-2" alt="..."&gt;
+              &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+              &lt;small class="text-muted"&gt;刚刚&lt;/small&gt;
+              &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="toast-body"&gt;
+              《青红帮演义》讲述青红帮发展的历史。
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+            &lt;div class="toast-header"&gt;
+              &lt;img src="..." class="rounded me-2" alt="..."&gt;
+              &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+              &lt;small class="text-muted"&gt;2秒钟之前&lt;/small&gt;
+              &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="toast-body"&gt;
+              《随园诗话》是袁枚的诗歌美学和诗歌理论著作。
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>您还可以使用 flexbox 实用程序来水平和/或垂直对齐 toast。</p>
+                <div class="border-example bg-dark border-example-toasts d-flex">
+                  <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#33cabb" width="100%" height="100%"></rect></svg>
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11分钟之前</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        《陶庵梦忆》为明朝散文家张岱所著。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;!-- 用于对齐 toast 的 Flexbox 容器 --&gt;
+      &lt;div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100"&gt;
+
+        &lt;!-- 然后在里面放toast --&gt;
+        &lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+          &lt;div class="toast-header"&gt;
+            &lt;img src="..." class="rounded me-2" alt="..."&gt;
+            &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+            &lt;small&gt;11分钟之前&lt;/small&gt;
+            &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="toast-body"&gt;
+            《陶庵梦忆》为明朝散文家张岱所著。
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>可访问性</h6>
+                <p>Toast 旨在对您的访问者或用户造成小干扰，因此为了帮助那些使用屏幕阅读器和类似辅助技术的人，您应该将 Toast 包装在 aria-live 区域中。屏幕阅读器会自动宣布对活动区域的更改（例如注入/更新 toast 组件），而无需移动用户的焦点或以其他方式打断用户。此外，包括 <code>aria-atomic="true"</code> 以确保始终将整个 toast 宣布为单个（原子）单元，而不是仅仅宣布更改的内容（如果您只更新 toast 的部分内容，这可能会导致问题，或者如果稍后显示相同的 toast 内容）。如果所需的信息对流程很重要，例如对于表单中的错误列表，然后使用警报组件而不是 toast。</p>
+
+                <p>请注意，在生成或更新 toast 之前，活动区域需要存在于标记中。如果同时动态生成两者并注入到页面中，一般不会被辅助技术公布。</p>
+
+                <p>您还需要根据内容调整 <code>role</code> 和 <code>aria-live</code> 级别。如果是错误等重要消息，请使用 <code>role="alert"</code> <code>aria-live="assertive"</code>，否则使用 <code>role="status"</code> <code>aria-live="polite"</code> 属性。</p>
+
+                <p>随着您显示的内容发生变化，请务必更新延迟超时，以便用户有足够的时间阅读 toast。</p>
+
+                <pre>&lt;div class="toast" role="alert" aria-live="polite" aria-atomic="true" data-bs-delay="10000"&gt;
+        &lt;div role="alert" aria-live="assertive" aria-atomic="true"&gt;...&lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>使用 <code>autohide: false</code> 时，您必须添加一个关闭按钮以允许用户关闭 toast。</p>
+                <div class="callout callout-warning">上面的示例都是用的img(实际效果中是svg)，这里header上用了字体图标，是为了展示其用法。</div>
+                <div class="border-example">
+                  <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
+                    <div class="toast-header">
+                      <i class="mdi mdi-information-outline me-2 fs-5 text-info"></i>
+                      <strong class="me-auto">消息</strong>
+                      <small>11分钟之前</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      元修《辽史》共116卷，包括本纪30卷，志32卷，表8卷，列传45卷，以及国语解1卷。
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false"&gt;
+        &lt;div class="toast-header"&gt;
+          &lt;i class="mdi mdi-information-outline me-2 fs-5 text-info"&gt;&lt;/i&gt;
+          &lt;strong class="me-auto"&gt;Bootstrap&lt;/strong&gt;
+          &lt;small&gt;11分钟之前&lt;/small&gt;
+          &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="toast-body"&gt;
+          元修《辽史》共116卷，包括本纪30卷，志32卷，表8卷，列传45卷，以及国语解1卷。
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>虽然从技术上讲，可以在 toast 中添加可聚焦/可操作的控件（例如附加按钮或链接），但您应该避免为自动隐藏 toast 执行此操作。即使您为 toast 设置了较长的延迟超时时间，键盘和辅助技术用户也可能会发现很难及时到达 toast 以采取行动（因为 toast 在显示时没有获得焦点）。如果您绝对必须有进一步的控制，我们建议使用带有 <code>autohide: false</code> 的 toast。</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">用法</div></header>
+              <div class="card-body">
+                <p>通过 JavaScript 初始化 toast：</p>
+                <pre>var toastElList = Array.prototype.slice.call(document.querySelectorAll('.toast'))
+      var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl, option)
+      })</pre>
+
+                <h6>触发器</h6>
+                <p>可以使用 toast 中按钮上的 <code>data</code> 属性来实现解除，如下所示：</p>
+                <pre>&lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;</pre>
+
+                <p>或使用 <code>data-bs-target</code> 在 toast 外部的按钮上，如下所示：</p>
+                <pre>&lt;button type="button" class="btn-close" data-bs-dismiss="toast" data-bs-target="#my-toast" aria-label="Close"&gt;&lt;/button&gt;</pre>
+
+                <h6>选项</h6>
+                <p>选项可以通过数据属性或 JavaScript 传递。对于数据属性，将选项名称附加到 <code>data-bs-</code>，如 <code>data-bs-animation=""</code>。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 100px;">名称</th>
+                      <th style="width: 100px;">类型</th>
+                      <th style="width: 50px;">默认值</th>
+                      <th>说明</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>animation</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>对 toast 应用 CSS 淡入淡出过渡</td>
+                    </tr>
+                    <tr>
+                      <td><code>autohide</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>自动隐藏 toast</td>
+                    </tr>
+                    <tr>
+                      <td><code>delay</code></td>
+                      <td>number</td>
+                      <td>
+                        <code>5000</code>
+                      </td>
+                      <td>延迟隐藏 toast (ms)</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6>方法</h6>
+                <div class="callout callout-danger mb-3">
+                  <strong>异步方法和转换</strong>
+                  <p>所有 API 方法都是异步的并开始一个转换。他们在转换开始但在结束之前立即返回给调用者。此外，过渡组件上的方法调用将被忽略。</p>
+                </div>
+
+                <p><strong>show</strong></p>
+                <p>显示元素的 toast。在 toast 实际显示之前（即在 <code>shown.bs.toast</code> 事件发生之前）返回给调用者。你必须手动调用这个方法，而不是你的 toast 不会显示。</p>
+                <pre>toast.show()</pre>
+
+                <p><strong>hide</strong></p>
+                <p>隐藏元素的 toast。在 toast 实际被隐藏之前（即在 <code>hidden.bs.toast</code> 事件发生之前）返回给调用者。如果您将自动隐藏设置为 <code>false</code>，则必须手动调用此方法。</p>
+                <pre>toast.hide()</pre>
+
+                <p><strong>dispose</strong></p>
+                <p>隐藏元素的 toast。您的 toast 将保留在 DOM 上，但不会再显示。</p>
+                <pre>toast.dispose()</pre>
+
+                <p><strong>getInstance</strong></p>
+                <p>允许您获取与 DOM 元素关联的 toast 实例的静态方法</p>
+                <pre>var myToastEl = document.getElementById('myToastEl')
+      var myToast = bootstrap.Toast.getInstance(myToastEl) // Returns a Bootstrap toast instance</pre>
+
+                <p><strong>getOrCreateInstance</strong></p>
+                <p>静态方法，允许您获取与 DOM 元素关联的 toast 实例，或创建一个新实例以防它未初始化</p>
+                <pre>var myToastEl = document.getElementById('myToastEl')
+      var myToast = bootstrap.Toast.getOrCreateInstance(myToastEl) // Returns a Bootstrap toast instance</pre>
+
+                <h6>事件</h6>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 150px;">时间类型</th>
+                      <th>说明</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>show.bs.toast</code></td>
+                      <td>此事件在调用 <code>show</code> 实例方法时立即触发。</td>
+                    </tr>
+                    <tr>
+                      <td><code>shown.bs.toast</code></td>
+                      <td>当 toast 对用户可见时触发此事件。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hide.bs.toast</code></td>
+                      <td>当调用 <code>hide</code> 实例方法时，会立即触发此事件。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hidden.bs.toast</code></td>
+                      <td>当 toast 完成对用户隐藏时触发此事件。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var myToastEl = document.getElementById('myToast')
+      myToastEl.addEventListener('hidden.bs.toast', function () {
+        // do something...
+      })</pre>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+<script type="text/javascript">
+// 因为是演示，这里默认直接对toast显示
+$.each($(".toast").not('#liveToast'), function (a, v) {
+    var b = new bootstrap.Toast(v, {
+        autohide: !1
+    });
+    
+    b.show();
+})
+
+// 点击展示js
+var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+    toastTrigger.addEventListener('click', function () {
+        var toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
+    })
+}
+
+// toast位置select选择问题
+a = document.getElementById('toastPlacement'),
+a && document.getElementById('selectToastPlacement').addEventListener('change', function() {
+    a.dataset.originalClass || (a.dataset.originalClass = a.className),
+    a.className = a.dataset.originalClass + ' ' + this.value
+});
+</script>
+</body>
+</html>

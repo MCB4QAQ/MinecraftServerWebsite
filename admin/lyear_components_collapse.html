@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>折叠 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li class="active"> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">折叠</div></header>
+              <div class="card-body">
+
+                <p>使用一些类和我们的 JavaScript 插件来切换项目中内容的可见性。</p>
+
+                <h5>它是怎么工作的</h5>
+                <p>折叠 JavaScript 插件用于显示和隐藏内容。 按钮或锚点用作映射到您切换的特定元素的触发器。 折叠一个元素会将 <code>height</code> 从其当前值设置为 <code>0</code>。 鉴于 CSS 处理动画的方式，您不能在 <code>.collapse</code> 元素上使用 <code>padding</code>。 相反，将类用作独立的包装元素。</p>
+                <div class="callout callout-info mb-3">该组件的动画效果依赖于 <code>prefers-reduced-motion</code> 媒体查询。</div>
+
+                <h5>示例</h5>
+                <p>单击下面的按钮以通过类更改显示和隐藏另一个元素：</p>
+                <ul>
+                  <li><code>.collapse</code> 隐藏内容</li>
+                  <li><code>.collapsing</code> 在过渡期间应用</li>
+                  <li><code>.collapse.show</code> 显示内容</li>
+                </ul>
+                <p>通常，我们建议使用具有 <code>data-bs-target</code> 属性的按钮。 虽然从语义角度不推荐，但您也可以使用带有 <code>href</code> 属性（和 <code>role="button"</code>）的链接。在这两种情况下，<code>data-bs-toggle="collapse"</code> 都是必需的。</p>
+                <div class="border-example">
+                  <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      href链接
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      带有 data-bs-target 的按钮
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      《冰魄寒光剑》讲述武当派北支掌门之子桂华生在西域的传奇经历和其与华玉公主的爱情故事。
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;p&gt;
+        &lt;a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"&gt;
+          href链接
+        &lt;/a&gt;
+        &lt;button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"&gt;
+          带有 data-bs-target 的按钮
+        &lt;/button&gt;
+      &lt;/p&gt;
+      &lt;div class="collapse" id="collapseExample"&gt;
+        &lt;div class="card card-body"&gt;
+          《冰魄寒光剑》讲述武当派北支掌门之子桂华生在西域的传奇经历和其与华玉公主的爱情故事。
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>水平的</h5>
+                <p>折叠插件还支持水平折叠。 添加 <code>.collapse-horizontal</code> 修饰符类以转换 <code>width</code> 而不是 <code>height</code> 并在立即数上设置 <code>width</code> 子元素。 随意编写您自己的自定义 Sass、使用内联样式或使用我们的宽度实用程序。</p>
+                <div class="callout callout-info mb-3">请注意，虽然下面的示例设置了 <code>min-height</code> 以避免在我们的文档中过度重绘，但这并不是明确要求的。 <strong>只需要子元素上的<code>width</code>。</strong></div>
+
+                <div class="border-example">
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                      切换宽度折叠
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                      <div class="card card-body" style="width: 300px;">
+                        《冰川天女传》主要讲述的是清乾隆年间朝廷欲护送喇嘛教圣物金本巴瓶至西藏拉萨，江湖各路人物各有目的聚集西藏。从而引出唐经天与冰川天女之间的爱情故事。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;p&gt;
+        &lt;button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample"&gt;
+          切换宽度折叠
+        &lt;/button&gt;
+      &lt;/p&gt;
+      &lt;div style="min-height: 120px;"&gt;
+        &lt;div class="collapse collapse-horizontal" id="collapseWidthExample"&gt;
+          &lt;div class="card card-body" style="width: 300px;"&gt;
+            《冰川天女传》主要讲述的是清乾隆年间朝廷欲护送喇嘛教圣物金本巴瓶至西藏拉萨，江湖各路人物各有目的聚集西藏。从而引出唐经天与冰川天女之间的爱情故事。
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>多个目标</h5>
+                <p><code>&lt;button&gt;</code> 或 <code>&lt;a&gt;</code> 可以通过在其 <code>href</code> 或 <code> 中使用选择器引用多个元素来显示和隐藏多个元素 data-bs-target</code> 属性。
+                多个 <code>&lt;button&gt;</code> 或 <code>&lt;a&gt;</code> 可以显示和隐藏一个元素，如果它们各自用它们的 <code>href</code> 或 <code>data 引用它 -bs-target</code> 属性</p>
+                <div class="border-example">
+                  <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">切换第一个元素</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">切换第二个元素</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">切换两个元素</button>
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                          《云海玉弓缘》主要讲述了清朝中期，江湖浪子金世遗的传奇经历和与厉胜男、谷之华之间的爱恨情仇故事。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                          《冰河洗剑录》讲述了江南与邹绛霞的孩子江海天的感情和江湖故事。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;p&gt;
+        &lt;a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"&gt;切换第一个元素&lt;/a&gt;
+        &lt;button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"&gt;切换第二个元素&lt;/button&gt;
+        &lt;button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"&gt;切换两个元素&lt;/button&gt;
+      &lt;/p&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="collapse multi-collapse" id="multiCollapseExample1"&gt;
+            &lt;div class="card card-body"&gt;
+              《云海玉弓缘》主要讲述了清朝中期，江湖浪子金世遗的传奇经历和与厉胜男、谷之华之间的爱恨情仇故事。
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="collapse multi-collapse" id="multiCollapseExample2"&gt;
+            &lt;div class="card card-body"&gt;
+              《冰河洗剑录》讲述了江南与邹绛霞的孩子江海天的感情和江湖故事。
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>可访问性</h5>
+                <p>请务必将 <code>aria-expanded</code> 添加到控制元素。此属性将与控件相关联的可折叠元素的当前状态明确传达给屏幕阅读器和类似的辅助技术。如果可折叠元素默认关闭，则控制元素上的属性应具有 <code>aria-expanded="false"</code> 的值。如果您已使用 <code>show</code> 类将可折叠元素设置为默认打开，请改为在控件上设置 <code>aria-expanded="true"</code>。该插件将根据可折叠元素是否已打开或关闭（通过 JavaScript，或者因为用户触发了另一个也绑定到同一个可折叠元素的控件元素）来自动切换控件上的此属性。如果控制元素的 HTML 元素不是按钮（例如，<code>&lt;a&gt;</code> 或 <code>&lt;div&gt;</code>），则属性 <code>role=&quot; button"</code> 应该被添加到元素中。</p>
+                <p>如果您的控件元素针对单个可折叠元素 - 即 <code>data-bs-target</code> 属性指向 <code>id</code> 选择器 - 您应该添加 <code>aria-controls 控制元素的 </code> 属性，包含可折叠元素的 <code>id</code>。 现代屏幕阅读器和类似的辅助技术利用此属性为用户提供额外的快捷方式，以直接导航到可折叠元素本身。</p>
+
+                <h5>用法</h5>
+                <p>折叠插件利用几个类来处理繁重的工作：</p>
+                <ul>
+                  <li><code>.collapse</code> 隐藏内容</li>
+                  <li><code>.collapse.show</code> 显示内容</li>
+                  <li><code>.collapsing</code> 在过渡开始时添加，并在过渡结束时删除</li>
+                </ul>
+
+                <h6>通过数据属性</h6>
+                <p>只需向元素添加 <code>data-bs-toggle="collapse"</code> 和 <code>data-bs-target</code> 即可自动分配对一个或多个可折叠元素的控制。 <code>data-bs-target</code> 属性接受一个 CSS 选择器来应用折叠。 请务必将类 <code>collapse</code> 添加到可折叠元素。 如果您希望它默认打开，请添加附加类 <code>show</code>。</p>
+                <p>要将手风琴式的组管理添加到可折叠区域，请添加数据属性 <code>data-bs-parent="#selector"</code>。 有关详细信息，请参阅手风琴页面。</p>
+
+                <h6>通过 JavaScript</h6>
+                <p>手动启用：</p>
+                <pre>var collapseElementList = Array.prototype.slice.call(document.querySelectorAll('.collapse'))
+      var collapseList = collapseElementList.map(function (collapseEl) {
+        return new bootstrap.Collapse(collapseEl)
+      })</pre>
+
+                <h6>选项</h6>
+                <p>选项可以通过数据属性或 JavaScript 传递。 对于数据属性，将选项名称附加到 <code>data-bs-</code>，如 <code>data-bs-parent=""</code>。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 100px;">名称</th>
+                      <th style="width: 50px;">类型</th>
+                      <th style="width: 50px;">默认</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>parent</code></td>
+                      <td>selector | jQuery object | DOM element </td>
+                      <td><code>false</code></td>
+                      <td>如果提供了 parent，则在显示此可折叠项时，将关闭指定父项下的所有可折叠元素。（类似于传统的手风琴行为 - 这取决于 <code>card</code> 类）。 该属性必须在目标可折叠区域上设置。</td>
+                    </tr>
+                    <tr>
+                      <td><code>toggle</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>在调用时切换可折叠元素</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6>方法</h6>
+                <div class="callout callout-danger mb-3">
+                  <strong>异步方法和转换</strong>
+                  <p>所有 API 方法都是<strong>异步</strong>并启动<strong>transition</strong>。 它们会在过渡开始后但<strong>在过渡结束之前</strong>返回给调用者。 此外，<strong>转换组件上的方法调用将被忽略</strong>。</p>
+                </div>
+
+                <p>将您的内容激活为可折叠元素。 接受可选选项<code>object</code>。</p>
+                <p>您可以使用构造函数创建折叠实例，例如：</p>
+                <pre>var myCollapse = document.getElementById('myCollapse')
+      var bsCollapse = new bootstrap.Collapse(myCollapse, {
+        toggle: false
+      })</pre>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>方法</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>toggle</code></td>
+                      <td>将可折叠元素切换为显示或隐藏。 <strong>在可折叠元素实际显示或隐藏之前返回调用者</strong>（即在<code>shown.bs.collapse</code>或<code>hidden.bs.collapse</code>之前 事件发生）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>show</code></td>
+                      <td>显示可折叠元素。 <strong>在可折叠元素实际显示之前返回调用者</strong>（例如，在 <code>shown.bs.collapse</code> 事件发生之前）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hide</code></td>
+                      <td>隐藏可折叠元素。 <strong>在可折叠元素实际隐藏之前返回调用者</strong>（例如，在 <code>hidden.bs.collapse</code> 事件发生之前）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>dispose</code></td>
+                      <td>破坏元素的折叠。 （删除 DOM 元素上存储的数据）</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getInstance</code>
+                      </td>
+                      <td>
+                        允许您获取与 DOM 元素关联的折叠实例的静态方法，您可以像这样使用它：<code>bootstrap.Collapse.getInstance(element)</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getOrCreateInstance</code>
+                      </td>
+                      <td>
+                        静态方法，它返回与 DOM 元素关联的折叠实例，或者在未初始化的情况下创建一个新实例。你可以像这样使用它：<code>bootstrap.Collapse.getOrCreateInstance(element)</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6>事件</h6>
+                <p>Bootstrap 的折叠类公开了一些用于挂钩折叠功能的事件。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 150px;">事件类型</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>show.bs.collapse</code></td>
+                      <td>此事件在调用 <code>show</code> 实例方法时立即触发。</td>
+                    </tr>
+                    <tr>
+                      <td><code>shown.bs.collapse</code></td>
+                      <td>当折叠元素对用户可见时触发此事件（将等待 CSS 转换完成）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hide.bs.collapse</code></td>
+                      <td>当调用 <code>hide</code> 方法时，会立即触发此事件。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hidden.bs.collapse</code></td>
+                      <td>当对用户隐藏折叠元素时会触发此事件（将等待 CSS 转换完成）。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var myCollapsible = document.getElementById('myCollapsible')
+      myCollapsible.addEventListener('hidden.bs.collapse', function () {
+        // do something...
+      })</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

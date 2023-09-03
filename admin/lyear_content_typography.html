@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>排版 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li class="active"> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">排版</div></header>
+              <div class="card-body">
+
+                <p>Bootstrap 排版的文档和示例，包括全局设置、标题、正文、列表等。</p>
+                <h5>标题</h5>
+                <p>所有 HTML 标题，从 <code>&lt;h1&gt;</code> 到 <code>&lt;h6&gt;</code>，都可用。</p>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>标签</th>
+                      <th>效果</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <code>&lt;h1&gt;&lt;/h1&gt;</code>
+                      </td>
+                      <td><span class="h1">h1. 第一回 北汉主屏逐忠臣　呼延赞激烈报仇</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>&lt;h2&gt;&lt;/h2&gt;</code>
+                      </td>
+                      <td><span class="h2">h1. 第一回 北汉主屏逐忠臣　呼延赞激烈报仇</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>&lt;h3&gt;&lt;/h3&gt;</code>
+                      </td>
+                      <td><span class="h3">h3. 第三回 金头娘征场斗艺　高怀德大战潞州</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>&lt;h4&gt;&lt;/h4&gt;</code>
+                      </td>
+                      <td><span class="h4">h4. 第四回 讲和议杨业回兵　迎銮驾豪杰施能</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>&lt;h5&gt;&lt;/h5&gt;</code>
+                      </td>
+                      <td><span class="h5">h5. 第五回 宋太祖遗嘱后事　潘仁美计逐英雄</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>&lt;h6&gt;&lt;/h6&gt;</code>
+                      </td>
+                      <td><span class="h6">h6. 第六回 潘仁美奉诏宣召　呼延赞单骑救驾</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><code>.h1</code> 到 <code>.h6</code> 类也可用，当您想要匹配标题的字体样式但不能使用关联的 HTML 元素时。</p>
+                <div class="border-example">
+                  <p class="h1">h1. 第一回 北汉主屏逐忠臣　呼延赞激烈报仇</p>
+                  <p class="h2">h2. 第二回 李建忠力救义士　呼延赞梦神教武</p>
+                  <p class="h3">h3. 第三回 金头娘征场斗艺　高怀德大战潞州</p>
+                  <p class="h4">h4. 第四回 讲和议杨业回兵　迎銮驾豪杰施能</p>
+                  <p class="h5">h5. 第五回 宋太祖遗嘱后事　潘仁美计逐英雄</p>
+                  <p class="h6">h6. 第六回 潘仁美奉诏宣召　呼延赞单骑救驾</p>
+                </div>
+                <pre>&lt;p class="h1"&gt;h1. 第一回 北汉主屏逐忠臣　呼延赞激烈报仇&lt;/p&gt;
+      &lt;p class="h2"&gt;h2. 第二回 李建忠力救义士　呼延赞梦神教武&lt;/p&gt;
+      &lt;p class="h3"&gt;h3. 第三回 金头娘征场斗艺　高怀德大战潞州&lt;/p&gt;
+      &lt;p class="h4"&gt;h4. 第四回 讲和议杨业回兵　迎銮驾豪杰施能&lt;/p&gt;
+      &lt;p class="h5"&gt;h5. 第五回 宋太祖遗嘱后事　潘仁美计逐英雄&lt;/p&gt;
+      &lt;p class="h6"&gt;h6. 第六回 潘仁美奉诏宣召　呼延赞单骑救驾&lt;/p&gt;</pre>
+
+                <h6>自定义标题</h6>
+                <p>使用包含的实用程序类从 Bootstrap 3 重新创建小的二级标题文本。</p>
+                <div class="border-example">
+                  <h3>
+                    花式显示标题 <small class="text-muted">With faded secondary text</small>
+                  </h3>
+                </div>
+                <pre>&lt;h3&gt;
+        花式显示标题 &lt;small class="text-muted"&gt;带有褪色的次要文本&lt;/small&gt;
+      &lt;/h3&gt;</pre>
+
+                <h5>显示属性标题</h5>
+                <p>传统的标题元素旨在最适合您的页面内容。 当您需要突出标题时，请考虑使用显示标题——一种更大、更自以为是的标题样式。</p>
+                <div class="border-example">
+                  <h1 class="display-1">艾虎三更追女寇</h1>
+                  <h1 class="display-2">包公开封府内丢相印</h1>
+                  <h1 class="display-3">青石梁上杀猛兽</h1>
+                  <h1 class="display-4">因酒醉睡熟丢利刃</h1>
+                  <h1 class="display-5">见爹爹细说京都事</h1>
+                  <h1 class="display-6">亚侠女在家中比武</h1>
+                </div>
+                <pre>&lt;h1 class="display-1"&gt;艾虎三更追女寇&lt;/h1&gt;
+      &lt;h1 class="display-2"&gt;包公开封府内丢相印&lt;/h1&gt;
+      &lt;h1 class="display-3"&gt;青石梁上杀猛兽&lt;/h1&gt;
+      &lt;h1 class="display-4"&gt;因酒醉睡熟丢利刃&lt;/h1&gt;
+      &lt;h1 class="display-5"&gt;见爹爹细说京都事&lt;/h1&gt;
+      &lt;h1 class="display-6"&gt;亚侠女在家中比武&lt;/h1&gt;</pre>
+
+                <h5>突出的</h5>
+                <p>通过添加 <code>.lead</code> 使段落脱颖而出。</p>
+                <div class="border-example">
+                  <p class="lead">
+                    二五方成耦，中宫有骊姬。势看俱集菀，鹤禁顿生危。
+                  </p>
+                </div>
+                <pre>&lt;p class="lead"&gt;
+        二五方成耦，中宫有骊姬。势看俱集菀，鹤禁顿生危。
+      &lt;/p&gt;</pre>
+
+                <h5>内联文本元素</h5>
+                <div class="border-example">
+                  <p>您可以使用 mark 标签 <mark>高亮</mark> 文本.</p>
+                  <p><del>这行文本将被视为已删除文本。</del></p>
+                  <p><s>这行文字将被视为不再准确。</s></p>
+                  <p><ins>这行文字将被视为文档的补充。</ins></p>
+                  <p><u>这行文本将呈现为带下划线的文本。</u></p>
+                  <p><small>这一行文字应被视为小一号字体。</small></p>
+                  <p><strong>这一行呈现为粗体文本。</strong></p>
+                  <p><em>这一行呈现为斜体文本。</em></p>
+                </div>
+                <pre>&lt;p&gt;您可以使用 mark 标签 &lt;mark&gt;高亮&lt;/mark&gt; 文本.&lt;/p&gt;
+      &lt;p&gt;&lt;del&gt;这行文本将被视为已删除文本。&lt;/del&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;s&gt;这行文字将被视为不再准确。&lt;/s&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;ins&gt;这行文字将被视为文档的补充。&lt;/ins&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;u&gt;这行文本将呈现为带下划线的文本。&lt;/u&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;small&gt;这一行文字应被视为小一号字体。&lt;/small&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;这一行呈现为粗体文本。&lt;/strong&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;em&gt;这一行呈现为斜体文本。&lt;/em&gt;&lt;/p&gt;</pre>
+
+                <p>请注意，这些标签应用于语义目的：</p>
+                <ul>
+                  <li><code>&lt;mark&gt;</code> 表示为参考或符号目的而标记或突出显示的文本。</li>
+                  <li><code>&lt;small&gt;</code> 代表旁注和小字，如版权和法律文本。</li>
+                  <li><code>&lt;s&gt;</code> 表示不再相关或不再准确的元素。</li>
+                  <li><code>&lt;u&gt;</code> 表示内联文本的范围，应该以表明它具有非文本注释的方式呈现。</li>
+                </ul>
+                <p>如果要设置文本样式，则应改用以下类：</p>
+                <ul>
+                  <li><code>.mark</code> 将应用与 <code>&lt;mark&gt;</code> 相同的样式。</li>
+                  <li><code>.small</code> 将应用与 <code>&lt;small&gt;</code> 相同的样式。</li>
+                  <li><code>.text-decoration-underline</code> 将应用与 <code>&lt;u&gt;</code> 相同的样式。</li>
+                  <li><code>.text-decoration-line-through</code> 将应用与 <code>&lt;s&gt;</code> 相同的样式。</li>
+                </ul>
+                <p>虽然上面没有显示，但请随意在 HTML5 中使用 <code>&lt;b&gt;</code> 和 <code>&lt;i&gt;</code>。 <code>&lt;b&gt;</code> 旨在突出单词或短语而不传达额外的重要性，而 <code>&lt;i&gt;</code> 主要用于语音、技术术语等。</p>
+
+                <h5>缩写</h5>
+                <p>HTML <code>&lt;abbr&gt;</code> 元素的风格化实现，用于缩写和首字母缩略词，以在悬停时显示扩展版本。 缩写具有默认下划线并获得帮助光标，以在悬停时和辅助技术用户提供额外的上下文。</p>
+                <p>将 <code>.initialism</code> 添加到略小的字体大小的缩写。</p>
+                <div class="border-example">
+      <p><abbr title="attribute">attr</abbr></p>
+      <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+                </div>
+                <pre>&lt;p&gt;&lt;abbr title="attribute"&gt;attr&lt;/abbr&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;abbr title="HyperText Markup Language" class="initialism"&gt;HTML&lt;/abbr&gt;&lt;/p&gt;</pre>
+
+                <h5>块引用</h5>
+                <p>用于引用文档中其他来源的内容块。 将 <code>&lt;blockquote class="blockquote"&gt;</code> 包裹在任何 HTML 周围作为引号。</p>
+                <div class="border-example">
+                  <blockquote class="blockquote">
+                    <p>笑春风三尺花，骄白雪一团玉。痴凝秋水为神，瘦认梨云是骨。</p>
+                  </blockquote>
+                </div>
+                <pre>&lt;blockquote class="blockquote"&gt;
+        &lt;p&gt;笑春风三尺花，骄白雪一团玉。痴凝秋水为神，瘦认梨云是骨。&lt;/p&gt;
+      &lt;/blockquote&gt;</pre>
+
+                <h6>命名源</h6>
+                <p>HTML 规范要求将块引用属性放在 <code>&lt;blockquote&gt;</code> 之外。 提供属性时，将您的 <code>&lt;blockquote&gt;</code> 包装在 <code>&lt;figure&gt;</code> 中，并在 <code>.blockquote-footer</code> 类中使用 <code>&lt;figcaption&gt;</code> 或块级元素（例如 <code>&lt;p&gt;</code>）。 请务必将源作品的名称也包含在 <code>&lt;cite&gt;</code> 中。
+                <div class="border-example">
+                  <figure>
+                    <blockquote class="blockquote">
+                      <p>爱上一个地方，就应该背上包去旅游，走得更远。</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      出自商务印书馆的 <cite title="《新华字典》">《新华字典》</cite>
+                    </figcaption>
+                  </figure>
+                </div>
+                <pre>&lt;figure&gt;
+        &lt;blockquote class="blockquote"&gt;
+          &lt;p&gt;爱上一个地方，就应该背上包去旅游，走得更远。&lt;/p&gt;
+        &lt;/blockquote&gt;
+        &lt;figcaption class="blockquote-footer"&gt;
+          出自商务印书馆的  &lt;cite title="《新华字典》"&gt;《新华字典》&lt;/cite&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;</pre>
+
+                <h6>对齐</h6>
+                <p>根据需要使用文本实用程序来更改块引用的对齐方式。</p>
+                <div class="border-example">
+                  <figure class="text-center">
+                    <blockquote class="blockquote">
+                      <p>爱上一个地方，就应该背上包去旅游，走得更远。</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      出自商务印书馆的 <cite title="《新华字典》">《新华字典》</cite>
+                    </figcaption>
+                  </figure>
+                </div>
+                <pre>&lt;figure class="text-center"&gt;
+        &lt;blockquote class="blockquote"&gt;
+          &lt;p&gt;爱上一个地方，就应该背上包去旅游，走得更远。&lt;/p&gt;
+        &lt;/blockquote&gt;
+        &lt;figcaption class="blockquote-footer"&gt;
+          出自商务印书馆的  &lt;cite title="《新华字典》"&gt;《新华字典》&lt;/cite&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;</pre>
+
+                <div class="border-example">
+                  <figure class="text-end">
+                    <blockquote class="blockquote">
+                      <p>爱上一个地方，就应该背上包去旅游，走得更远。</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      出自商务印书馆的 <cite title="《新华字典》">《新华字典》</cite>
+                    </figcaption>
+                  </figure>
+                </div>
+                <pre>&lt;figure class="text-end"&gt;
+        &lt;blockquote class="blockquote"&gt;
+          &lt;p&gt;爱上一个地方，就应该背上包去旅游，走得更远。&lt;/p&gt;
+        &lt;/blockquote&gt;
+        &lt;figcaption class="blockquote-footer"&gt;
+          出自商务印书馆的  &lt;cite title="《新华字典》"&gt;《新华字典》&lt;/cite&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;</pre>
+
+                <h5>列表</h5>
+                <h6>无样式</h6>
+                <p>删除列表项的默认列表样式和左边距（仅限直接子项）。 这仅适用于直接子列表项，这意味着您还需要为任何嵌套列表添加类。</p>
+                <div class="border-example">
+                  <ul class="list-unstyled">
+                    <li>这是一个列表</li>
+                    <li>它看起来完全没有样式。</li>
+                    <li>从结构上讲，它仍然是一个列表。</li>
+                    <li>但是，此样式仅适用于直接子元素。</li>
+                    <li>嵌套列表：
+                      <ul>
+                        <li>不受这种风格的影响</li>
+                        <li>仍会显示圆点</li>
+                        <li>并有适当的左边距</li>
+                      </ul>
+                    </li>
+                    <li>在某些情况下，这可能仍然派上用场。</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-unstyled"&gt;
+        &lt;li&gt;这是一个列表&lt;/li&gt;
+        &lt;li&gt;它看起来完全没有样式。&lt;/li&gt;
+        &lt;li&gt;从结构上讲，它仍然是一个列表。&lt;/li&gt;
+        &lt;li&gt;但是，此样式仅适用于直接子元素。&lt;/li&gt;
+        &lt;li&gt;嵌套列表：
+          &lt;ul&gt;
+            &lt;li&gt;不受这种风格的影响&lt;/li&gt;
+            &lt;li&gt;仍会显示圆点&lt;/li&gt;
+            &lt;li&gt;并有适当的左边距&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;在某些情况下，这可能仍然派上用场。&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>内联的</h6>
+                <p>删除列表的项目符号并使用两个类的组合应用一些浅边距，<code>.list-inline</code> 和 <code>.list-inline-item</code>。</p>
+                <div class="border-example">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">这是一个列表项。</li>
+                    <li class="list-inline-item">还有一个。</li>
+                    <li class="list-inline-item">但它们是内联显示的。</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-inline"&gt;
+        &lt;li class="list-inline-item"&gt;这是一个列表项。&lt;/li&gt;
+        &lt;li class="list-inline-item"&gt;还有一个。&lt;/li&gt;
+        &lt;li class="list-inline-item"&gt;但它们是内联显示的。&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>描述列表对齐</h6>
+                <p>使用我们网格系统的预定义类（或语义混合）水平对齐术语和描述。 对于更长的术语，您可以选择添加一个 <code>.text-truncate</code> 类来用省略号截断文本。</p>
+                <div class="border-example">
+                  <dl class="row">
+                    <dt class="col-sm-3">《侠骨丹心》</dt>
+                    <dd class="col-sm-9">道尽“独行长剑一杯酒，孤客高楼万里情；侠骨柔情现正义，青天碧海映丹心。</dd>
+
+                    <dt class="col-sm-3">《云海玉弓缘》</dt>
+                    <dd class="col-sm-9">
+                      <p>主要讲述了清朝中期，江湖浪子金世遗的传奇经历和与厉胜男、谷之华之间的爱恨情仇故事。</p>
+                      <p>是梁氏武侠天山系列最出名的两部小说之一，主要是厉胜男向魔头孟神通复仇并借此成为另一个“女魔头”的故事。</p>
+                    </dd>
+
+                    <dt class="col-sm-3">《冰河洗剑录》</dt>
+                    <dd class="col-sm-9">该小说讲述了江南与邹绛霞的孩子江海天的感情和江湖故事。</dd>
+
+                    <dt class="col-sm-3 text-truncate">《经乱离后天恩流夜郎，忆旧游，书怀赠江夏韦太守良宰》</dt>
+                    <dd class="col-sm-9">唐代诗人李白创作的一首自传体长诗，是李白集中最长的一首诗。其中“清水出芙蓉，天然去雕饰”两句流传甚广，可看成李白诗风的写照。</dd>
+
+                    <dt class="col-sm-3">《萍踪侠影录》</dt>
+                    <dd class="col-sm-9">
+                      <dl class="row">
+                        <dt class="col-sm-4">以明代土木堡之变为背景</dt>
+                        <dd class="col-sm-8">交织成一个豪侠浪漫美好绝伦的传奇。</dd>
+                      </dl>
+                    </dd>
+                  </dl>
+                </div>
+                <pre>&lt;dl class="row"&gt;
+        &lt;dt class="col-sm-3"&gt;《侠骨丹心》&lt;/dt&gt;
+        &lt;dd class="col-sm-9"&gt;道尽“独行长剑一杯酒，孤客高楼万里情；侠骨柔情现正义，青天碧海映丹心。&lt;/dd&gt;
+
+        &lt;dt class="col-sm-3"&gt;《云海玉弓缘》&lt;/dt&gt;
+        &lt;dd class="col-sm-9"&gt;
+          &lt;p&gt;主要讲述了清朝中期，江湖浪子金世遗的传奇经历和与厉胜男、谷之华之间的爱恨情仇故事。&lt;/p&gt;
+          &lt;p&gt;是梁氏武侠天山系列最出名的两部小说之一，主要是厉胜男向魔头孟神通复仇并借此成为另一个“女魔头”的故事。&lt;/p&gt;
+        &lt;/dd&gt;
+
+        &lt;dt class="col-sm-3"&gt;《冰河洗剑录》&lt;/dt&gt;
+        &lt;dd class="col-sm-9"&gt;该小说讲述了江南与邹绛霞的孩子江海天的感情和江湖故事。&lt;/dd&gt;
+
+        &lt;dt class="col-sm-3 text-truncate"&gt;《经乱离后天恩流夜郎，忆旧游，书怀赠江夏韦太守良宰》&lt;/dt&gt;
+        &lt;dd class="col-sm-9"&gt;唐代诗人李白创作的一首自传体长诗，是李白集中最长的一首诗。此诗作于李白从流放夜郎途中被赦免后滞留江夏时，诗人回顾了自己的人生历程，开篇叙述了自己谪仙人的来历以及自己的遭遇，又讲述了与朋友结交的过程，表达了自己在政治上的清白主张以及积极入仕的愿望，抒发了自己的政治感慨。其中“清水出芙蓉，天然去雕饰”两句流传甚广，可看成李白诗风的写照。&lt;/dd&gt;
+
+        &lt;dt class="col-sm-3"&gt;《萍踪侠影录》&lt;/dt&gt;
+        &lt;dd class="col-sm-9"&gt;
+          &lt;dl class="row"&gt;
+            &lt;dt class="col-sm-4"&gt;以明代土木堡之变为背景&lt;/dt&gt;
+            &lt;dd class="col-sm-8"&gt;交织成一个豪侠浪漫美好绝伦的传奇。&lt;/dd&gt;
+          &lt;/dl&gt;
+        &lt;/dd&gt;
+      &lt;/dl&gt;</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>布局 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li class="active"> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">布局</div></header>
+              <div class="card-body">
+
+                <p>使用我们的表单布局选项为您的表单提供一些结构——从内联到水平再到自定义网格实现</p>
+
+                <h6>表单</h6>
+                <p>每组表单字段都应该驻留在一个 <code>&lt;form&gt;</code> 元素中。 Bootstrap 没有为 <code>&lt;form&gt;</code> 元素提供默认样式，但是默认提供了一些强大的浏览器功能。</p>
+                <ul>
+                  <li>浏览器表单的新手？考虑查看 MDN 表单文档以获取可用属性的概述和完整列表。</li>
+                  <li><code>&lt;form&gt;</code> 中的 <code>&lt;button&gt;</code> 默认为 <code>type="submit"</code>，因此要尽量具体并始终包含类型。</li>
+                  <li>您可以使用 <code>&lt;form&gt;</code> 上的 <code>disabled</code> 属性禁用表单中的每个表单元素。</li>
+                </ul>
+                <p>由于 Bootstrap 将 <code>display: block</code> 和 <code>width: 100%</code> 应用于我们几乎所有的表单控件，因此默认情况下表单将垂直堆叠。可以使用其他类来根据每个表单更改此布局。</p>
+
+                <h6>实用程序</h6>
+                <p>边距实用程序是向表单添加一些结构的最简单方法。它们提供标签、控件、可选表单文本和表单验证消息的基本分组。我们建议坚持使用最低边距实用程序，并在整个表单中使用单一方向以保持一致性。</p>
+
+                <p>随意使用 <code>&lt;fieldset&gt;</code>s、<code>&lt;div&gt;</code>s 或几乎任何其他元素来构建您喜欢的表单。</p>
+                <div class="border-example">
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">label示例</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="输入占位符示例">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">另一个label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="另一个输入占位符">
+                  </div>
+                </div>
+                <pre>&lt;div class="mb-3"&gt;
+        &lt;label for="formGroupExampleInput" class="form-label"&gt;label示例&lt;/label&gt;
+        &lt;input type="text" class="form-control" id="formGroupExampleInput" placeholder="输入占位符示例"&gt;
+      &lt;/div&gt;
+      &lt;div class="mb-3"&gt;
+        &lt;label for="formGroupExampleInput2" class="form-label"&gt;另一个label&lt;/label&gt;
+        &lt;input type="text" class="form-control" id="formGroupExampleInput2" placeholder="另一个输入占位符"&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>表格网格</h6>
+                <p>使用我们的网格类可以构建更复杂的表单。将这些用于需要多列、不同宽度和其他对齐选项的表单布局。需要启用 <code>$enable-grid-classes</code> Sass 变量（默认启用）。</p>
+                <div class="border-example">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="姓名">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="姓氏">
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row"&gt;
+        &lt;div class="col"&gt;
+          &lt;input type="text" class="form-control" placeholder="First name" aria-label="姓名"&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;input type="text" class="form-control" placeholder="Last name" aria-label="姓氏"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>边距</h6>
+                <p>通过添加边距修饰符类，您可以控制边距宽度以及内联和块方向。还需要启用 <code>$enable-grid-classes</code> Sass 变量（默认启用）。</p>
+                <div class="border-example">
+                  <div class="row g-3">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="姓名">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="姓氏">
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row g-3"&gt;
+        &lt;div class="col"&gt;
+          &lt;input type="text" class="form-control" placeholder="First name" aria-label="姓名"&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;input type="text" class="form-control" placeholder="Last name" aria-label="姓氏"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>还可以使用网格系统创建更复杂的布局。</p>
+                <div class="border-example">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">邮箱</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">密码</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">地址</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">地址 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">城市</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>请选择...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">邮编</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          保持登录
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">登录</button>
+                    </div>
+                  </form>
+                </div>
+                <pre>&lt;form class="row g-3"&gt;
+        &lt;div class="col-md-6"&gt;
+          &lt;label for="inputEmail4" class="form-label"&gt;邮箱&lt;/label&gt;
+          &lt;input type="email" class="form-control" id="inputEmail4"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-6"&gt;
+          &lt;label for="inputPassword4" class="form-label"&gt;密码&lt;/label&gt;
+          &lt;input type="password" class="form-control" id="inputPassword4"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+          &lt;label for="inputAddress" class="form-label"&gt;地址&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+          &lt;label for="inputAddress2" class="form-label"&gt;地址 2&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-6"&gt;
+          &lt;label for="inputCity" class="form-label"&gt;城市&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="inputCity"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-4"&gt;
+          &lt;label for="inputState" class="form-label"&gt;State&lt;/label&gt;
+          &lt;select id="inputState" class="form-select"&gt;
+            &lt;option selected&gt;请选择...&lt;/option&gt;
+            &lt;option&gt;...&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-2"&gt;
+          &lt;label for="inputZip" class="form-label"&gt;邮编&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="inputZip"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+          &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" id="gridCheck"&gt;
+            &lt;label class="form-check-label" for="gridCheck"&gt;
+              保持登录
+            &lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;登录&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;</pre>
+
+                <h5>水平形式</h5>
+                <p>通过将 <code>.row</code> 类添加到表单组并使用 <code>.col-*-*</code> 类指定标签和控件的宽度，使用网格创建水平表单。请务必将 <code>.col-form-label</code> 添加到您的 <code>&lt;label&gt;</code> 中，以便它们与其关联的表单控件垂直居中。</p>
+
+                <p>有时，您可能需要使用边距或填充实用程序来创建所需的完美对齐。例如，我们移除了堆叠单选输入标签上的 <code>padding-top</code>，以更好地对齐文本基线。</p>
+                <div class="border-example">
+                  <form>
+                    <div class="row mb-3">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">邮箱</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputPassword3" class="col-sm-2 col-form-label">密码</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3">
+                      </div>
+                    </div>
+                    <fieldset class="row mb-3">
+                      <legend class="col-form-label col-sm-2 pt-0">单选框</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                            第一个单选框
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            第二个单选框
+                          </label>
+                        </div>
+                        <div class="form-check disabled">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                          <label class="form-check-label" for="gridRadios3">
+                            第三个已禁用的单选框
+                          </label>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <div class="row mb-3">
+                      <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                          <label class="form-check-label" for="gridCheck1">
+                            复选框示例
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">登录</button>
+                  </form>
+                </div>
+                <pre>&lt;form&gt;
+        &lt;div class="row mb-3"&gt;
+          &lt;label for="inputEmail3" class="col-sm-2 col-form-label"&gt;邮箱&lt;/label&gt;
+          &lt;div class="col-sm-10"&gt;
+            &lt;input type="email" class="form-control" id="inputEmail3"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row mb-3"&gt;
+          &lt;label for="inputPassword3" class="col-sm-2 col-form-label"&gt;密码&lt;/label&gt;
+          &lt;div class="col-sm-10"&gt;
+            &lt;input type="password" class="form-control" id="inputPassword3"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;fieldset class="row mb-3"&gt;
+          &lt;legend class="col-form-label col-sm-2 pt-0"&gt;单选框&lt;/legend&gt;
+          &lt;div class="col-sm-10"&gt;
+            &lt;div class="form-check"&gt;
+              &lt;input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked&gt;
+              &lt;label class="form-check-label" for="gridRadios1"&gt;
+                第一个单选框
+              &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class="form-check"&gt;
+              &lt;input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2"&gt;
+              &lt;label class="form-check-label" for="gridRadios2"&gt;
+                第二个单选框
+              &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class="form-check disabled"&gt;
+              &lt;input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled&gt;
+              &lt;label class="form-check-label" for="gridRadios3"&gt;
+                第三个已禁用的单选框
+              &lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+        &lt;div class="row mb-3"&gt;
+          &lt;div class="col-sm-10 offset-sm-2"&gt;
+            &lt;div class="form-check"&gt;
+              &lt;input class="form-check-input" type="checkbox" id="gridCheck1"&gt;
+              &lt;label class="form-check-label" for="gridCheck1"&gt;
+                复选框示例
+              &lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button type="submit" class="btn btn-primary"&gt;登录&lt;/button&gt;
+      &lt;/form&gt;</pre>
+
+                <h6>水平表单标签大小</h6>
+                <p>请务必使用 <code>.col-form-label-sm</code> 或 <code>.col-form-label-lg</code> 到您的 <code>&lt;label&gt;</code> 或 <code>&lt;legend&gt;</code> 以跟随标签的大小 <code>.form-control-lg</code> 和 <code>.form-control-sm</code>。</p>
+                <div class="border-example">
+                  <div class="row mb-3">
+                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">邮箱</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">邮箱</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">邮箱</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row mb-3"&gt;
+        &lt;label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"&gt;邮箱&lt;/label&gt;
+        &lt;div class="col-sm-10"&gt;
+          &lt;input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="row mb-3"&gt;
+        &lt;label for="colFormLabel" class="col-sm-2 col-form-label"&gt;邮箱&lt;/label&gt;
+        &lt;div class="col-sm-10"&gt;
+          &lt;input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="row"&gt;
+        &lt;label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"&gt;邮箱&lt;/label&gt;
+        &lt;div class="col-sm-10"&gt;
+          &lt;input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>列大小</h6>
+                <p>如前面的示例所示，我们的网格系统允许您在 <code>.row</code> 中放置任意数量的 <code>.col</code>。他们将在它们之间平均分配可用宽度。您还可以选择列的子集以占用更多或更少的空间，而其余的 <code>.cols</code> 将其余部分平均分配，具有特定的列类，例如 <code>.col-sm-7</code>。</p>
+                <div class="border-example">
+                  <div class="row g-3">
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control" placeholder="城市" aria-label="城市">
+                    </div>
+                    <div class="col-sm">
+                      <input type="text" class="form-control" placeholder="乡镇" aria-label="乡镇">
+                    </div>
+                    <div class="col-sm">
+                      <input type="text" class="form-control" placeholder="邮编" aria-label="邮编">
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row g-3"&gt;
+        &lt;div class="col-sm-7"&gt;
+          &lt;input type="text" class="form-control" placeholder="城市" aria-label="城市"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-sm"&gt;
+          &lt;input type="text" class="form-control" placeholder="乡镇" aria-label="乡镇"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-sm"&gt;
+          &lt;input type="text" class="form-control" placeholder="邮编" aria-label="邮编"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>自动调整大小</h6>
+                <p>下面的示例使用 <code>flexbox</code> 实用程序将内容垂直居中并将 <code>.col</code> 更改为 <code>.col-auto</code> 以便您的列只占用所需的空间。换句话说，列大小本身基于内容。</p>
+                <div class="border-example">
+                  <form class="row gy-2 gx-3 align-items-center">
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingInput">姓名</label>
+                      <input type="text" class="form-control" id="autoSizingInput" placeholder="乔峰">
+                    </div>
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingInputGroup">用户名</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="用户名">
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingSelect">爱好</label>
+                      <select class="form-select" id="autoSizingSelect">
+                        <option selected>请选择...</option>
+                        <option value="1">篮球</option>
+                        <option value="2">足球</option>
+                        <option value="3">羽毛球</option>
+                      </select>
+                    </div>
+                    <div class="col-auto">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                        <label class="form-check-label" for="autoSizingCheck">
+                          记住我
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary">提交</button>
+                    </div>
+                  </form>
+                </div>
+                <pre>&lt;form class="row gy-2 gx-3 align-items-center"&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;label class="visually-hidden" for="autoSizingInput"&gt;姓名&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="autoSizingInput" placeholder="乔峰"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;label class="visually-hidden" for="autoSizingInputGroup"&gt;用户名&lt;/label&gt;
+          &lt;div class="input-group"&gt;
+            &lt;div class="input-group-text"&gt;@&lt;/div&gt;
+            &lt;input type="text" class="form-control" id="autoSizingInputGroup" placeholder="用户名"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;label class="visually-hidden" for="autoSizingSelect"&gt;爱好&lt;/label&gt;
+          &lt;select class="form-select" id="autoSizingSelect"&gt;
+            &lt;option selected&gt;请选择...&lt;/option&gt;
+            &lt;option value="1"&gt;篮球&lt;/option&gt;
+            &lt;option value="2"&gt;足球&lt;/option&gt;
+            &lt;option value="3"&gt;羽毛球&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" id="autoSizingCheck"&gt;
+            &lt;label class="form-check-label" for="autoSizingCheck"&gt;
+              记住我
+            &lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;提交&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;</pre>
+
+                <p>然后，您可以再次将其与特定于大小的列类重新混合。</p>
+                <div class="border-example">
+                  <form class="row gx-3 gy-2 align-items-center">
+                    <div class="col-sm-3">
+                      <label class="visually-hidden" for="specificSizeInputName">姓名</label>
+                      <input type="text" class="form-control" id="specificSizeInputName" placeholder="段誉">
+                    </div>
+                    <div class="col-sm-3">
+                      <label class="visually-hidden" for="specificSizeInputGroupUsername">用户名</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="用户名">
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <label class="visually-hidden" for="specificSizeSelect">爱好</label>
+                      <select class="form-select" id="specificSizeSelect">
+                        <option selected>请选择...</option>
+                        <option value="1">六脉神剑</option>
+                        <option value="2">一指禅</option>
+                        <option value="3">落英神剑</option>
+                      </select>
+                    </div>
+                    <div class="col-auto">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                        <label class="form-check-label" for="autoSizingCheck2">
+                          记住我
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary">提交</button>
+                    </div>
+                  </form>
+                </div>
+                <pre>&lt;form class="row gx-3 gy-2 align-items-center"&gt;
+        &lt;div class="col-sm-3"&gt;
+          &lt;label class="visually-hidden" for="specificSizeInputName"&gt;姓名&lt;/label&gt;
+          &lt;input type="text" class="form-control" id="specificSizeInputName" placeholder="段誉"&gt;
+        &lt;/div&gt;
+        &lt;div class="col-sm-3"&gt;
+          &lt;label class="visually-hidden" for="specificSizeInputGroupUsername"&gt;用户名&lt;/label&gt;
+          &lt;div class="input-group"&gt;
+            &lt;div class="input-group-text"&gt;@&lt;/div&gt;
+            &lt;input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="用户名"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-sm-3"&gt;
+          &lt;label class="visually-hidden" for="specificSizeSelect"&gt;爱好&lt;/label&gt;
+          &lt;select class="form-select" id="specificSizeSelect"&gt;
+            &lt;option selected&gt;请选择...&lt;/option&gt;
+            &lt;option value="1"&gt;六脉神剑&lt;/option&gt;
+            &lt;option value="2"&gt;一指禅&lt;/option&gt;
+            &lt;option value="3"&gt;落英神剑&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" id="autoSizingCheck2"&gt;
+            &lt;label class="form-check-label" for="autoSizingCheck2"&gt;
+              记住我
+            &lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-auto"&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;提交&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;</pre>
+
+                <h6>内联表单</h6>
+                <p>使用 <code>.row-cols-*</code> 类创建响应式水平布局。通过添加排水沟修饰符类，我们将在水平和垂直方向上拥有排水沟。在狭窄的移动视口上，<code>.col-12</code> 有助于堆叠表单控件等。 <code>.align-items-center</code> 将表单元素对齐到中间，使 <code>.form-checkbox</code> 正确对齐。</p>
+                <div class="border-example">
+                  <form class="row row-cols-lg-auto g-3 align-items-center">
+                    <div class="col-12">
+                      <label class="visually-hidden" for="inlineFormInputGroupUsername">用户名</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="用户名">
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label class="visually-hidden" for="inlineFormSelectPref">爱好</label>
+                      <select class="form-select" id="inlineFormSelectPref">
+                        <option selected>请选择...</option>
+                        <option value="1">天龙八部</option>
+                        <option value="2">神雕侠侣</option>
+                        <option value="3">倚天屠龙记</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                        <label class="form-check-label" for="inlineFormCheck">
+                          记住我
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">提交</button>
+                    </div>
+                  </form>
+                </div>
+                <pre>&lt;form class="row row-cols-lg-auto g-3 align-items-center"&gt;
+        &lt;div class="col-12"&gt;
+          &lt;label class="visually-hidden" for="inlineFormInputGroupUsername"&gt;用户名&lt;/label&gt;
+          &lt;div class="input-group"&gt;
+            &lt;div class="input-group-text"&gt;@&lt;/div&gt;
+            &lt;input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="用户名"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="col-12"&gt;
+          &lt;label class="visually-hidden" for="inlineFormSelectPref"&gt;爱好&lt;/label&gt;
+          &lt;select class="form-select" id="inlineFormSelectPref"&gt;
+            &lt;option selected&gt;请选择...&lt;/option&gt;
+            &lt;option value="1"&gt;天龙八部&lt;/option&gt;
+            &lt;option value="2"&gt;神雕侠侣&lt;/option&gt;
+            &lt;option value="3"&gt;倚天屠龙记&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+
+        &lt;div class="col-12"&gt;
+          &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" id="inlineFormCheck"&gt;
+            &lt;label class="form-check-label" for="inlineFormCheck"&gt;
+              记住我
+            &lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="col-12"&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;提交&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

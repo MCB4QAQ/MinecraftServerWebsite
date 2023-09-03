@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>轮播 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li class="active"> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">轮播</div></header>
+              <div class="card-body">
+
+                <p>用于循环播放元素（图像或文本幻灯片）的幻灯片组件，如轮播。</p>
+
+                <h5>它是怎么工作的</h5>
+                <p>轮播是一个幻灯片，用于循环浏览一系列内容，使用 CSS 3D 转换和一些 JavaScript 构建。 它适用于一系列图像、文本或自定义标记。 它还包括对上一个/下一个控件和指示器的支持。</p>
+                <p>在支持 <a href="https://www.w3.org/TR/page-visibility/" target="_blank">Page Visibility API</a> 的浏览器中，网页时轮播会避免滑动 对用户不可见（例如当浏览器选项卡处于非活动状态时，浏览器窗口被最小化等）。</p>
+                <div class="callout callout-info mb-3">该组件的动画效果依赖于 <code>prefers-reduced-motion</code> 媒体查询。</div>
+
+                <p>请注意，不支持嵌套轮播，并且轮播通常不符合可访问性标准。</p>
+                <h5>示例</h5>
+                <p>轮播不会自动标准化幻灯片尺寸。 因此，您可能需要使用其他实用程序或自定义样式来适当调整内容的大小。 虽然轮播支持上一个/下一个控件和指示器，但它们并不是明确要求的。 根据需要添加和自定义。</p>
+                <p><strong><code>.active</code> 类需要添加到其中一张幻灯片</strong>，否则轮播将不可见。 此外，请务必在 <code>.carousel</code> 上为可选控件设置唯一的 <code>id</code>，尤其是当您在单个页面上使用多个轮播时。 控件和指示器元素必须具有与 <code> 的 <code>id</code> 匹配的 <code>data-bs-target</code> 属性（或链接的 <code>href</code>）。 轮播</code> 元素。</p>
+                <h6>仅幻灯片</h6>
+                <p>这是一个只有幻灯片的旋转木马。 请注意轮播图像上存在 <code>.d-block</code> 和 <code>.w-100</code> 以防止浏览器默认图像对齐。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/1.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/2.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/3.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>带控件</h6>
+                <p>添加上一个和下一个控件。 我们建议使用 <code>&lt;button&gt;</code> 元素，但您也可以将 <code>&lt;a&gt;</code> 元素与 <code>role=&quot;button&gt;</code> 一起使用。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/5.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/6.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/4.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/5.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/6.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>有指标</h6>
+                <p>您还可以将指示器与控件一起添加到轮播中。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/7.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/8.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/9.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-indicators"&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/7.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/8.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/9.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>带字幕</h6>
+                <p>使用任何 <code>.carousel-item</code> 中的 <code>.carousel-caption</code> 元素轻松为幻灯片添加标题。 它们可以通过可选的显示实用程序轻松隐藏在较小的视口中，如下所示。 我们最初使用 <code>.d-none</code> 隐藏它们，然后使用 <code>.d-md-block</code> 将它们带回中型设备。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/10.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>桃花传奇</h5>
+                              <p>主要讲述了主人公楚留香爱恨纠缠的感情故事。</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/1.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>午夜兰花</h5>
+                              <p>兰花先生。半夜种兰花的人。清淡绝然的白色。若有若无的香气。</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/2.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>蝙蝠传奇</h5>
+                              <p>楚留香和胡铁花等好友来到蝙蝠岛的故事。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-indicators"&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/10.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;桃花传奇&lt;/h5&gt;
+              &lt;p&gt;主要讲述了主人公楚留香爱恨纠缠的感情故事。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/1.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;午夜兰花&lt;/h5&gt;
+              &lt;p&gt;兰花先生。半夜种兰花的人。清淡绝然的白色。若有若无的香气。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/2.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;蝙蝠传奇&lt;/h5&gt;
+              &lt;p&gt;楚留香和胡铁花等好友来到蝙蝠岛的故事。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>淡入淡出</h6>
+                <p>将 <code>.carousel-fade</code> 添加到轮播中，以使用淡入淡出过渡而不是幻灯片为幻灯片制作动画。 根据您的轮播内容（例如，纯文本幻灯片），您可能希望将 <code>.bg-body</code> 或一些自定义 CSS 添加到 <code>.carousel-item</code> 以进行正确的交叉淡入淡出。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/5.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/3.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/4.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/5.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>单个 <code>.carousel-item</code> 间隔</h6>
+                <p>将 <code>data-bs-interval="""</code> 添加到 <code>.carousel-item</code> 以更改自动循环到下一个项目之间的延迟时间。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/gallery/6.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/gallery/7.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/8.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active" data-bs-interval="10000"&gt;
+            &lt;img src="images/gallery/6.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item" data-bs-interval="2000"&gt;
+            &lt;img src="images/gallery/7.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/8.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>禁用触摸滑动</h6>
+                <p>轮播支持在触摸屏设备上向左/向右滑动以在幻灯片之间移动。 这可以使用 <code>data-bs-touch</code> 属性禁用。 下面的示例也不包含 <code>data-bs-ride</code> 属性，并且具有 <code>data-bs-interval=“false”</code>，因此它不会自动播放。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/gallery/9.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/10.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false"&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active"&gt;
+            &lt;img src="images/gallery/9.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/10.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/1.jpg" class="d-block w-100" alt="..."&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>深色变体</h5>
+                <p>将 <code>.carousel-dark</code> 添加到 <code>.carousel</code> 以获得更暗的控件、指示器和标题。 控件已使用 <code>filter</code> CSS 属性从其默认的白色填充反转。 标题和控件具有自定义 <code>color</code> 和 <code>background-color</code> 的附加 Sass 变量。</p>
+                <div class="border-example">
+                  <div class="row justify-content-md-center">
+                    <div class="col-5">
+                      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/gallery/2.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>新月传奇</h5>
+                              <p>主要讲述了楚留香寻找新月公主为证清白的故事。</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/gallery/3.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>鬼恋侠情</h5>
+                              <p>讲的是两对武林世家恋人为逃避父母的逼婚，假装彼此之间在大病一场后换了灵魂，以求和相爱的人在一起的事。</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/gallery/4.jpg" class="d-block w-100" alt="...">
+
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>画眉鸟</h5>
+                              <p>石观音人虽死，她的势力却仍在中原武林苟延残喘，并且由此引出了另一大魔头——水母阴姬...</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">前</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">后</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"&gt;
+        &lt;div class="carousel-indicators"&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"&gt;&lt;/button&gt;
+          &lt;button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-inner"&gt;
+          &lt;div class="carousel-item active" data-bs-interval="10000"&gt;
+            &lt;img src="images/gallery/2.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;新月传奇&lt;/h5&gt;
+              &lt;p&gt;主要讲述了楚留香寻找新月公主为证清白的故事。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item" data-bs-interval="2000"&gt;
+            &lt;img src="images/gallery/3.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;鬼恋侠情&lt;/h5&gt;
+              &lt;p&gt;讲的是两对武林世家恋人为逃避父母的逼婚，假装彼此之间在大病一场后换了灵魂，以求和相爱的人在一起的事。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="carousel-item"&gt;
+            &lt;img src="images/gallery/4.jpg" class="d-block w-100" alt="..."&gt;
+
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+              &lt;h5&gt;画眉鸟&lt;/h5&gt;
+              &lt;p&gt;石观音人虽死，她的势力却仍在中原武林苟延残喘，并且由此引出了另一大魔头——水母阴姬...&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"&gt;
+          &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;前&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"&gt;
+          &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="visually-hidden"&gt;后&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>自定义过渡</h5>
+                <p><code>.carousel-item</code> 的过渡持续时间可以在编译之前使用 <code>$carousel-transition-duration</code> Sass 变量进行更改，或者如果您使用已编译的 CSS，则可以自定义样式。 如果应用了多个转换，请确保首先定义转换转换（例如。<code>transition: transform 2s ease, opacity .5s ease-out</code>）。</p>
+
+                <h5>用法</h5>
+                <h6>通过数据属性</h6>
+                <p>使用数据属性轻松控制轮播的位置。 <code>data-bs-slide</code> 接受关键字 <code>prev</code> 或 <code>next</code>，这会改变相对于当前位置的幻灯片位置。 或者，使用 <code>data-bs-slide-to</code> 将原始幻灯片索引传递给轮播 <code>data-bs-slide-to=“2”</code>，从而移动幻灯片 定位到以 <code>0</code> 开头的特定索引。</p>
+                <p><code>data-bs-ride=“carousel”</code> 属性用于将轮播标记为在页面加载时开始动画。 如果你不使用 <code>data-bs-ride=“carousel”</code> 来初始化你的轮播，你必须自己初始化它。 <strong>它不能与同一轮播的（冗余和不必要的）显式 JavaScript 初始化结合使用。</strong></p>
+                <h6>通过 JavaScript</h6>
+                <p>手动调用轮播：</p>
+
+                <pre>var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel)</pre>
+
+                <h6>选项</h6>
+                <p>选项可以通过数据属性或 JavaScript 传递。 对于数据属性，将选项名称附加到 <code>data-bs-</code>，如 <code>data-bs-interval=""</code>。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 100px;">名称</th>
+                      <th style="width: 50px;">类型</th>
+                      <th style="width: 50px;">默认</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>interval</code></td>
+                      <td>number</td>
+                      <td><code>5000</code></td>
+                      <td>自动循环项目之间的延迟时间。 如果<code>false</code>，轮播不会自动循环。</td>
+                    </tr>
+                    <tr>
+                      <td><code>keyboard</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>轮播是否应对键盘事件做出反应。</td>
+                    </tr>
+                    <tr>
+                      <td><code>pause</code></td>
+                      <td>string | boolean</td>
+                      <td><code>'hover'</code></td>
+                      <td><p>如果设置为 <code>'hover'</code>，则在 <code>mouseenter</code> 上暂停轮播，并在 <code>mouseleave</code> 上继续轮播。 如果设置为 <code>false</code>，将鼠标悬停在轮播上不会暂停它。</p>
+                      <p>在支持触摸的设备上，当设置为 <code>'hover'</code> 时，循环将在 <code>touchend</code> （一旦用户完成与轮播的交互）上暂停两个时间间隔，然后自动恢复。 请注意，这是对上述鼠标行为的补充。</p></td>
+                    </tr>
+                    <tr>
+                      <td><code>ride</code></td>
+                      <td>string | boolean</td>
+                      <td><code>false</code></td>
+                      <td>在用户手动循环第一个项目后自动播放轮播。 如果设置为 <code>'carousel'</code>，则在加载时自动播放轮播。</td>
+                    </tr>
+                    <tr>
+                      <td><code>wrap</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>转盘是否应连续循环或硬停止。</td>
+                    </tr>
+                    <tr>
+                      <td><code>touch</code></td>
+                      <td>boolean</td>
+                      <td><code>true</code></td>
+                      <td>轮播是否应支持触摸屏设备上的左/右滑动交互。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6>方法</h6>
+                <div class="callout callout-danger mb-3">
+                <strong>异步方法和转换</strong>
+                <p>所有 API 方法都是<strong>异步</strong>并启动<strong>transition</strong>。 它们会在过渡开始后但<strong>在过渡结束之前</strong>返回给调用者。 此外，<strong>转换组件上的方法调用将被忽略</strong>。</p>
+                </div>
+
+                <p>您可以使用 carousel 构造函数创建一个 carousel 实例，例如，使用其他选项进行初始化并开始循环遍历项目：</p>
+
+                <pre>var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 2000,
+        wrap: false
+      })</pre>
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>方法</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>cycle</code></td>
+                      <td>从左到右循环浏览轮播项目。</td>
+                    </tr>
+                    <tr>
+                      <td><code>pause</code></td>
+                      <td>停止轮播在项目中循环。</td>
+                    </tr>
+                    <tr>
+                      <td><code>prev</code></td>
+                      <td>循环到上一个项目。 <strong>在上一个项目显示之前返回给调用者</strong>（例如，在 <code>slid.bs.carousel</code> 事件发生之前）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>next</code></td>
+                      <td>循环到下一个项目。 <strong>在显示下一个项目之前返回给调用者</strong>（例如，在 <code>slid.bs.carousel</code> 事件发生之前）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>nextWhenVisible</code></td>
+                      <td>当页面不可见或轮播或其父级不可见时，请勿将轮播循环到下一个。 <strong>在显示目标项目之前返回给调用者。</strong>
+                    </tr>
+                    <tr>
+                      <td><code>to</code></td>
+                      <td>将轮播循环到特定帧（基于 0，类似于数组）。 <strong>在显示目标项目之前返回给调用者</strong>（例如，在 <code>slid.bs.carousel</code> 事件发生之前）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>dispose</code></td>
+                      <td>销毁元素的轮播。 （删除 DOM 元素上存储的数据）</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getInstance</code>
+                      </td>
+                      <td>
+                        允许您获取与 DOM 元素关联的轮播实例的静态方法，您可以像这样使用它：<code>bootstrap.Carousel.getInstance(element)</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getOrCreateInstance</code>
+                      </td>
+                      <td>
+                        返回与 DOM 元素关联的轮播实例或创建一个新的轮播实例以防它未初始化的静态方法。你可以像这样使用它：<code>bootstrap.Carousel.getOrCreateInstance(element)</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6>事件</h6>
+                <p>Bootstrap 的 carousel 类公开了两个用于连接到 carousel 功能的事件。 这两个事件都具有以下附加属性：</p>
+                <ul>
+                  <li><code>direction</code>: 轮播的滑动方向（<code>“left”</code> 或 <code>“right”</code>）。</li>
+                  <li><code>relatedTarget</code>: 作为活动项滑入到位的 DOM 元素。</li>
+                  <li><code>from</code>: 当前项目的索引</li>
+                  <li><code>to</code>: 下一项的索引</li>
+                </ul>
+                <p>所有轮播事件都在轮播本身触发（即在 <code>&lt;div class=“carousel”&gt;</code> 处）。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 150px;">事件类型</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>slide.bs.carousel</code></td>
+                      <td>当调用 <code>slide</code> 实例方法时立即触发。</td>
+                    </tr>
+                    <tr>
+                      <td><code>slid.bs.carousel</code></td>
+                      <td>当轮播完成幻灯片转换时触发。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var myCarousel = document.getElementById('myCarousel')
+
+      myCarousel.addEventListener('slide.bs.carousel', function () {
+        // do something...
+      })</pre>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

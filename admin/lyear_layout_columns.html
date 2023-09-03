@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>列 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li class="active"> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">列</div></header>
+              <div class="card-body">
+
+                <p>借助我们的 <code>flexbox</code> 网格系统，了解如何使用少数对齐、排序和偏移选项来修改列。 另外，了解如何使用列类来管理非网格元素的宽度。</p>
+
+                <h5>对齐</h5>
+                <p>使用 <code>flexbox</code> 对齐实用程序来垂直和水平对齐列。</p>
+                <h6>垂直对齐</h6>
+
+                <div class="border-example border-example-row border-example-row-flex-cols">
+                  <div class="container">
+                    <div class="row align-items-start">
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                    </div>
+                    <div class="row align-items-center">
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                    </div>
+                    <div class="row align-items-end">
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                      <div class="col">
+                        三列之一
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row align-items-start"&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row align-items-center"&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row align-items-end"&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            三列之一
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="border-example border-example-row border-example-row-flex-cols">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col align-self-start">
+                        三列之一
+                      </div>
+                      <div class="col align-self-center">
+                        三列之一
+                      </div>
+                      <div class="col align-self-end">
+                        三列之一
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col align-self-start"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col align-self-center"&gt;
+            三列之一
+          &lt;/div&gt;
+          &lt;div class="col align-self-end"&gt;
+            三列之一
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>水平对齐</h6>
+                <div class="border-example-row">
+                <div class="container">
+                  <div class="row justify-content-start">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                  <div class="row justify-content-end">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                  <div class="row justify-content-around">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                  <div class="row justify-content-evenly">
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                    <div class="col-4">
+                      两列中的一列
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row justify-content-start"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row justify-content-center"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row justify-content-end"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row justify-content-around"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row justify-content-between"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row justify-content-evenly"&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+          &lt;div class="col-4"&gt;
+            两列中的一列
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>列换行</h6>
+                <p>如果单行中放置了超过 12 列，则每组额外的列将作为一个单元换行。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">.col-9</div>
+                      <div class="col-4">.col-4<br>由于 9 + 4 = 13 &gt; 12, 这个 4-列-宽的 div 将作为一个连续单元换行。</div>
+                      <div class="col-6">.col-6<br>后续列沿新行继续。</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-9"&gt;.col-9&lt;/div&gt;
+          &lt;div class="col-4"&gt;.col-4&lt;br&gt;Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.&lt;/div&gt;
+          &lt;div class="col-6"&gt;.col-6&lt;br&gt;Subsequent columns continue along the new line.&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>分栏</h6>
+                <p>在 <code>flexbox</code> 中将列拆分为新行需要一个小技巧：添加一个宽度为 100% 的元素，无论您想将列换行到新行的任何位置。 通常这是通过多个 <code>.rows</code> 来完成的，但并不是每个实现方法都可以解决这个问题。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                      <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+                      <div class="w-100"></div>
+
+                      <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                      <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-6 col-sm-3"&gt;.col-6 .col-sm-3&lt;/div&gt;
+          &lt;div class="col-6 col-sm-3"&gt;.col-6 .col-sm-3&lt;/div&gt;
+
+          &lt;!-- 强制下一列换行 --&gt;
+          &lt;div class="w-100"&gt;&lt;/div&gt;
+
+          &lt;div class="col-6 col-sm-3"&gt;.col-6 .col-sm-3&lt;/div&gt;
+          &lt;div class="col-6 col-sm-3"&gt;.col-6 .col-sm-3&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>您还可以使用我们的响应式显示实用程序在特定拐点处应用此中断。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+
+                      <div class="w-100 d-none d-md-block"></div>
+
+                      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-6 col-sm-4"&gt;.col-6 .col-sm-4&lt;/div&gt;
+          &lt;div class="col-6 col-sm-4"&gt;.col-6 .col-sm-4&lt;/div&gt;
+
+          &lt;!-- 强制下一列在 md 拐点和向上换行 --&gt;
+          &lt;div class="w-100 d-none d-md-block"&gt;&lt;/div&gt;
+
+          &lt;div class="col-6 col-sm-4"&gt;.col-6 .col-sm-4&lt;/div&gt;
+          &lt;div class="col-6 col-sm-4"&gt;.col-6 .col-sm-4&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>重新排序</h5>
+                <h6>排序类</h6>
+                <p>使用 <code>.order-classes</code> 来控制内容的视觉顺序。 这些类是响应式的，因此您可以通过拐点设置顺序（例如，<code>.order-1</code> <code>.order-md-2</code>）。 包括对所有六个网格层的 1 到 5 的支持。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        第一个在DOM中，没有应用顺序
+                      </div>
+                      <div class="col order-5">
+                        第二个在DOM中, 顺序更大
+                      </div>
+                      <div class="col order-1">
+                        第三个在DOM中, 顺序为 1
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col"&gt;
+            第一个在DOM中，没有应用顺序
+          &lt;/div&gt;
+          &lt;div class="col order-5"&gt;
+            第二个在DOM中, 顺序更大
+          &lt;/div&gt;
+          &lt;div class="col order-1"&gt;
+            第三个在DOM中, 顺序为 1
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>还有响应式 <code>.order-first</code> 和 <code>.order-last</code> 类，它们分别通过应用 <code>order: -1</code> 和 <code>order: 6</code> 来改变元素的顺序。这些类也可以根据需要与编号的 <code>.order-*</code> 类混合使用。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col order-last">
+                        第一个在DOM中, 排序最后
+                      </div>
+                      <div class="col">
+                        第二个在DOM中, 无序的
+                      </div>
+                      <div class="col order-first">
+                        第三个在DOM中, 排序第一
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col order-last"&gt;
+            第一个在DOM中, 排序最后
+          &lt;/div&gt;
+          &lt;div class="col"&gt;
+            第二个在DOM中, 无序的
+          &lt;/div&gt;
+          &lt;div class="col order-first"&gt;
+            第三个在DOM中, 排序第一
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>偏移列</h6>
+                <p>您可以通过两种方式偏移网格列：我们的响应式 <code>.offset-grid</code> 类和我们的边距实用程序。 网格类的大小与列匹配，而边距对于偏移宽度可变的快速布局更有用。</p>
+                <p>偏移类</p>
+                <p>使用 <code>.offset-md-*</code> 类将列向右移动。 这些类将列的左边距增加 <code>*</code> 列。 例如，<code>.offset-md-4</code> 将 <code>.col-md-4</code> 移动到四列。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">.col-md-4</div>
+                      <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                      <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-4"&gt;.col-md-4&lt;/div&gt;
+          &lt;div class="col-md-4 offset-md-4"&gt;.col-md-4 .offset-md-4&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-3 offset-md-3"&gt;.col-md-3 .offset-md-3&lt;/div&gt;
+          &lt;div class="col-md-3 offset-md-3"&gt;.col-md-3 .offset-md-3&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-6 offset-md-3"&gt;.col-md-6 .offset-md-3&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>除了在响应拐点处清除列之外，您可能还需要重置偏移量。 请参阅网格示例中的实际操作。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+                      <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+                      <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-sm-5 col-md-6"&gt;.col-sm-5 .col-md-6&lt;/div&gt;
+          &lt;div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"&gt;.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-sm-6 col-md-5 col-lg-6"&gt;.col-sm-6 .col-md-5 .col-lg-6&lt;/div&gt;
+          &lt;div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"&gt;.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>边距</p>
+                <p>随着 v4 中向 <code>flexbox</code> 的迁移，您可以使用诸如 <code>.me-auto</code> 之类的边距实用程序来强制兄弟列彼此远离。</p>
+                <div class="border-example-row">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">.col-md-4</div>
+                      <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+                      <div class="col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-auto me-auto">.col-auto .me-auto</div>
+                      <div class="col-auto">.col-auto</div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-4"&gt;.col-md-4&lt;/div&gt;
+          &lt;div class="col-md-4 ms-auto"&gt;.col-md-4 .ms-auto&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-3 ms-md-auto"&gt;.col-md-3 .ms-md-auto&lt;/div&gt;
+          &lt;div class="col-md-3 ms-md-auto"&gt;.col-md-3 .ms-md-auto&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-auto me-auto"&gt;.col-auto .me-auto&lt;/div&gt;
+          &lt;div class="col-auto"&gt;.col-auto&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>独立列类</h5>
+                <p><code>.col-*</code> 类也可以在 <code>.row</code> 之外使用，以赋予元素特定的宽度。 每当列类用作行的非直接子级时，填充将被省略。</p>
+                <div class="border-example-row">
+                  <div class="col-3 bg-light p-3 border">
+                    .col-3: 25% 的宽度
+                  </div>
+                  <div class="col-sm-9 bg-light p-3 border">
+                    .col-sm-9: sm 拐点以上 75% 的宽度
+                  </div>
+                </div>
+                <pre>&lt;div class="col-3 bg-light p-3 border"&gt;
+        .col-3: 25% 的宽度
+      &lt;/div&gt;
+      &lt;div class="col-sm-9 bg-light p-3 border"&gt;
+        .col-sm-9: sm 拐点以上 75% 的宽度
+      &lt;/div&gt;</pre>
+
+                <p>这些类可以与实用程序一起使用来创建响应式浮动图像。 如果文本较短，请确保将内容包装在 <code>.clearfix</code> 包装器中以清除浮动。</p>
+                <div class="border-example-row">
+                  <div class="clearfix">
+                    <img src="images/img-placeholder.png" class="col-md-6 float-md-end mb-3 ms-md-3" height="210" alt="...">
+
+                    <p>从来极富、极贵、极畅适田地，说来也使人心快，听来也使人耳快，看来也使人眼快；只是一场冷落败坏根基，都藏在里边，不做千古骂名，定是一番笑话。馆娃宫、铜雀台，惹了多少词人墨客，嗟呀嘲诮。止有草泽英雄，他不在酒色上安身立命，受尽的都是落寞凄其，倒会把这千人弄出来的败局，或是收拾，或是更新，这名姓可常存天地。但他名姓虽是后来彰显，他骨格却也平时定了。</p>
+
+                    <p>譬如日月；他本体自是光明，撞在轻烟薄雾中，毕竟光芒射出，苦是人不识得；就到后来称颂他的，形之纸笔，总只说得他建功立业的事情，说不到他微时光景。不知松柏，生来便有参天形势；虎豹小时，便有食牛气概。说来反党新奇。我未题这人，且把他当日遭际的时节，略一铺排。这番勾引那人出来，成一本史书，写不到人间并不曾知得的一种奇谈。可是：器当盘错方知利，刃解宽髀始觉神。由来人定天能胜，为借奇才一起屯。</p>
+
+                    <p>从古相沿，剥中有复：虞、夏、周、秦、汉、三国、两晋。晋自五马渡江，天下分而为二：这叫做南北朝。南朝刘裕，篡晋称宋；萧道成篡宋称齐；肃衍篡齐称梁；陈霸先篡梁称陈。虽然各有国号，绍袭正统，名为天子；其实天下微弱，偏安江左。北朝在晋时，中原一带地方，到被汉主刘渊、赵主石勒、秦主苻坚、燕主慕容囗、魏主拓技珪诸胡人据了，叫做五胡乱华，是为北朝。</p>
+                  </div>
+                </div>
+                <pre>&lt;div class="clearfix"&gt;
+        &lt;img src="..." class="col-md-6 float-md-end mb-3 ms-md-3" height="210" alt="..."&gt;
+
+        &lt;p&gt;从来极富、极贵、极畅适田地，说来也使人心快，听来也使人耳快，看来也使人眼快；只是一场冷落败坏根基，都藏在里边，不做千古骂名，定是一番笑话。馆娃宫、铜雀台，惹了多少词人墨客，嗟呀嘲诮。止有草泽英雄，他不在酒色上安身立命，受尽的都是落寞凄其，倒会把这千人弄出来的败局，或是收拾，或是更新，这名姓可常存天地。但他名姓虽是后来彰显，他骨格却也平时定了。&lt;/p&gt;
+
+        &lt;p&gt;譬如日月；他本体自是光明，撞在轻烟薄雾中，毕竟光芒射出，苦是人不识得；就到后来称颂他的，形之纸笔，总只说得他建功立业的事情，说不到他微时光景。不知松柏，生来便有参天形势；虎豹小时，便有食牛气概。说来反党新奇。我未题这人，且把他当日遭际的时节，略一铺排。这番勾引那人出来，成一本史书，写不到人间并不曾知得的一种奇谈。可是：器当盘错方知利，刃解宽髀始觉神。由来人定天能胜，为借奇才一起屯。&lt;/p&gt;
+
+        &lt;p&gt;从古相沿，剥中有复：虞、夏、周、秦、汉、三国、两晋。晋自五马渡江，天下分而为二：这叫做南北朝。南朝刘裕，篡晋称宋；萧道成篡宋称齐；肃衍篡齐称梁；陈霸先篡梁称陈。虽然各有国号，绍袭正统，名为天子；其实天下微弱，偏安江左。北朝在晋时，中原一带地方，到被汉主刘渊、赵主石勒、秦主苻坚、燕主慕容囗、魏主拓技珪诸胡人据了，叫做五胡乱华，是为北朝。&lt;/p&gt;
+      &lt;/div&gt;</pre>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

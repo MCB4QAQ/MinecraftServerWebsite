@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>卡片 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li class="active"> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">卡片</div></header>
+              <div class="card-body">
+
+                <p>Bootstrap 的卡片提供了一个灵活且可扩展的内容容器，具有多种变体和选项。</p>
+
+                <h5>关于</h5>
+                <p>卡片是一种灵活且可扩展的内容容器。它包括页眉和页脚选项、各种内容、上下文背景颜色和强大的显示选项。如果您熟悉 Bootstrap 3，卡片将取代我们的旧面板、孔和缩略图。与这些组件类似的功能可用作卡片的修饰符类。</p>
+
+                <h5>例子</h5>
+                <p>卡片是用尽可能少的标记和样式构建的，但仍然设法提供大量的控制和定制。使用 flexbox 构建，它们可以轻松对齐并与其他 Bootstrap 组件很好地混合。默认情况下它们没有边距，因此请根据需要使用间距实用程序。</p>
+
+                <p>下面是一个包含混合内容和固定宽度的基本卡片的示例。卡片开始时没有固定宽度，因此它们自然会填满其父元素的整个宽度。这很容易通过我们的各种尺寸选项进行定制。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/gallery/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">东京梦华录</h5>
+                      <p class="card-text">是宋代孟元老的笔记体散记文，创作于宋钦宗靖康二年（1127年），是一本追述北宋都城东京开封府城市风俗人情的著作。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;img src="images/gallery/1.jpg" class="card-img-top" alt="..."&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;东京梦华录&lt;/h5&gt;
+          &lt;p class="card-text"&gt;是宋代孟元老的笔记体散记文，创作于宋钦宗靖康二年（1127年），是一本追述北宋都城东京开封府城市风俗人情的著作。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>内容类型</h5>
+                <p>卡片支持多种内容，包括图像、文本、列表组、链接等。以下是支持的示例。</p>
+
+                <h6>body</h6>
+                <p>卡片的构建块是 <code>.card-body</code>。每当您需要卡片中的填充部分时使用它。</p>
+                <div class="border-example">
+                  <div class="card">
+                    <div class="card-body">
+                      二五方成耦，中宫有骊姬。势看俱集菀，鹤禁顿生危。
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card"&gt;
+        &lt;div class="card-body"&gt;
+          二五方成耦，中宫有骊姬。势看俱集菀，鹤禁顿生危。
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>标题、文本和链接</h6>
+                <p>通过将 <code>.card-title</code> 添加到 <code>&lt;h*&gt;</code> 标记来使用卡片标题。以同样的方式，通过将 <code>.card-link</code> 添加到 <code>&lt;a&gt;</code> 标记来添加链接并彼此相邻放置。</p>
+
+                <p>通过将 <code>.card-subtitle</code> 添加到 <code>&lt;h*&gt;</code> 标记来使用字幕。如果 <code>.card-title</code> 和 <code>.card-subtitle</code> 项目放置在 <code>.card-body</code> 项目中，则卡片标题和副标题会很好地对齐。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">东西晋演义</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">杨尔曾</h6>
+                      <p class="card-text">《东西晋演义》（又题《绣象东西晋全志》），明杨尔曾撰，历史演义小说。分为《西晋演义》和《东晋演义》两部。 十二卷五十回。</p>
+                      <a href="#" class="card-link">阅读详细</a>
+                      <a href="#" class="card-link">立即购买</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;东西晋演义&lt;/h5&gt;
+          &lt;h6 class="card-subtitle mb-2 text-muted"&gt;杨尔曾&lt;/h6&gt;
+          &lt;p class="card-text"&gt;《东西晋演义》（又题《绣象东西晋全志》），明杨尔曾撰，历史演义小说。分为《西晋演义》和《东晋演义》两部。 十二卷五十回。&lt;/p&gt;
+          &lt;a href="#" class="card-link"&gt;阅读详细&lt;/a&gt;
+          &lt;a href="#" class="card-link"&gt;立即购买&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>图片</h6>
+                <p>.card-img-top 将图像放在卡片的顶部。使用 <code>.card-text</code>，可以将文本添加到卡片中。<code>.card-text</code> 中的文本也可以使用标准 HTML 标记进行样式设置。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/gallery/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">柳迎征骑邗沟近，日掩京城帝里迢。八乌已看成六翮，一飞直欲薄云霄！</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;img src="images/gallery/2.jpg" class="card-img-top" alt="..."&gt;
+        &lt;div class="card-body"&gt;
+          &lt;p class="card-text"&gt;柳迎征骑邗沟近，日掩京城帝里迢。八乌已看成六翮，一飞直欲薄云霄！&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>列出组</h6>
+                <p>使用刷新列表组在卡片中创建内容列表。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">第一个选项</li>
+                      <li class="list-group-item">第二个选项</li>
+                      <li class="list-group-item">第三个选项</li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;ul class="list-group list-group-flush"&gt;
+          &lt;li class="list-group-item"&gt;第一个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第二个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第三个选项&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                      精选
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">第一个选项</li>
+                      <li class="list-group-item">第二个选项</li>
+                      <li class="list-group-item">第三个选项</li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;
+          精选
+        &lt;/div&gt;
+        &lt;ul class="list-group list-group-flush"&gt;
+          &lt;li class="list-group-item"&gt;第一个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第二个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第三个选项&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">第一个选项</li>
+                      <li class="list-group-item">第二个选项</li>
+                      <li class="list-group-item">第三个选项</li>
+                    </ul>
+                    <div class="card-footer">
+                      卡片页脚
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;ul class="list-group list-group-flush"&gt;
+          &lt;li class="list-group-item"&gt;第一个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第二个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第三个选项&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;div class="card-footer"&gt;
+          卡片页脚
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>Kitchen sink</h6>
+                <p>混合和匹配多种内容类型以创建您需要的卡片，或将所有内容放入其中。下面显示的是图像样式、块、文本样式和列表组——所有这些都包含在一个固定宽度的卡片中。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/gallery/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">施公案</h5>
+                      <p class="card-text">又名《五女七贞》，清代民间通俗公案小说。</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">第一个选项</li>
+                      <li class="list-group-item">第二个选项</li>
+                      <li class="list-group-item">第三个选项</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">阅读详细</a>
+                      <a href="#" class="card-link">立即购买</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;img src="images/gallery/3.jpg" class="card-img-top" alt="..."&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;施公案&lt;/h5&gt;
+          &lt;p class="card-text"&gt;又名《五女七贞》，清代民间通俗公案小说。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;ul class="list-group list-group-flush"&gt;
+          &lt;li class="list-group-item"&gt;第一个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第二个选项&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;第三个选项&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;div class="card-body"&gt;
+          &lt;a href="#" class="card-link"&gt;阅读详细&lt;/a&gt;
+          &lt;a href="#" class="card-link"&gt;立即购买&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+
+                <h6>页眉和页脚</h6>
+                <p>在卡片中添加可选的页眉和/或页脚。</p>
+                <div class="border-example">
+                  <div class="card">
+                    <div class="card-header">
+                      精选
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">晋书</h5>
+                      <p class="card-text">中国的二十四史之一，唐房玄龄等人合著，作者共二十一人。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;
+          精选
+        &lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;晋书&lt;/h5&gt;
+          &lt;p class="card-text"&gt;中国的二十四史之一，唐房玄龄等人合著，作者共二十一人。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>可以通过将 <code>.card-header</code> 添加到 <code>&lt;h*&gt;</code> 元素来设置卡片标题的样式。</p>
+                <div class="border-example">
+      <div class="card">
+        <h5 class="card-header">精选</h5>
+        <div class="card-body">
+          <h5 class="card-title">狄公案</h5>
+          <p class="card-text">清末长篇公案小说，作者名已佚，共六卷六十四回。</p>
+          <a href="#" class="btn btn-primary">阅读详细</a>
+        </div>
+      </div>
+                </div>
+                <pre>&lt;div class="card"&gt;
+        &lt;h5 class="card-header"&gt;精选&lt;/h5&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;狄公案&lt;/h5&gt;
+          &lt;p class="card-text"&gt;清末长篇公案小说，作者名已佚，共六卷六十四回。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <div class="border-example">
+                  <div class="card">
+                    <div class="card-header">
+                      引用
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>大明正德年间礼部尚书冯旭，风流倜傥，喜获五美相伴，万种风情，百般欢畅，正是：云鬃蓬松起战场，花园锦簇布刀枪。</p>
+                        <footer class="blockquote-footer">摘自 <cite title="《五美缘》">《五美缘》</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;
+          引用
+        &lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;blockquote class="blockquote mb-0"&gt;
+            &lt;p&gt;大明正德年间礼部尚书冯旭，风流倜傥，喜获五美相伴，万种风情，百般欢畅，正是：云鬃蓬松起战场，花园锦簇布刀枪。&lt;/p&gt;
+            &lt;footer class="blockquote-footer"&gt;摘自 &lt;cite title="《五美缘》"&gt;《五美缘》&lt;/cite&gt;&lt;/footer&gt;
+          &lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <div class="border-example">
+                  <div class="card text-center">
+                    <div class="card-header">
+                      精选
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">反唐演义全传</h5>
+                      <p class="card-text">书续两辽王薛丁山子薛刚，好打抱不平，结怨甚多。因酒醉误将太子踢死，逃出城外。武后大怒，待临朝执政，下令满门抄斩。由此引发了一场反唐故事。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 天前
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card text-center"&gt;
+        &lt;div class="card-header"&gt;
+          精选
+        &lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;反唐演义全传&lt;/h5&gt;
+          &lt;p class="card-text"&gt;书续两辽王薛丁山子薛刚，好打抱不平，结怨甚多。因酒醉误将太子踢死，逃出城外。武后大怒，待临朝执政，下令满门抄斩。由此引发了一场反唐故事。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="card-footer text-muted"&gt;
+          2 天前
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>尺寸</h5>
+                <p>卡片假定没有特定的起始宽度，因此除非另有说明，否则它们将是 100% 宽。您可以根据需要使用自定义 CSS、网格类、网格 Sass 混合程序或实用程序进行更改。</p>
+
+                <h6>使用网格标记</h6>
+                <p>使用网格，根据需要将卡片包装在列和行中。</p>
+                <div class="border-example">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">十七史百将传</h5>
+                          <p class="card-text">是一部中国古代的名将的传记。又称《百将传》、《正百将传》，是北宋东光（今河北省东光县）人张预（字公立）用了数年时间编写的。</p>
+                          <a href="#" class="btn btn-primary">阅读详细</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">南北史演义</h5>
+                          <p class="card-text">该书叙述了南北朝一百七十年间由分裂到对峙统一的史实，观点平实，内容丰富，论述有法，用语雅洁，自评自注，理趣兼备，洵为通俗史著的经典。</p>
+                          <a href="#" class="btn btn-primary">阅读详细</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row"&gt;
+        &lt;div class="col-sm-6"&gt;
+          &lt;div class="card"&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;十七史百将传&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是一部中国古代的名将的传记。又称《百将传》、《正百将传》，是北宋东光（今河北省东光县）人张预（字公立）用了数年时间编写的。&lt;/p&gt;
+              &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-sm-6"&gt;
+          &lt;div class="card"&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;南北史演义&lt;/h5&gt;
+              &lt;p class="card-text"&gt;该书叙述了南北朝一百七十年间由分裂到对峙统一的史实，观点平实，内容丰富，论述有法，用语雅洁，自评自注，理趣兼备，洵为通俗史著的经典。&lt;/p&gt;
+              &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>使用实用程序</h6>
+                <p>使用我们少数可用的尺寸调整实用程序来快速设置卡片的宽度。</p>
+                <div class="border-example">
+                  <div class="card w-75">
+                    <div class="card-body">
+                      <h5 class="card-title">两晋演义</h5>
+                      <p class="card-text">本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了晋代的兴亡。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                  <br/>
+                  <div class="card w-50">
+                    <div class="card-body">
+                      <h5 class="card-title">五代史演义</h5>
+                      <p class="card-text">共有六十回，起于朱全忠建立后梁，终于赵匡胤代周建立宋朝。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card w-75"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;两晋演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了晋代的兴亡。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;br/&gt;
+      &lt;div class="card w-50"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;五代史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;共有六十回，起于朱全忠建立后梁，终于赵匡胤代周建立宋朝。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>使用自定义 CSS</h6>
+                <p>在样式表中使用自定义 CSS 或作为内联样式设置宽度。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">元史演义</h5>
+                      <p class="card-text">本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了元代的兴亡。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;元史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了元代的兴亡。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>文本对齐</h5>
+                <p>您可以使用我们的文本对齐类快速更改任何卡片的整体或特定部分的文本对齐方式。</p>
+                <div class="border-example">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">前汉演义</h5>
+                      <p class="card-text">以演义体小说的笔法使得历史具有强烈的故事性，真实地再现了秦、西汉两朝波澜壮阔的历史，描摹了一段段英雄与时势的壮阔史诗。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+
+                  <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">后汉演义</h5>
+                      <p class="card-text">这是一部以正史为经，轶闻为纬，体例特殊，自批自注的演义巨作。全书文笔亲切自然，通俗易懂。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+
+                  <div class="card text-end" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">唐史演义</h5>
+                      <p class="card-text">《唐史演义》共有一百回李氏先祖对北方各国的特别贡献，在隋朝末年纷乱局面中得以保存实力，一举赢得天下。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="width: 18rem;"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;前汉演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;以演义体小说的笔法使得历史具有强烈的故事性，真实地再现了秦、西汉两朝波澜壮阔的历史，描摹了一段段英雄与时势的壮阔史诗。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="card text-center" style="width: 18rem;"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;后汉演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;这是一部以正史为经，轶闻为纬，体例特殊，自批自注的演义巨作。全书文笔亲切自然，通俗易懂。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="card text-end" style="width: 18rem;"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;唐史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;《唐史演义》共有一百回李氏先祖对北方各国的特别贡献，在隋朝末年纷乱局面中得以保存实力，一举赢得天下。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>导航</h5>
+                <p>使用 Bootstrap 的导航组件向卡片的标题（或块）添加一些导航。</p>
+                <div class="border-example">
+                  <div class="card text-center">
+                    <div class="card-header">
+                      <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="true" href="#">选中的</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">链接</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled">禁用的</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">宋史演义</h5>
+                      <p class="card-text">本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了宋代的兴亡。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card text-center"&gt;
+        &lt;div class="card-header"&gt;
+          &lt;ul class="nav nav-tabs card-header-tabs"&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link active" aria-current="true" href="#"&gt;选中的&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;宋史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;本书以章回体结构，通俗的文章，机智的点评，真实再现了中华文明历史演进波澜壮阔的进程，叙述了宋代的兴亡。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <div class="border-example">
+                  <div class="card text-center">
+                    <div class="card-header">
+                      <ul class="nav nav-pills card-header-pills">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">选中的</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">链接</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled">已禁用</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">明史演义</h5>
+                      <p class="card-text">（即《明史通俗演义》）为《历代通俗演义》之一。共有一百回，自平民皇帝朱元璋开国，终至明思宗殉国，经历276年。</p>
+                      <a href="#" class="btn btn-primary">阅读详细</a>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card text-center"&gt;
+        &lt;div class="card-header"&gt;
+          &lt;ul class="nav nav-pills card-header-pills"&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link active" href="#"&gt;选中的&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+              &lt;a class="nav-link disabled"&gt;已禁用&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;明史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;（即《明史通俗演义》）为《历代通俗演义》之一。共有一百回，自平民皇帝朱元璋开国，终至明思宗殉国，经历276年。&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;阅读详细&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>图片</h5>
+                <p>卡片包括一些处理图像的选项。选择在卡片的任一端附加“图像大写”、使用卡片内容覆盖图像或简单地将图像嵌入卡片中。</p>
+
+                <h6>图片上限</h6>
+                <p>与页眉和页脚类似，卡片可以包含顶部和底部的“图像大写”——位于卡片顶部或底部的图像。</p>
+                <div class="border-example">
+                  <div class="card">
+                    <svg class="card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+
+                    <div class="card-body">
+                      <h5 class="card-title">清史演义</h5>
+                      <p class="card-text">共有一百回，起于满清之源起，终于宣统帝逊位，凡294年。</p>
+                      <p class="card-text"><small class="text-muted">上次更新是在3分钟前</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">民国演义</h5>
+                      <p class="card-text">由蔡东藩、许廑父所著。该书采用章回体，蔡东藩原著前一百二十回，许廑父续写四十回，共一百六十回。</p>
+                      <p class="card-text"><small class="text-muted">上次更新是在3分钟前</small></p>
+                    </div>
+
+                    <svg class="card-img-bottom" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+                  </div>
+                </div>
+                <pre>&lt;div class="card"&gt;
+        &lt;img src="..." class="card-img-top" alt="..."&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;清史演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;共有一百回，起于满清之源起，终于宣统帝逊位，凡294年。&lt;/p&gt;
+          &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;上次更新是在3分钟前&lt;/small&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;民国演义&lt;/h5&gt;
+          &lt;p class="card-text"&gt;由蔡东藩、许廑父所著。该书采用章回体，蔡东藩原著前一百二十回，许廑父续写四十回，共一百六十回。&lt;/p&gt;
+          &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;上次更新是在3分钟前&lt;/small&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;img src="..." class="card-img-bottom" alt="..."&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>图像叠加</h6>
+                <p>将图像变成卡片背景并覆盖卡片的文字。根据图像，您可能需要也可能不需要其他样式或实用程序。</p>
+                <div class="border-example">
+                  <div class="card bg-dark text-white">
+                    <svg class="card-img" width="100%" height="270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text></svg>
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">观音菩萨传奇</h5>
+                      <p class="card-text">主要叙述观音身世、刻苦修行与济世救人的故事。</p>
+                      <p class="card-text">上次更新是在3分钟前</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card bg-dark text-white"&gt;
+        &lt;img src="..." class="card-img" alt="..."&gt;
+        &lt;div class="card-img-overlay"&gt;
+          &lt;h5 class="card-title"&gt;观音菩萨传奇&lt;/h5&gt;
+          &lt;p class="card-text"&gt;主要叙述观音身世、刻苦修行与济世救人的故事。&lt;/p&gt;
+          &lt;p class="card-text"&gt;上次更新是在3分钟前&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="callout callout-info mb-3">请注意，内容不应大于图像的高度。如果内容大于图像，则内容将显示在图像之外。</div>
+
+                <h5>水平的</h5>
+                <p>使用网格和实用程序类的组合，可以以移动友好和响应式的方式将卡片设置为水平。在下面的示例中，我们使用 .g-0 删除网格排水沟并使用 .col-md-* 类使卡片在 md 断点处水平。根据您的卡片内容，可能需要进一步调整。</p>
+                <div class="border-example">
+                  <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <svg class="img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">说岳全传</h5>
+                          <p class="card-text">是清代钱彩编次、金丰增订的长篇英雄传奇小说，最早刊本为金氏余庆堂刻本，共20卷80回。</p>
+                          <p class="card-text"><small class="text-muted">上次更新是在3分钟前</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card" style="max-width: 540px;"&gt;
+        &lt;div class="row g-0"&gt;
+          &lt;div class="col-md-4"&gt;
+            &lt;img src="..." class="img-fluid rounded-start" alt="..."&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-8"&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;说岳全传&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是清代钱彩编次、金丰增订的长篇英雄传奇小说，最早刊本为金氏余庆堂刻本，共20卷80回。&lt;/p&gt;
+              &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;上次更新是在3分钟前&lt;/small&gt;&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>卡片样式</h5>
+                <p>卡片包括用于自定义背景、边框和颜色的各种选项。</p>
+
+                <h6>背景和颜色</h6>
+                <p>使用文本颜色和背景实用程序来更改卡片的外观。</p>
+                <div class="border-example">
+                  <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">镜花缘</div>
+                    <div class="card-body">
+                      <h5 class="card-title">主色</h5>
+                      <p class="card-text">其神幻诙谐的创作手法数经据典，奇妙地勾画出一幅绚丽斑斓的天轮彩图。</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">隋史遗文</div>
+                    <div class="card-body">
+                      <h5 class="card-title">次要颜色</h5>
+                      <p class="card-text">本书为英雄传奇小说，秦琼与程咬金等是书中的主要人物，隋末唐初的帝王将相反居于次要地位。</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">隋唐演义</div>
+                    <div class="card-body">
+                      <h5 class="card-title">成功颜色</h5>
+                      <p class="card-text">一部具有英雄传奇和历史演义双重性质的小说。以隋末农民起义为故事背景，讲述隋朝覆灭与大唐建立的一段历史演义。</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">隋书</div>
+                    <div class="card-body">
+                      <h5 class="card-title">危险颜色</h5>
+                      <p class="card-text">全书共八十五卷，其中帝纪五卷，列传五十卷，志三十卷。</p>
+                    </div>
+                  </div>
+                  <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">阅微草堂笔记</div>
+                    <div class="card-body">
+                      <h5 class="card-title">警告颜色</h5>
+                      <p class="card-text">原名《阅微笔记》，是清朝翰林院庶吉士出身的纪昀于乾隆五十四年（1789年）至嘉庆三年（1798年）间以笔记形式所编写成的文言短篇志怪小说。</p>
+                    </div>
+                  </div>
+                  <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">钟吕传道集</div>
+                    <div class="card-body">
+                      <h5 class="card-title">信息颜色</h5>
+                      <p class="card-text">又名《真仙传道集》或《钟吕传道记》。五代，施肩吾整理。</p>
+                    </div>
+                  </div>
+                  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">郁离子</div>
+                    <div class="card-body">
+                      <h5 class="card-title">浅色</h5>
+                      <p class="card-text">集中反应了作为政治家的刘伯温治国安民的主张，也反映了他的人才观、哲学思想、经济思想、文学成就、道德为人以及渊博学识。</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">辽史</div>
+                    <div class="card-body">
+                      <h5 class="card-title">黑色</h5>
+                      <p class="card-text">元修《辽史》共116卷，包括本纪30卷，志32卷，表8卷，列传45卷，以及国语解1卷。</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card text-white bg-primary mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;镜花缘&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;主色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;其神幻诙谐的创作手法数经据典，奇妙地勾画出一幅绚丽斑斓的天轮彩图。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-white bg-secondary mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;隋史遗文&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;次要颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;本书为英雄传奇小说，秦琼与程咬金等是书中的主要人物，隋末唐初的帝王将相反居于次要地位。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-white bg-success mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;隋唐演义&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;成功颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;一部具有英雄传奇和历史演义双重性质的小说。以隋末农民起义为故事背景，讲述隋朝覆灭与大唐建立的一段历史演义。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-white bg-danger mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;隋书&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;危险颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;全书共八十五卷，其中帝纪五卷，列传五十卷，志三十卷。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-dark bg-warning mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;阅微草堂笔记&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;警告颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;原名《阅微笔记》，是清朝翰林院庶吉士出身的纪昀于乾隆五十四年（1789年）至嘉庆三年（1798年）间以笔记形式所编写成的文言短篇志怪小说。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-dark bg-info mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;钟吕传道集&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;信息颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;又名《真仙传道集》或《钟吕传道记》。五代，施肩吾整理。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-dark bg-light mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;郁离子&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;浅色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;集中反应了作为政治家的刘伯温治国安民的主张，也反映了他的人才观、哲学思想、经济思想、文学成就、道德为人以及渊博学识。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card text-white bg-dark mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;辽史&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;黑色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;元修《辽史》共116卷，包括本纪30卷，志32卷，表8卷，列传45卷，以及国语解1卷。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="callout callout-info mb-3">
+                  <strong>向辅助技术传达意义</strong>
+                  <p>使用颜色来添加意义仅提供视觉指示，不会传达给辅助技术的用户 - 例如屏幕阅读器。确保由颜色表示的信息在内容本身（例如可见文本）中是显而易见的，或者通过其他方式包含在内，例如使用 <code>.visually-hidden</code> 类隐藏的附加文本。</p>
+                </div>
+
+                <h6>边框</h6>
+                <p>使用边框实用程序仅更改卡片的边框颜色。请注意，您可以将 <code>.text-{color}</code> 类放在父 <code>.card</code> 或卡片内容的子集上，如下所示。</p>
+                <div class="border-example">
+                  <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">英烈传</div>
+                    <div class="card-body text-primary">
+                      <h5 class="card-title">主色</h5>
+                      <p class="card-text">又名《云合奇踪》、《皇明英烈传》、《皇明开运英武传》等，章回体小说，全书分为十卷。</p>
+                    </div>
+                  </div>
+                  <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">老残游记续集</div>
+                    <div class="card-body text-secondary">
+                      <h5 class="card-title">次要颜色</h5>
+                      <p class="card-text">描写了丁已年冬月信在北京前门外蝶圆，有东阁子、西圆公来访，谈及近日朝廷整顿新政，满街都是巡兵。</p>
+                    </div>
+                  </div>
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">老残游记</div>
+                    <div class="card-body text-success">
+                      <h5 class="card-title">成功颜色</h5>
+                      <p class="card-text">小说以一位走方郎中老残的游历为主线，对社会矛盾开掘很深，尤其是他在书中敢于直斥清官（清官中的酷吏）误国，清官害民，独具慧眼地指出清官的昏庸常常比贪官更甚。</p>
+                    </div>
+                  </div>
+                  <div class="card border-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">农政全书</div>
+                    <div class="card-body text-danger">
+                      <h5 class="card-title">危险颜色</h5>
+                      <p class="card-text">基本上囊括了中国明代农业生产和人民生活的各个方面，而其中又贯穿着一个基本思想，即徐光启的治国治民的“农政”思想。</p>
+                    </div>
+                  </div>
+                  <div class="card border-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">绿野仙踪</div>
+                    <div class="card-body">
+                      <h5 class="card-title">警告颜色</h5>
+                      <p class="card-text">是一本世情小说更多于志怪小说。冷于冰在其成仙的道路上，收徒并且帮助其亲人弟子诛杀为祸世间的妖怪。</p>
+                    </div>
+                  </div>
+                  <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">白虎通义</div>
+                    <div class="card-body">
+                      <h5 class="card-title">信息颜色</h5>
+                      <p class="card-text">又称《白虎通》，是中国汉代讲论五经同异，统一今文经义的一部重要著作。</p>
+                    </div>
+                  </div>
+                  <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">白蛇传</div>
+                    <div class="card-body">
+                      <h5 class="card-title">浅色</h5>
+                      <p class="card-text">是根据清代雍乾时期编撰的传奇故事《雷峰塔》与民间传说《白蛇传》而改编的清代四部神魔小说之一。</p>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">东南纪事</div>
+                    <div class="card-body text-dark">
+                      <h5 class="card-title">黑色</h5>
+                      <p class="card-text">该书专记南明唐王、鲁王及其臣下的历史，反映了南明抗清的一些重要史实。资料丰富，取舍谨严，为清初稗史中的上乘之作。</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card border-primary mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;英烈传&lt;/div&gt;
+        &lt;div class="card-body text-primary"&gt;
+          &lt;h5 class="card-title"&gt;主色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;又名《云合奇踪》、《皇明英烈传》、《皇明开运英武传》等，章回体小说，全书分为十卷。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-secondary mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;老残游记续集&lt;/div&gt;
+        &lt;div class="card-body text-secondary"&gt;
+          &lt;h5 class="card-title"&gt;次要颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;描写了丁已年冬月信在北京前门外蝶圆，有东阁子、西圆公来访，谈及近日朝廷整顿新政，满街都是巡兵。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-success mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;老残游记&lt;/div&gt;
+        &lt;div class="card-body text-success"&gt;
+          &lt;h5 class="card-title"&gt;成功颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;小说以一位走方郎中老残的游历为主线，对社会矛盾开掘很深，尤其是他在书中敢于直斥清官（清官中的酷吏）误国，清官害民，独具慧眼地指出清官的昏庸常常比贪官更甚。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-danger mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;农政全书&lt;/div&gt;
+        &lt;div class="card-body text-danger"&gt;
+          &lt;h5 class="card-title"&gt;危险颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;基本上囊括了中国明代农业生产和人民生活的各个方面，而其中又贯穿着一个基本思想，即徐光启的治国治民的“农政”思想。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-warning mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;绿野仙踪&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;警告颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;是一本世情小说更多于志怪小说。冷于冰在其成仙的道路上，收徒并且帮助其亲人弟子诛杀为祸世间的妖怪。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-info mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;白虎通义&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;信息颜色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;又称《白虎通》，是中国汉代讲论五经同异，统一今文经义的一部重要著作。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-light mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;白蛇传&lt;/div&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;浅色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;是根据清代雍乾时期编撰的传奇故事《雷峰塔》与民间传说《白蛇传》而改编的清代四部神魔小说之一。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="card border-dark mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header"&gt;东南纪事&lt;/div&gt;
+        &lt;div class="card-body text-dark"&gt;
+          &lt;h5 class="card-title"&gt;黑色&lt;/h5&gt;
+          &lt;p class="card-text"&gt;该书专记南明唐王、鲁王及其臣下的历史，反映了南明抗清的一些重要史实。资料丰富，取舍谨严，为清初稗史中的上乘之作。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>Mixins 实用程序</h6>
+                <p>您还可以根据需要更改卡片页眉和页脚的边框，甚至可以使用 <code>.bg-transparent</code> 删除它们的背景色。</p>
+                <div class="border-example">
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-success">东周列国志</div>
+                    <div class="card-body text-success">
+                      <h5 class="card-title">冯梦龙</h5>
+                      <p class="card-text">这部小说由古白话写成，主要描写了从西周宣王时期直到秦始皇统一六国这五百多年的历史。</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">Footer</div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card border-success mb-3" style="max-width: 18rem;"&gt;
+        &lt;div class="card-header bg-transparent border-success"&gt;东周列国志&lt;/div&gt;
+        &lt;div class="card-body text-success"&gt;
+          &lt;h5 class="card-title"&gt;冯梦龙&lt;/h5&gt;
+          &lt;p class="card-text"&gt;这部小说由古白话写成，主要描写了从西周宣王时期直到秦始皇统一六国这五百多年的历史。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="card-footer bg-transparent border-success"&gt;Footer&lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>卡片布局</h5>
+                <p>除了设置卡片内容的样式外，Bootstrap 还包括一些用于布置卡片系列的选项。目前，这些布局选项还没有响应。</p>
+
+                <h6>卡组</h6>
+                <p>使用卡片组将卡片呈现为具有相同宽度和高度列的单个附加元素。卡片组开始堆叠并使用 <code>display: flex;</code> 从 <code>sm</code> 断点开始以统一尺寸连接。</p>
+                <div class="border-example">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="images/gallery/4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">东林列传</h5>
+                        <p class="card-text">收录了与东林书院、东林学派相关的一百八十多人的传记。</p>
+                        <p class="card-text"><small class="text-muted">3分钟前更新</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/gallery/5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">东汉演义</h5>
+                        <p class="card-text">清代的清远道人的《东汉演义》。</p>
+                        <p class="card-text"><small class="text-muted">3分钟前更新</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/gallery/6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">东汉秘史</h5>
+                        <p class="card-text">自王莽出身起，叙述东汉十二帝的更替，着重光武中兴的故事。本书依《全汉志传》、《两汉开国中兴传志》的架构，稍作补充。</p>
+                        <p class="card-text"><small class="text-muted">3分钟前更新</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card-group"&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/4.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;东林列传&lt;/h5&gt;
+            &lt;p class="card-text"&gt;收录了与东林书院、东林学派相关的一百八十多人的传记。&lt;/p&gt;
+            &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/5.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;东汉演义&lt;/h5&gt;
+            &lt;p class="card-text"&gt;清代的清远道人的《东汉演义》。&lt;/p&gt;
+            &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/6.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;东汉秘史&lt;/h5&gt;
+            &lt;p class="card-text"&gt;自王莽出身起，叙述东汉十二帝的更替，着重光武中兴的故事。本书依《全汉志传》、《两汉开国中兴传志》的架构，稍作补充。&lt;/p&gt;
+            &lt;p class="card-text"&gt;&lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>使用带页脚的卡片组时，其内容将自动排列。</p>
+                <div class="border-example">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="images/gallery/7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">东西汉演义</h5>
+                        <p class="card-text">自清远道人重编后，嘉庆同文堂本、同治善成堂本《东西汉演义》，均是将甄伟《西汉演义》与清远道人重编《东汉演义》合刊在一起。</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">3分钟前更新</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/gallery/9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">东观汉记</h5>
+                        <p class="card-text">记载东汉光武帝至汉灵帝一段历史的纪传体史书。因官府于东观设馆修史而得名。它经过几代人的修撰才最后成书。</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">3分钟前更新</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/gallery/10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">两同书</h5>
+                        <p class="card-text">由罗隐所写，流传至今的中国古籍。</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">3分钟前更新</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="card-group"&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/7.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;东西汉演义&lt;/h5&gt;
+            &lt;p class="card-text"&gt;自清远道人重编后，嘉庆同文堂本、同治善成堂本《东西汉演义》，均是将甄伟《西汉演义》与清远道人重编《东汉演义》合刊在一起。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="card-footer"&gt;
+            &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/9.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;东观汉记&lt;/h5&gt;
+            &lt;p class="card-text"&gt;记载东汉光武帝至汉灵帝一段历史的纪传体史书。因官府于东观设馆修史而得名。它经过几代人的修撰才最后成书。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="card-footer"&gt;
+            &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+          &lt;img src="images/gallery/10.jpg" class="card-img-top" alt="..."&gt;
+          &lt;div class="card-body"&gt;
+            &lt;h5 class="card-title"&gt;两同书&lt;/h5&gt;
+            &lt;p class="card-text"&gt;由罗隐所写，流传至今的中国古籍。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="card-footer"&gt;
+            &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>网格卡</h6>
+                <p>使用 Bootstrap 网格系统及其 <code>.row-cols</code> 类来控制每行显示的网格列数（环绕在卡片周围）。例如，这里的 <code>.row-cols-1</code> 将卡片布置在一列上，而 <code>.row-cols-md-2</code> 将四张卡片从中间断点向上分成多行等宽。</p>
+                <div class="border-example">
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">中华古今注</h5>
+                          <p class="card-text">此书以考证名物制度为主，体例与崔豹《古今注》大致相同，二书部分内容重复。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">中华民国史事日志</h5>
+                          <p class="card-text">是书篇帙浩繁，作为研究中华民国史的工具书，有一定的参考价值。但错误颇多，诚如编著者生前所云：“惟仍须修正”。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">中吴纪闻</h5>
+                          <p class="card-text">南宋地方风土掌故笔记。六卷。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">中庸</h5>
+                          <p class="card-text">是一篇论述儒家人性修养的散文，原是《礼记》第三十一篇，相传为子思所作，是一部儒家学说经典论著。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row row-cols-1 row-cols-md-2 g-4"&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/1.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;中华古今注&lt;/h5&gt;
+              &lt;p class="card-text"&gt;此书以考证名物制度为主，体例与崔豹《古今注》大致相同，二书部分内容重复。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/2.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;中华民国史事日志&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是书篇帙浩繁，作为研究中华民国史的工具书，有一定的参考价值。但错误颇多，诚如编著者生前所云：“惟仍须修正”。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/3.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;中吴纪闻&lt;/h5&gt;
+              &lt;p class="card-text"&gt;南宋地方风土掌故笔记。六卷。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/4.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;中庸&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是一篇论述儒家人性修养的散文，原是《礼记》第三十一篇，相传为子思所作，是一部儒家学说经典论著。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>将其更改为 <code>.row-cols-3</code>，您将看到第四张卡片包装。</p>
+                <div class="border-example">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">五虎平南</h5>
+                          <p class="card-text">承续《征西》故事，同文堂刋本。四十二回。叙述狄青等五虎将南征平叛的故事。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">佛国记</h5>
+                          <p class="card-text">《佛国记》一卷，全文13980字，全部记述作者公元399至413年的旅行经历，体裁是一部典型的游记，也属佛教地志类著作。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">儒林外史</h5>
+                          <p class="card-text">热情地歌颂了少数人物以坚持自我的方式所作的对于人性的守护，从而寄寓了作者的理想。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/gallery/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">何典</h5>
+                          <p class="card-text">是一部用吴方言写的借鬼说事的清代讽刺小说。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row row-cols-1 row-cols-md-3 g-4"&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/5.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;五虎平南&lt;/h5&gt;
+              &lt;p class="card-text"&gt;承续《征西》故事，同文堂刋本。四十二回。叙述狄青等五虎将南征平叛的故事。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/6.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;佛国记&lt;/h5&gt;
+              &lt;p class="card-text"&gt;《佛国记》一卷，全文13980字，全部记述作者公元399至413年的旅行经历，体裁是一部典型的游记，也属佛教地志类著作。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/7.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;儒林外史&lt;/h5&gt;
+              &lt;p class="card-text"&gt;热情地歌颂了少数人物以坚持自我的方式所作的对于人性的守护，从而寄寓了作者的理想。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card"&gt;
+            &lt;img src="images/gallery/8.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;何典&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是一部用吴方言写的借鬼说事的清代讽刺小说。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>当您需要相等的高度时，将 <code>.h-100</code> 添加到卡片中。如果你想要默认等高，你可以在 Sass 中设置 <code>$card-height: 100%</code> 。</p>
+                <div class="border-example">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">仙杂记</h5>
+                          <p class="card-text">本书序由天复所写，全书编写历经四年。书文主要记载古人的相关事迹，包括《云仙散录》、《容斋随笔》等。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">伯牙琴</h5>
+                          <p class="card-text">以老庄为代表的道家思想为武器，猛烈抨击现实社会。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">倩女离魂</h5>
+                          <p class="card-text">元郑光祖据以改编为《迷青琐倩女离魂》，以优美的文笔，从两个方面叙写了女子在礼教抑制下精神的痛苦。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">僧宝传</h5>
+                          <p class="card-text">禅宗自六祖以後，分而为二。一曰青原，其下为曹洞、云门、法眼；一曰南岳，其下为临济、沩仰。是为五宗。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row row-cols-1 row-cols-md-3 g-4"&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/9.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;仙杂记&lt;/h5&gt;
+              &lt;p class="card-text"&gt;本书序由天复所写，全书编写历经四年。书文主要记载古人的相关事迹，包括《云仙散录》、《容斋随笔》等。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/10.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;伯牙琴&lt;/h5&gt;
+              &lt;p class="card-text"&gt;以老庄为代表的道家思想为武器，猛烈抨击现实社会。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/1.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;倩女离魂&lt;/h5&gt;
+              &lt;p class="card-text"&gt;元郑光祖据以改编为《迷青琐倩女离魂》，以优美的文笔，从两个方面叙写了女子在礼教抑制下精神的痛苦。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/2.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;僧宝传&lt;/h5&gt;
+              &lt;p class="card-text"&gt;禅宗自六祖以後，分而为二。一曰青原，其下为曹洞、云门、法眼；一曰南岳，其下为临济、沩仰。是为五宗。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <p>就像卡片组一样，卡片页脚会自动排列。</p>
+                <div class="border-example">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">元史</h5>
+                          <p class="card-text">是系统记载元朝兴亡过程的一部纪传体断代史，成书于明朝初年，由宋濂（1310～1381年）、王袆（1321～1373年）主编。</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">3分钟前更新</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">全唐文</h5>
+                          <p class="card-text">全称《钦定全唐文》，是清嘉庆年间官修唐五代文章总集。全书一千卷，并卷首四卷，辑有唐朝、五代十国文章共18488篇（一说20025篇）、作者3042人（一说3035人），每一位作者都附有小传。</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">3分钟前更新</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/gallery/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">八仙得道</h5>
+                          <p class="card-text">主要讲述了铁拐李、钟离权、吕洞宾、张果老、蓝采和、何仙姑、韩湘子、曹国舅八位神仙修炼得道的详尽过程。</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">3分钟前更新</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row row-cols-1 row-cols-md-3 g-4"&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/3.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;元史&lt;/h5&gt;
+              &lt;p class="card-text"&gt;是系统记载元朝兴亡过程的一部纪传体断代史，成书于明朝初年，由宋濂（1310～1381年）、王袆（1321～1373年）主编。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-footer"&gt;
+              &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/4.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;全唐文&lt;/h5&gt;
+              &lt;p class="card-text"&gt;全称《钦定全唐文》，是清嘉庆年间官修唐五代文章总集。全书一千卷，并卷首四卷，辑有唐朝、五代十国文章共18488篇（一说20025篇）、作者3042人（一说3035人），每一位作者都附有小传。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-footer"&gt;
+              &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+          &lt;div class="card h-100"&gt;
+            &lt;img src="images/gallery/5.jpg" class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h5 class="card-title"&gt;八仙得道&lt;/h5&gt;
+              &lt;p class="card-text"&gt;主要讲述了铁拐李、钟离权、吕洞宾、张果老、蓝采和、何仙姑、韩湘子、曹国舅八位神仙修炼得道的详尽过程。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-footer"&gt;
+              &lt;small class="text-muted"&gt;3分钟前更新&lt;/small&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>Masonry</h6>
+                <p>在 v4 中，我们使用纯 CSS 技术来模拟类似 Masonry 的列的行为，但这种技术带来了许多令人不快的副作用。如果你想在 v5 中使用这种类型的布局，你可以使用 Masonry 插件。 Masonry 不包含在 Bootstrap 中，但我们制作了一个演示示例来帮助您入门。</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-bordered mb-3">
+              <header class="card-header">
+                <div class="card-title">浣溪沙 <small> - 秦观</small></div>
+              </header>
+
+              <div class="callout callout-danger">有边框的 <code>.card-bordered</code></div>
+              <div class="card-body">
+
+                <p>香靥凝羞一笑开。柳腰如醉肯相挨。日长春困下楼台。</p><p>照水有情聊整鬓，倚阑无绪更兜鞋。眼边牵系懒归来。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-shadowed mb-3">
+              <header class="card-header">
+                <div class="card-title">浣溪沙 <small> - 晏几道</small></div>
+              </header>
+
+              <div class="callout callout-success">阴影加深的 <code>.card-shadowed</code></div>
+              <div class="card-body">
+                <p>午醉西桥夕未醒。雨花凄断不堪听。归时应减鬓边青。</p><p>衣化客尘今古道，柳含春意短长亭。凤楼争见路旁情。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-hover-shadow mb-3">
+              <header class="card-header">
+                <div class="card-title">浣溪沙 <small> - 晏殊</small></div>
+              </header>
+
+              <div class="callout callout-info">鼠标移入时阴影加深 <code>.card-hover-shadow</code></div>
+              <div class="card-body">
+                <p>小阁重帘有燕过。晚花红片落庭莎。曲阑干影入凉波。</p><p>一霎好风生翠幕，几回疏雨滴圆荷。酒醒人散得愁多。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card">
+              <header class="card-header d-flex justify-content-between">
+                <div class="card-title">标题</div>
+                <ul class="card-actions">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" role="button" id="cardMoreExample" data-bs-toggle="dropdown" aria-expanded="false">更多</a>
+                    <div class="dropdown-menu" aria-labelledby="cardMoreExample">
+                      <a class="dropdown-item" href="#!"> <i class="mdi mdi-arrow-collapse-down"></i> 下载数据</a>
+                      <a class="dropdown-item" href="#!"> <i class="mdi mdi-arrow-collapse-up"></i> 上传数据</a>
+                      <hr class="dropdown-divider">
+                      <a class="dropdown-item" href="#!"> <i class="mdi mdi-cog-outline"></i> 参数设置</a>
+                    </div>
+                  </li>
+                  <li><a href="#!"><i class="mdi mdi-undo"></i></a></li>
+                  <li><a href="#!"><i class="mdi mdi-redo"></i></a></li>
+                  <li><a href="data/card-reload.txt" class="card-btn-reload"><i class="mdi mdi-refresh"></i></a></li>
+                </ul>
+              </header>
+              <div class="card-body">
+                <p>离思 - 孟郊</p>
+                <p>慈母手中线，游子身上衣。</p><p>临行密密缝，意恐迟迟归。</p><p>谁言寸草心，报得三春晖。</p>
+              </div>
+              <footer class="card-footer text-end">
+                <button class="btn btn-primary" type="reset">登录</button>
+                <button class="btn btn-danger" type="submit">注册</button>
+              </footer>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <header class="card-header d-flex justify-content-between">
+                <div class="card-title">最大化，收缩，关闭卡片</div>
+                <ul class="card-actions">
+                  <li><a href="#!" class="card-btn-close"><i class="mdi mdi-close"></i></a></li>
+                  <li><a href="#!" class="card-btn-slide"><i class="mdi mdi-chevron-up"></i></a></li>
+                  <li><a href="#!" class="card-btn-fullscreen"><i class="mdi mdi-fullscreen"></i></a></li>
+                </ul>
+              </header>
+              <div class="card-body" style="">
+                <p>离思 - 孟郊</p>
+                <p>不寐亦不语，片月秋稍举。孤鸿忆霜群，独鹤叫云侣。</p><p>怨彼浮花心，飘飘无定所。高张系繂帆，远过梅根渚。</p><p>回织别离字，机声有酸楚。</p>
+              </div>
+              <footer class="card-footer d-flex justify-content-between">
+                <div class="form-check mt-2">
+                  <input class="form-check-input" type="checkbox" value="" id="remeberme">
+                  <label class="form-check-label" for="remeberme">
+                    五天内自动登录
+                  </label>
+                </div>
+                <div class="example-btn">
+                  <button class="btn btn-primary" type="reset">登录</button>
+                  <button class="btn btn-danger" type="submit">注册</button>
+                </div>
+              </footer>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lyear-loading.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

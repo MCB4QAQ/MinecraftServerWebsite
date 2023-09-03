@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>列表组 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li class="active"> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">列表组</div></header>
+              <div class="card-body">
+
+                <p>列表组是用于显示一系列内容的灵活而强大的组件。 修改和扩展它们以支持其中的任何内容。</p>
+                <h5>基础示例</h5>
+                <p>最基本的列表组是一个包含列表项和适当类的无序列表。 使用以下选项或根据需要使用您自己的 CSS 构建它。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item">金毛犼爱财设巧计 山西雁贪功坠牢笼</li>
+                    <li class="list-group-item">徐良临险地多亏好友 石仁入贼室搭救宾朋</li>
+                    <li class="list-group-item">入破庙人鬼乱闹 奔古寺差解同行</li>
+                    <li class="list-group-item">儒宁村贤人遭害 太岁坊恶霸行凶</li>
+                    <li class="list-group-item">贪官见财忘天理 先生定计蔑良心</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt;金毛犼爱财设巧计 山西雁贪功坠牢笼&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;徐良临险地多亏好友 石仁入贼室搭救宾朋&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;入破庙人鬼乱闹 奔古寺差解同行&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;儒宁村贤人遭害 太岁坊恶霸行凶&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;贪官见财忘天理 先生定计蔑良心&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>起作用的项</h5>
+                <p>将 <code>.active</code> 添加到 <code>.list-group-item</code> 以指示当前被选中起作用的。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">二解差欺心害施俊 三贼冠用计战徐良</li>
+                    <li class="list-group-item">钦差门上悬御匾 智化项下挂金牌</li>
+                    <li class="list-group-item">知恩不报偏生歹意 放火烧人反害自身</li>
+                    <li class="list-group-item">金钱堡店中观四寇 太岁坊门首看凶徒</li>
+                    <li class="list-group-item">遇吊客魂胆吓落 见大汉夸奖奇才</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item active" aria-current="true"&gt;二解差欺心害施俊 三贼冠用计战徐良&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;钦差门上悬御匾 智化项下挂金牌&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;知恩不报偏生歹意 放火烧人反害自身&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;金钱堡店中观四寇 太岁坊门首看凶徒&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;遇吊客魂胆吓落 见大汉夸奖奇才&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>禁用的项</h5>
+                <p>将 <code>.disabled</code> 添加到 <code>.list-group-item</code> 以使其 <em>显示</em> 禁用。请注意，某些带有 <code>.disabled</code> 的元素还需要自定义 JavaScript 才能完全禁用其点击事件（例如链接）。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item disabled" aria-disabled="true">东方明仗造化捉鬼 黑妖狐用奇计装神</li>
+                    <li class="list-group-item">赵胜害人却教人害 恶霸欺人反被人欺</li>
+                    <li class="list-group-item">智化送侄妇回店 兰娘救盟嫂逃生</li>
+                    <li class="list-group-item">窦勇强中铁棍废命 东方明受袖箭亡身</li>
+                    <li class="list-group-item">金钱堡羞走山西雁 毛家疃醉倒铁臂熊</li>
+                  </ul>
+                </div> 
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item disabled" aria-disabled="true"&gt;东方明仗造化捉鬼 黑妖狐用奇计装神&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赵胜害人却教人害 恶霸欺人反被人欺&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;智化送侄妇回店 兰娘救盟嫂逃生&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;窦勇强中铁棍废命 东方明受袖箭亡身&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;金钱堡羞走山西雁 毛家疃醉倒铁臂熊&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>链接和按钮</h5>
+                <p>使用 <code>&lt;a&gt;</code>s 或 <code>&lt;button&gt;</code>s 通过添加 <code>.list-group-item-action</code>。 我们将这些伪类分开以确保由非交互元素（如 <code>&lt;li&gt;</code>s 或 <code>&lt;div&gt;</code>s）组成的列表组不会提供点击 或挖掘可供性。</p>
+                <p>请务必<strong>不要在此处使用标准的 <code>.btn</code> 类</strong>。</p>
+                <div class="border-example">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      假义仆复又生毒计 真烈妇二次遇灾星
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">盟兄弟巧会盟兄弟 有仇人偏遇有仇人</a>
+                    <a href="#" class="list-group-item list-group-item-action">赵保同素贞私奔 艾虎遇盟兄行程</a>
+                    <a href="#" class="list-group-item list-group-item-action">五里屯女贼漏网 尼姑庵地方泄机</a>
+                    <a class="list-group-item list-group-item-action disabled">徐良首盗鱼肠剑 二寇双探藏珍楼</a>
+                  </div>
+                </div>
+                <pre>&lt;div class="list-group"&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action active" aria-current="true"&gt;
+          假义仆复又生毒计 真烈妇二次遇灾星
+        &lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;盟兄弟巧会盟兄弟 有仇人偏遇有仇人&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;赵保同素贞私奔 艾虎遇盟兄行程&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;五里屯女贼漏网 尼姑庵地方泄机&lt;/a&gt;
+        &lt;a class="list-group-item list-group-item-action disabled"&gt;徐良首盗鱼肠剑 二寇双探藏珍楼&lt;/a&gt;
+      &lt;/div&gt;</pre>
+
+                <p>使用 <code>&lt;button&gt;</code>s，您还可以使用 <code>disabled</code> 属性而不是 <code>.disabled</code> 类。 遗憾的是，<code>&lt;a&gt;</code> 不支持 disabled 属性。</p>
+                <div class="border-example">
+                  <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                      伏地君王收二寇 金家弟兄见群贼
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">屋内金仙身体不爽 院中玉仙故意骗人</button>
+                    <button type="button" class="list-group-item list-group-item-action">多臂人熊看姑娘练武 东方玉仙教丫鬟打拳</button>
+                    <button type="button" class="list-group-item list-group-item-action">泄机关捉拿山西雁 说原由丢失多臂熊</button>
+                    <button type="button" class="list-group-item list-group-item-action" disabled>躺箱之中徐良等死 桌子底下书安求生</button>
+                  </div>
+                </div> 
+                <pre>&lt;div class="list-group"&gt;
+        &lt;button type="button" class="list-group-item list-group-item-action active" aria-current="true"&gt;
+          伏地君王收二寇 金家弟兄见群贼
+        &lt;/button&gt;
+        &lt;button type="button" class="list-group-item list-group-item-action"&gt;屋内金仙身体不爽 院中玉仙故意骗人&lt;/button&gt;
+        &lt;button type="button" class="list-group-item list-group-item-action"&gt;多臂人熊看姑娘练武 东方玉仙教丫鬟打拳&lt;/button&gt;
+        &lt;button type="button" class="list-group-item list-group-item-action"&gt;泄机关捉拿山西雁 说原由丢失多臂熊&lt;/button&gt;
+        &lt;button type="button" class="list-group-item list-group-item-action" disabled&gt;躺箱之中徐良等死 桌子底下书安求生&lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>Flush</h5>
+                <p>添加 <code>.list-group-flush</code> 以删除一些边框和圆角以在父容器（例如卡片）中边对边呈现列表组项目。</p>
+                <div class="border-example">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">三元店徐良遇智化 白沙滩史丹见朱英</li>
+                    <li class="list-group-item">蒋平遇龙滔定计 赵虎见史丹施威</li>
+                    <li class="list-group-item">美珍楼白菊花受困 酒饭铺众好汉捉贼</li>
+                    <li class="list-group-item">酱缸内周瑞废命 小河中晏飞逃生</li>
+                    <li class="list-group-item">吴必正细说家务事 冯校尉情愿寻贼人</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group list-group-flush"&gt;
+        &lt;li class="list-group-item"&gt;三元店徐良遇智化 白沙滩史丹见朱英&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;蒋平遇龙滔定计 赵虎见史丹施威&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;美珍楼白菊花受困 酒饭铺众好汉捉贼&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;酱缸内周瑞废命 小河中晏飞逃生&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;吴必正细说家务事 冯校尉情愿寻贼人&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>编号</h5>
+                <p>添加 <code>.list-group-numbered</code> 修饰符类（并可选择使用 <code>&lt;ol&gt;</code> 元素）以选择加入编号列表组项目。 数字是通过 CSS 生成的（与 <code>&lt;ol&gt;</code> 的默认浏览器样式相反），以便更好地放置在列表组项目中并允许更好的自定义。</p>
+                <p>数字由 <code>&lt;ol&gt;</code> 上的 <code>counter-reset</code> 生成，然后使用 <code>::before</code> 伪元素设置样式并放置在 <code>&lt;li&gt;</code> 带有 <code>counter-increment</code> 和 <code>content</code>。</p>
+                <div class="border-example">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">得宝剑冯渊快乐 受熏香晏飞被捉</li>
+                    <li class="list-group-item">见恶贼贪淫受害 逢二友遇难呈祥</li>
+                    <li class="list-group-item">晏飞丢剑悲中喜 冯渊得宝喜中悲</li>
+                  </ol>
+                </div>
+                <pre>&lt;ol class="list-group list-group-numbered"&gt;
+        &lt;li class="list-group-item"&gt;得宝剑冯渊快乐 受熏香晏飞被捉&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;见恶贼贪淫受害 逢二友遇难呈祥&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;晏飞丢剑悲中喜 冯渊得宝喜中悲&lt;/li&gt;
+      &lt;/ol&gt;</pre>
+
+                <p>这些也适用于自定义内容。</p>
+                <div class="border-example">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">塞外奇侠传</div>
+                        主要讲述了杨云骢、飞红巾和纳兰明慧之间的渊源。前接《白发魔女传》、后接《七剑下天山》，同属天山系列。
+                      </div>
+                      <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">七剑下天山</div>
+                        主要讲述了清朝初年，以凌未风为首的天山七剑和反清志士一起为推翻清廷暴政而多方奔走的故事。
+                      </div>
+                      <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">江湖三女侠</div>
+                        主要讲述了清朝初年以吕四娘、冯瑛、冯琳组成的江湖三女侠的传奇经历。
+                      </div>
+                      <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                  </ol>
+                </div>
+                <pre>&lt;ol class="list-group list-group-numbered"&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-start"&gt;
+          &lt;div class="ms-2 me-auto"&gt;
+            &lt;div class="fw-bold"&gt;塞外奇侠传&lt;/div&gt;
+            主要讲述了杨云骢、飞红巾和纳兰明慧之间的渊源。前接《白发魔女传》、后接《七剑下天山》，同属天山系列。
+          &lt;/div&gt;
+          &lt;span class="badge bg-primary rounded-pill"&gt;14&lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-start"&gt;
+          &lt;div class="ms-2 me-auto"&gt;
+            &lt;div class="fw-bold"&gt;七剑下天山&lt;/div&gt;
+            主要讲述了清朝初年，以凌未风为首的天山七剑和反清志士一起为推翻清廷暴政而多方奔走的故事。
+          &lt;/div&gt;
+          &lt;span class="badge bg-primary rounded-pill"&gt;14&lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-start"&gt;
+          &lt;div class="ms-2 me-auto"&gt;
+            &lt;div class="fw-bold"&gt;江湖三女侠&lt;/div&gt;
+            主要讲述了清朝初年以吕四娘、冯瑛、冯琳组成的江湖三女侠的传奇经历。
+          &lt;/div&gt;
+          &lt;span class="badge bg-primary rounded-pill"&gt;14&lt;/span&gt;
+        &lt;/li&gt;
+      &lt;/ol&gt;</pre>
+
+                <h5>水平的</h5>
+                <p>添加 <code>.list-group-horizontal</code> 以将列表组项目的布局从所有断点的垂直更改为水平。 或者，选择响应式变体 <code>.list-group-horizontal-{sm|md|lg|xl|xxl}</code> 以使列表组从该断点的 <code>min-width</code> 开始水平。 目前<strong>水平列表组不能与刷新列表组组合。</strong></p>
+                <p><strong>专业提示：</strong> 想要水平时等宽列表组项目？ 将 <code>.flex-fill</code> 添加到每个列表组项。</p>
+                <div class="border-example">
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-sm">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-md">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-lg">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-xl">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-xxl">
+                    <li class="list-group-item">史丹无心投员外 天彪假意认干爹</li>
+                    <li class="list-group-item">众好汉二盗鱼肠剑 小太保初观红翠花</li>
+                    <li class="list-group-item">赛地鼠龙须下废命 玉面猫乱刀中倾生</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group list-group-horizontal"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="list-group list-group-horizontal-sm"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="list-group list-group-horizontal-md"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="list-group list-group-horizontal-lg"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="list-group list-group-horizontal-xl"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="list-group list-group-horizontal-xxl"&gt;
+        &lt;li class="list-group-item"&gt;史丹无心投员外 天彪假意认干爹&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;众好汉二盗鱼肠剑 小太保初观红翠花&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;赛地鼠龙须下废命 玉面猫乱刀中倾生&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>上下文类</h5>
+                <p>使用上下文类来设置具有状态背景和颜色的列表项的样式。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item">黄面狼细讲途中故 小韩信分说旧衷情</li>
+
+                    <li class="list-group-item list-group-item-primary">清净庵天彪逢双女 养性堂梁氏见干儿</li>
+                    <li class="list-group-item list-group-item-secondary">蒋平给天彪虑后事 梁氏与二女定终身</li>
+                    <li class="list-group-item list-group-item-success">到后院夫妻谈楼事 上信阳校尉请先生</li>
+                    <li class="list-group-item list-group-item-danger">徐良前边戏耍周凯 冯渊后面搭救佳人</li>
+                    <li class="list-group-item list-group-item-warning">贾家屯冯渊中暗器 小酒铺姑娘救残生</li>
+                    <li class="list-group-item list-group-item-info">生铁佛庙中说亲事 刘志齐家内画楼图</li>
+                    <li class="list-group-item list-group-item-light">徐良在院中被获 周凯到树林脱身</li>
+                    <li class="list-group-item list-group-item-dark">三盗鱼肠剑大众起身 巧破藏珍楼英雄独往</li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt;黄面狼细讲途中故 小韩信分说旧衷情&lt;/li&gt;
+
+        &lt;li class="list-group-item list-group-item-primary"&gt;清净庵天彪逢双女 养性堂梁氏见干儿&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-secondary"&gt;蒋平给天彪虑后事 梁氏与二女定终身&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-success"&gt;到后院夫妻谈楼事 上信阳校尉请先生&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-danger"&gt;徐良前边戏耍周凯 冯渊后面搭救佳人&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-warning"&gt;贾家屯冯渊中暗器 小酒铺姑娘救残生&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-info"&gt;生铁佛庙中说亲事 刘志齐家内画楼图&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-light"&gt;徐良在院中被获 周凯到树林脱身&lt;/li&gt;
+        &lt;li class="list-group-item list-group-item-dark"&gt;三盗鱼肠剑大众起身 巧破藏珍楼英雄独往&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <p>上下文类也适用于 <code>.list-group-item-action</code>。 请注意，此处添加的悬停样式在前面的示例中没有出现。 还支持 <code>.active</code> 状态； 应用它来指示上下文列表组项上的活动选择。</p>
+                <div class="border-example">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">冯校尉柁上得剑 山西雁楼内着急</a>
+
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">夜晚藏珍楼芸生得宝 次日白沙滩大众同行</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">擂台下总镇知府相会 看棚前老少英雄施威</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">乔彬头次上台打擂 张豹二番论武失机</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">穷汉打擂连赢四阵 史云动手不教下台</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">艾虎与群贼抡拳比武 徐良见台官讲论雌雄</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info">二英雄力劈王兴祖 两好汉打死东方清</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">亲姊妹逃奔商水县 师兄弟相逢白沙滩</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">金弓二郎带金仙单走 莲花仙子会玉仙同行</a>
+                  </div>
+                </div>
+                <pre>&lt;div class="list-group"&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;冯校尉柁上得剑 山西雁楼内着急&lt;/a&gt;
+
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-primary"&gt;夜晚藏珍楼芸生得宝 次日白沙滩大众同行&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-secondary"&gt;擂台下总镇知府相会 看棚前老少英雄施威&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-success"&gt;乔彬头次上台打擂 张豹二番论武失机&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-danger"&gt;穷汉打擂连赢四阵 史云动手不教下台&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-warning"&gt;艾虎与群贼抡拳比武 徐良见台官讲论雌雄&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-info"&gt;二英雄力劈王兴祖 两好汉打死东方清&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-light"&gt;亲姊妹逃奔商水县 师兄弟相逢白沙滩&lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action list-group-item-dark"&gt;金弓二郎带金仙单走 莲花仙子会玉仙同行&lt;/a&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="callout callout-info mb-3">
+                  <strong>向辅助技术传达意义</strong>
+                  <p>使用颜色来添加意义仅提供视觉指示，不会传达给辅助技术的用户 - 例如屏幕阅读器。 确保由颜色表示的信息在内容本身（例如可见文本）中是显而易见的，或者通过其他方式包含在内，例如使用 <code>.visually-hidden</code> 类隐藏的附加文本。</p>
+                </div>
+
+                <h5>带徽章的</h5>
+                <p>在某些实用程序的帮助下，将徽章添加到任何列表组项目以显示未读计数、活动等。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      抢囚车头回中计 劫法场二次扑空
+                      <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      玉仙纪小泉开封行刺 芸生刘士杰衙内拿人
+                      <span class="badge bg-primary rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      艾虎三更追女寇 于奢夜晚获男贼
+                      <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                  </ul>
+                </div> 
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-center"&gt;
+          抢囚车头回中计 劫法场二次扑空
+          &lt;span class="badge bg-primary rounded-pill"&gt;14&lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-center"&gt;
+          玉仙纪小泉开封行刺 芸生刘士杰衙内拿人
+          &lt;span class="badge bg-primary rounded-pill"&gt;2&lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li class="list-group-item d-flex justify-content-between align-items-center"&gt;
+          艾虎三更追女寇 于奢夜晚获男贼
+          &lt;span class="badge bg-primary rounded-pill"&gt;1&lt;/span&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>自定义内容</h5>
+                <p>在flexbox 实用程序的帮助下，几乎可以在其中添加任何 HTML，甚至是像下面这样的链表组。</p>
+                <div class="border-example">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">搜神记</h5>
+                        <small>3天前</small>
+                      </div>
+                      <p class="mb-1">一部记录古代民间传说中神奇怪异故事的小说集。</p>
+                      <small>作者是东晋的史学家干宝。</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">呼家将</h5>
+                        <small class="text-muted">3天前</small>
+                      </div>
+                      <p class="mb-1">又名《说呼全传》、《呼家后代全传》、《紫金鞭演义》，共十二卷四十回。</p>
+                      <small class="text-muted">作者名已佚。</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">鬼谷四友志</h5>
+                        <small class="text-muted">3天前</small>
+                      </div>
+                      <p class="mb-1">又名《孙庞演义七国志全传》，古代中国白话历史小说。</p>
+                      <small class="text-muted">有清代刊本。</small>
+                    </a>
+                  </div>
+                </div>
+                <pre>&lt;div class="list-group"&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action active" aria-current="true"&gt;
+          &lt;div class="d-flex w-100 justify-content-between"&gt;
+            &lt;h5 class="mb-1"&gt;搜神记&lt;/h5&gt;
+            &lt;small&gt;3天前&lt;/small&gt;
+          &lt;/div&gt;
+          &lt;p class="mb-1"&gt;一部记录古代民间传说中神奇怪异故事的小说集。&lt;/p&gt;
+          &lt;small&gt;作者是东晋的史学家干宝。&lt;/small&gt;
+        &lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;
+          &lt;div class="d-flex w-100 justify-content-between"&gt;
+            &lt;h5 class="mb-1"&gt;呼家将&lt;/h5&gt;
+            &lt;small class="text-muted"&gt;3天前&lt;/small&gt;
+          &lt;/div&gt;
+          &lt;p class="mb-1"&gt;又名《说呼全传》、《呼家后代全传》、《紫金鞭演义》，共十二卷四十回。&lt;/p&gt;
+          &lt;small class="text-muted"&gt;作者名已佚。&lt;/small&gt;
+        &lt;/a&gt;
+        &lt;a href="#" class="list-group-item list-group-item-action"&gt;
+          &lt;div class="d-flex w-100 justify-content-between"&gt;
+            &lt;h5 class="mb-1"&gt;鬼谷四友志&lt;/h5&gt;
+            &lt;small class="text-muted"&gt;3天前&lt;/small&gt;
+          &lt;/div&gt;
+          &lt;p class="mb-1"&gt;又名《孙庞演义七国志全传》，古代中国白话历史小说。&lt;/p&gt;
+          &lt;small class="text-muted"&gt;有清代刊本。&lt;/small&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>复选框和单选框</h5>
+                <p>将 Bootstrap 的复选框和单选放在列表组项目中，并根据需要进行自定义。 您可以在没有 <code>&lt;label&gt;</code> 的情况下使用它们，但请记住包含 <code>aria-label</code> 属性和值以实现可访问性。</p>
+                <div class="border-example">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      伪自由书
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      中国小说史略
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      汉文学史纲要
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      文序跋集
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      古籍序跋集
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value="" aria-label="..."&gt;
+          伪自由书
+        &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value="" aria-label="..."&gt;
+          中国小说史略
+        &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value="" aria-label="..."&gt;
+          汉文学史纲要
+        &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value="" aria-label="..."&gt;
+          文序跋集
+        &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value="" aria-label="..."&gt;
+          古籍序跋集
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <p>如果您希望 <code>&lt;label&gt;</code>s 作为大命中区域的 <code>.list-group-item</code>，您也可以这样做。</p>
+                <div class="border-example">
+                  <div class="list-group">
+                    <label class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="">
+                      而已集
+                    </label>
+                    <label class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="">
+                      花边文学
+                    </label>
+                    <label class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="">
+                      热风
+                    </label>
+                    <label class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="">
+                      故事新编
+                    </label>
+                    <label class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="">
+                      阿Q正传
+                    </label>
+                  </div>
+                </div>
+                <pre>&lt;div class="list-group"&gt;
+        &lt;label class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value=""&gt;
+          而已集
+        &lt;/label&gt;
+        &lt;label class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value=""&gt;
+          花边文学
+        &lt;/label&gt;
+        &lt;label class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value=""&gt;
+          热风
+        &lt;/label&gt;
+        &lt;label class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value=""&gt;
+          故事新编
+        &lt;/label&gt;
+        &lt;label class="list-group-item"&gt;
+          &lt;input class="form-check-input me-1" type="checkbox" value=""&gt;
+          阿Q正传
+        &lt;/label&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>JavaScript 行为</h5>
+                <p>使用标签 JavaScript 插件（单独包含它或通过编译的 <code>bootstrap.js</code> 文件包含它）来扩展我们的列表组以创建本地内容的可标签窗格。</p>
+                <div class="border-example" role="tabpanel">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="tab" href="#list-home" role="tab" aria-controls="list-home">射雕英雄传</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile">天龙八部</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages">神雕侠侣</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="tab" href="#list-settings" role="tab" aria-controls="list-settings">倚天屠龙记</a>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                          <p>该书讲述了郭靖背负着家恨国仇闯入江湖，在红颜知己黄蓉的帮助下通过无数历练，最终成长为“侠之大者”的民族英雄的武林故事。</p>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                          <p>小说以宋哲宗时代为背景，通过宋、辽、大理、西夏、吐蕃等王国之间的武林恩怨和民族矛盾，从哲学的高度对人生和社会进行审视和描写，展示了一幅波澜壮阔的生活画卷，其故事之离奇曲折、涉及人物之众多、历史背景之广泛、武侠战役之庞大、想象力之丰富当属“金书”之最。</p>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                          <p>讲述了南宋末年，杨过和小龙女经历了一番凄美爱情与江湖恩怨的故事。一样的故事，不一样的情节，力求展现一个可歌可泣的江湖往事。</p>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                          <p>《倚天屠龙记》是武侠小说家金庸1961年所著的长篇小说，“射雕三部曲”系列第三部。故事时间前后跨度一百年，以元末群雄纷起、江湖动荡为广阔背景，剧情围绕两样兵器屠龙刀和倚天剑展开。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="row"&gt;
+        &lt;div class="col-4"&gt;
+          &lt;div class="list-group" id="list-tab" role="tablist"&gt;
+            &lt;a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="tab" href="#list-home" role="tab" aria-controls="list-home"&gt;射雕英雄传&lt;/a&gt;
+            &lt;a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile"&gt;天龙八部&lt;/a&gt;
+            &lt;a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages"&gt;神雕侠侣&lt;/a&gt;
+            &lt;a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="tab" href="#list-settings" role="tab" aria-controls="list-settings"&gt;倚天屠龙记&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-8"&gt;
+          &lt;div class="tab-content" id="nav-tabContent"&gt;
+            &lt;div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"&gt;
+              &lt;p&gt;该书讲述了郭靖背负着家恨国仇闯入江湖，在红颜知己黄蓉的帮助下通过无数历练，最终成长为“侠之大者”的民族英雄的武林故事。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"&gt;
+              &lt;p&gt;小说以宋哲宗时代为背景，通过宋、辽、大理、西夏、吐蕃等王国之间的武林恩怨和民族矛盾，从哲学的高度对人生和社会进行审视和描写，展示了一幅波澜壮阔的生活画卷，其故事之离奇曲折、涉及人物之众多、历史背景之广泛、武侠战役之庞大、想象力之丰富当属“金书”之最。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"&gt;
+              &lt;p&gt;讲述了南宋末年，杨过和小龙女经历了一番凄美爱情与江湖恩怨的故事。一样的故事，不一样的情节，力求展现一个可歌可泣的江湖往事。&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"&gt;
+              &lt;p&gt;《倚天屠龙记》是武侠小说家金庸1961年所著的长篇小说，“射雕三部曲”系列第三部。故事时间前后跨度一百年，以元末群雄纷起、江湖动荡为广阔背景，剧情围绕两样兵器屠龙刀和倚天剑展开。&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>通过 JavaScript</h6>
+                <p>通过 JavaScript 启用可选项卡列表项（每个列表项需要单独激活）：</p>
+                <pre>var triggerTabList = Array.prototype.slice.call(document.querySelectorAll('#myTab a'))
+      triggerTabList.forEach(function (triggerEl) {
+        var tabTrigger = new bootstrap.Tab(triggerEl)
+
+        triggerEl.addEventListener('click', function (event) {
+          event.preventDefault()
+          tabTrigger.show()
+        })
+      })</pre>
+                <p>您可以通过多种方式激活单个列表项：</p>
+                <pre>var triggerEl = document.querySelector('#myTab a[href="#profile"]')
+      bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+
+      var triggerFirstTabEl = document.querySelector('#myTab li:first-child a')
+      bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab</pre>
+                <h6>淡化效果</h6>
+                <p>要使标签面板淡入，请将 <code>.fade</code> 添加到每个 <code>.tab-pane</code>。 第一个选项卡窗格还必须具有 <code>.show</code> 以使初始内容可见。</p>
+                <pre>&lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane fade show active" id="home" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="profile" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="messages" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="settings" role="tabpanel"&gt;...&lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>方法</h6>
+                <strong>constructor</strong>
+                <p>激活列表项元素和内容容器。Tab 应该有一个 <code>data-bs-target</code> 或一个 <code>href</code> 以 DOM 中的容器节点为目标。</p>
+                <pre>&lt;div class="list-group" id="myList" role="tablist"&gt;
+        &lt;a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home" role="tab"&gt;Home&lt;/a&gt;
+        &lt;a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#profile" role="tab"&gt;Profile&lt;/a&gt;
+        &lt;a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#messages" role="tab"&gt;Messages&lt;/a&gt;
+        &lt;a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#settings" role="tab"&gt;Settings&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane active" id="home" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="profile" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="messages" role="tabpanel"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="settings" role="tabpanel"&gt;...&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;script&gt;
+        var firstTabEl = document.querySelector('#myTab a:last-child')
+        var firstTab = new bootstrap.Tab(firstTabEl)
+
+        firstTab.show()
+      &lt;/script&gt;</pre>
+                <strong>show</strong>
+                <p>选择给定的列表项并显示其关联的窗格。 先前选择的任何其他列表项都将变为未选择，并且其关联的窗格被隐藏。 <strong>在选项卡窗格实际显示之前返回调用方</strong>（例如，在 <code>shown.bs.tab</code> 事件发生之前）。</p>
+                <pre>  var someListItemEl = document.querySelector('#someListItem')
+        var tab = new bootstrap.Tab(someListItemEl)
+
+        tab.show()</pre>
+                <strong>dispose</strong>
+                <p>销毁元素的选项卡。</p>
+                <strong>getInstance</strong>
+                <p><em>Static</em> 方法，允许您获取与 DOM 元素关联的选项卡实例</p>
+                <pre>var triggerEl = document.querySelector('#trigger')
+      var tab = bootstrap.Tab.getInstance(triggerEl) // Returns a Bootstrap tab instance</pre>
+                <strong>getOrCreateInstance</strong>
+                <p><em>Static</em> 方法，该方法允许您获取与 DOM 元素关联的选项卡实例，或者在未初始化的情况下创建一个新实例</p>
+                <pre>var triggerEl = document.querySelector('#trigger')
+      var tab = bootstrap.Tab.getOrCreateInstance(triggerEl) // Returns a Bootstrap tab instance</pre>
+                <h6>Events</h6>
+                <p>显示新选项卡时，事件按以下顺序触发：</p>
+                <ol>
+                  <li><code>hide.bs.tab</code>（在当前起作用的选项卡上）</li>
+                  <li><code>show.bs.tab</code>（在待显示的选项卡上）</li>
+                  <li><code>hidden.bs.tab</code>（在上一个起作用的选项卡上，与 <code>hide.bs.tab</code> 事件相同）</li>
+                  <li><code>shown.bs.tab</code>（在新激活的刚刚显示的选项卡上，与 <code>show.bs.tab</code> 事件相同）</li>
+                </ol>
+                <p>如果没有选项卡处于起作用的状态，则不会触发 <code>hide.bs.tab</code> 和 <code>hidden.bs.tab</code> 事件。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 150px;">事件类型</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>show.bs.tab</code></td>
+                      <td>此事件在标签显示时触发，但在新标签显示之前。使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位活动选项卡和上一个活动选项卡（如果可用）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>shown.bs.tab</code></td>
+                      <td>显示选项卡后，此事件在选项卡显示时触发。使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位活动选项卡和上一个活动选项卡（如果可用）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hide.bs.tab</code></td>
+                      <td>此事件在要显示新选项卡时触发（因此要隐藏先前的活动选项卡）。使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位当前活动选项卡和新的即将活动选项卡。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hidden.bs.tab</code></td>
+                      <td>此事件在显示新选项卡后触发（因此先前的活动选项卡被隐藏）。 使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位上一个活动选项卡和新活动选项卡。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var tabElms = document.querySelectorAll('a[data-bs-toggle="list"]')
+      tabElms.forEach(function(tabElm) {
+        tabElm.addEventListener('shown.bs.tab', function (event) {
+          event.target // newly activated tab
+          event.relatedTarget // previous active tab
+        })
+      }</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

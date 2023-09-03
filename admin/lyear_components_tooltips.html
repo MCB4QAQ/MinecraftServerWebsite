@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>工具提示 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li class="active"> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">工具提示</div></header>
+              <div class="card-body">
+
+                <p>使用工具提示插件时要知道的事情：</p>
+                <ul>
+                  <li>工具提示依赖第三方库 Popper 进行定位。您必须在 <code>bootstrap.js</code> 之前包含 <code>popper.min.js</code> 或使用包含 Popper 的 <code>bootstrap.bundle.min.js</code> / <code>bootstrap.bundle.js</code> 以使工具提示起作用！</li>
+                  <li>出于性能原因，工具提示是可选的，因此您必须自己初始化它们。</li>
+                  <li>从不显示具有零长度标题的工具提示。</li>
+                  <li>指定 <code>container: 'body'</code> 以避免在更复杂的组件（如我们的输入组、按钮组等）中出现渲染问题。</li>
+                  <li>在隐藏元素上触发工具提示将不起作用。</li>
+                  <li><code>.disabled</code> 或 <code>disabled</code> 元素的工具提示必须在包装元素上触发。</li>
+                  <li>当从跨越多行的超链接触发时，工具提示将居中。使用 <code>white-space: nowrap;</code> 在您的 <code>&lt;a&gt;</code> 上以避免这种行为。</li>
+                  <li>在从 DOM 中删除相应元素之前，必须隐藏工具提示。</li>
+                  <li>由于阴影 DOM 中的元素，可以触发工具提示。</li>
+                </ul>
+                <h6>例子</h6>
+                <p>将鼠标悬停在下面的链接上以查看工具提示：</p>
+                <div class="border-example mb-3">
+                  <p><a href="#" data-bs-toggle="tooltip" title="字处道">杨素</a> 知隋主最惧内，最听妇人言的，每每乘内宴时，称扬晋王贤孝，挑拨 <a href="#" data-bs-toggle="tooltip" title="独孤伽罗，字伽罗，鲜卑族。">独孤皇后</a>。妇人心肠褊窄浅露，便把 <a href="#" data-bs-toggle="tooltip" title="隋炀帝杨广，本名杨英">晋王</a> 好，太子歹，一齐搬将出来。杨素又加上些冷言热语。皇后知他是外廷最信任的，便托他赞成废立，暗地将金宝送来嘱他。杨素初时，还望皇后助他，这时皇后反要他相帮，知事必成。于是不时在 <a href="#" data-bs-toggle="tooltip" title="隋文帝杨坚，字那罗延">隋主</a> 前，搬斗是非；又日令宦官官妾，乘隙进谗，冷一句，热一句，说他不好的去处。</p>
+                </div>
+                <p>将鼠标悬停在下面的按钮上可查看四个工具提示方向：顶部、右侧、底部和左侧。 在 RTL 中使用 Bootstrap 时会镜像方向。</p>
+                <div class="border-example">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="顶部的工具提示">
+                    顶部的工具提示
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="右侧的工具提示">
+                    右侧的工具提示
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="底部的工具提示">
+                    底部的工具提示
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="左侧的工具提示">
+                    左侧的工具提示
+                  </button>
+                </div>
+                <pre>&lt;button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="顶部的工具提示"&gt;
+        顶部的工具提示
+      &lt;/button&gt;
+      &lt;button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="右侧的工具提示"&gt;
+        右侧的工具提示
+      &lt;/button&gt;
+      &lt;button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="底部的工具提示"&gt;
+        底部的工具提示
+      &lt;/button&gt;
+      &lt;button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="左侧的工具提示"&gt;
+        左侧的工具提示
+      &lt;/button&gt;</pre>
+
+                <p>并添加了自定义 HTML：</p>
+                <pre>&lt;button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="&lt;em&gt;Tooltip&lt;/em&gt; &lt;u&gt;with&lt;/u&gt; &lt;b&gt;HTML&lt;/b&gt;"&gt;
+        Tooltip with HTML
+      &lt;/button&gt;</pre>
+
+                <p>使用 SVG：</p>
+                <div class="border-example">
+                  <a href="#" class="d-inline-block" data-bs-toggle="tooltip" title="使用 SVG">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">
+                      <rect width="100%" height="100%" fill="#563d7c"></rect>
+                      <circle cx="50" cy="50" r="30" fill="#007bff"></circle>
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header"><div class="card-title">用法</div></div>
+            <div class="card-body">
+
+              <p>工具提示插件按需生成内容和标记，默认情况下将工具提示放置在其触发元素之后。</p>
+              <p>通过 JavaScript 触发工具提示：</p>
+              <pre>var exampleEl = document.getElementById('example')
+      var tooltip = new bootstrap.Tooltip(exampleEl, options)</pre>
+              <div class="callout callout-warning mb-3">
+                <strong>溢出自动和滚动</strong>
+                <p>当父容器溢出时，工具提示位置尝试自动更改：<code>overflow: auto</code> 或者 <code>overflow: scroll</code> 像我们的 <code>.table-responsive</code> 一样滚动，但仍保持原始位置的定位。 要解决此问题，请将边界选项（用于使用 <code>popperConfig</code> 选项的翻转修饰符）设置为任何 <code>HTMLElement</code> 以覆盖默认值 <code>'clippingParents'</code>，例如 <code>document.body</code>：</p>
+                <pre>var exampleEl = document.getElementById('example')
+      var tooltip = new bootstrap.Tooltip(exampleEl, {
+        boundary: document.body // or document.querySelector('#boundary')
+      })</pre>
+              </div>
+
+              <h6>标记</h6>
+              <p>工具提示所需的标记只是您希望拥有工具提示的 HTML 元素上的数据属性和标题。 生成的工具提示标记相当简单，尽管它确实需要一个位置（默认情况下，由插件设置为顶部）。</p>
+
+              <div class="callout callout-warning mb-3">
+                <strong>使工具提示适用于键盘和辅助技术用户</strong>
+                <p>您应该只将工具提示添加到传统上可通过键盘聚焦和交互的 HTML 元素（例如链接或表单控件）。 尽管可以通过添加 <code>tabindex="0"</code> 属性使任意 HTML 元素（例如 <code>&lt;span&gt;</code>s）成为焦点，但这会在非交互式元素上为键盘用户添加可能令人讨厌和令人困惑的制表位，目前大多数辅助技术都会这样做 在这种情况下不宣布工具提示。 此外，不要仅仅依靠悬停作为工具提示的触发器，因为这会使键盘用户无法触发工具提示。</p>
+              </div>
+              <pre>&lt;!-- HTML to write --&gt;
+      &lt;a href="#" data-bs-toggle="tooltip" title="Some tooltip text!"&gt;Hover over me&lt;/a&gt;
+
+      &lt;!-- Generated markup by the plugin --&gt;
+      &lt;div class="tooltip bs-tooltip-top" role="tooltip"&gt;
+        &lt;div class="tooltip-arrow"&gt;&lt;/div&gt;
+        &lt;div class="tooltip-inner"&gt;
+          Some tooltip text!
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+              <h6>禁用元素</h6>
+              <p>具有 <code>disabled</code> 属性的元素不是交互式的，这意味着用户无法聚焦、悬停或单击它们来触发工具提示（或弹出框）。 作为一种解决方法，您需要从包装器 <code>&lt;div&gt;</code> 或 <code>&lt;span&gt;</code> 触发工具提示，理想情况下使用 <code>tabindex="0"</code> 使键盘可聚焦。</p>
+
+              <h6>选项</h6>
+              <p>选项可以通过数据属性或 <code>JavaScript</code> 传递。 对于数据属性，将选项名称附加到 <code>data-bs-</code>，如 <code>data-bs-animation=""</code>。 通过数据属性传递选项时，请确保将选项名称的大小写类型从驼峰式大小写更改为短横线隔开式。 例如，不要使用 <code>data-bs-customClass="beautifier"</code>，而是使用 <code>data-bs-custom-class="beautifier"</code>。</p>
+
+              <div class="callout callout-warning mb-3">请注意，出于安全原因，无法使用数据属性提供 <code>sanitize</code>、<code>sanitizeFn</code> 和 <code>allowList</code> 选项。</div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 100px;">名称</th>
+                    <th style="width: 100px;">类型</th>
+                    <th style="width: 50px;">默认值</th>
+                    <th>说明</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>animation</code></td>
+                    <td>boolean</td>
+                    <td><code>true</code></td>
+                    <td>对工具提示应用 CSS 淡入淡出过渡</td>
+                  </tr>
+                  <tr>
+                    <td><code>container</code></td>
+                    <td>string | element | false</td>
+                    <td><code>false</code></td>
+                    <td>
+                      <p>将工具提示附加到特定元素。 例子： <code>container: 'body'</code>。此选项特别有用，因为它允许您将工具提示定位在触发元素附近的文档流中 - 这将防止工具提示在窗口调整大小期间从触发元素浮动。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>delay</code></td>
+                    <td>number | object</td>
+                    <td><code>0</code></td>
+                    <td>
+                      <p>延迟显示和隐藏工具提示 (ms) - 不适用于手动触发类型</p>
+                      <p>如果提供了一个数字，延迟将应用于隐藏/显示</p>
+                      <p>对象结构为：<code>delay: { "show": 500, "hide": 100 }</code></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>html</code></td>
+                    <td>boolean</td>
+                    <td><code>false</code></td>
+                    <td>
+                      <p>允许在工具提示中使用HTML。</p>
+                      <p>如果为 <code>true</code>，则在工具提示的 <code>title</code> 将在工具提示中呈现。如果为 <code>false</code>，将使用 <code>innerText</code> 属性将内容插入DOM。</p>
+                      <p>如果担心XSS攻击，请使用文本。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>placement</code></td>
+                    <td>string | function</td>
+                    <td><code>'top'</code></td>
+                    <td>
+                      <p>如何定位工具提示 - 自动 | 顶部 | 底部 | 左侧 | 右侧。<br>当 <code>auto</code> 被指定时，它会动态地重新定位工具提示。</p>
+                      <p>当一个函数用于确定位置时，它会以工具提示 DOM 节点作为其第一个参数，触发元素 DOM 节点作为其第二个参数来调用。 <code>this</code> 上下文设置为工具提示实例。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>selector</code></td>
+                    <td>string | false</td>
+                    <td><code>false</code></td>
+                    <td>如果提供了选择器，则工具提示对象将被委托给指定的目标。 实际上，这也用于将工具提示应用于动态添加的 DOM 元素（<code>jQuery.on</code> 支持）。请参阅 <a href="https://github.com/twbs/bootstrap/issues/4215" target="_blank">这个</a> 和 <a href="https://codepen.io/team/bootstrap /pen/zYBXGwX?editors=1010" target="_blank">一个信息丰富的例子</a>。</td>
+                  </tr>
+                  <tr>
+                    <td><code>template</code></td>
+                    <td>string</td>
+                    <td><code>'&lt;div class="tooltip" role="tooltip"&gt;&lt;div class="tooltip-arrow"&gt;&lt;/div&gt;&lt;div class="tooltip-inner"&gt;&lt;/div&gt;&lt;/div&gt;'</code></td>
+                    <td>
+                      <p>创建工具提示时要使用的基本HTML。</p>
+                      <p>工具提示的 <code>title</code> 将被注入 <code>.tooltip-inner</code>。</p>
+                      <p><code>.tooltip-arrow</code> 将成为工具提示的箭头。</p>
+                      <p>最外层的包装元素应该有 <code>.tooltip</code> 类和 <code>role="tooltip"</code>。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>title</code></td>
+                    <td>string | element | function</td>
+                    <td><code>''</code></td>
+                    <td>
+                      <p>如果<code>title</code>属性不存在，则为默认标题值。</p>
+                      <p>如果给定了一个函数，将调用它，并将其<code>this</code>引用设置为工具提示所附加的元素。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>trigger</code></td>
+                    <td>string</td>
+                    <td><code>'hover focus'</code></td>
+                    <td>
+                      <p>工具提示是如何触发的 - 点击 | 悬停 | 焦点 | 手动的。 您可以传递多个触发器； 用空格分隔它们。</p>
+                      <p><code>'manual'</code> 表示工具提示将通过 <code>.show()</code>、<code>.hide()</code> 和 <code>.toggle( )</code> 方法； 此值不能与任何其他触发器组合。</p>
+                      <p><code>'hover'</code> 本身将导致无法通过键盘触发的工具提示，并且只有在存在为键盘用户传达相同信息的替代方法时才应使用。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>fallbackPlacements</code></td>
+                    <td>array</td>
+                    <td><code>['top', 'right', 'bottom', 'left']</code></td>
+                    <td>通过提供数组中的展示位置列表（按优先顺序）来定义后备展示位置。 有关更多信息，请参阅 <a href="https://popper.js.org/docs/v2/modifiers/flip/#fallbackplacements" target="_blank">行为文档</a></td>
+                  </tr>
+                  <tr>
+                    <td><code>boundary</code></td>
+                    <td>string | element</td>
+                    <td><code>'clippingParents'</code></td>
+                    <td>工具提示的溢出约束边界（仅适用于 Popper 的 <code>preventOverflow</code> 修饰符）。默认情况下它是 <code>'clippingParents'</code> 并且可以接受 HTMLElement 引用（仅通过 JavaScript）。欲了解更多信息，请参阅 Popper 的 <a href="https://popper.js.org/docs/v2/utils/detect-overflow/#boundary" target="_blank">检测溢出文档</a>.</td>
+                  </tr>
+                  <tr>
+                    <td><code>customClass</code></td>
+                    <td>string | function</td>
+                    <td><code>''</code></td>
+                    <td>
+                      <p>显示时将类添加到工具提示。 请注意，除了模板中指定的任何类之外，还将添加这些类。 要添加多个类，请用空格分隔它们：<code>'class-1 class-2'</code>。</p>
+                      <p>您还可以传递一个函数，该函数应返回包含其他类名的单个字符串。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>sanitize</code></td>
+                    <td>boolean</td>
+                    <td><code>true</code></td>
+                    <td>启用或禁用清理。 如果激活 <code>'template'</code> 和 <code>'title'</code> 选项将被清理。 请参阅我们的 JavaScript 文档中的 sanitizer 部分。</td>
+                  </tr>
+                  <tr>
+                    <td><code>allowList</code></td>
+                    <td>object</td>
+                    <td>Default value</td>
+                    <td>包含允许的属性和标签的对象</td>
+                  </tr>
+                  <tr>
+                    <td><code>sanitizeFn</code></td>
+                    <td>null | function</td>
+                    <td><code>null</code></td>
+                    <td>在这里，您可以提供自己的 sanitize 方法。 如果您更喜欢使用专用库来执行清理，这会很有用。</td>
+                  </tr>
+                  <tr>
+                    <td><code>offset</code></td>
+                    <td>array | string | function</td>
+                    <td><code>[0, 0]</code></td>
+                    <td>
+                      <p>工具提示相对于其目标的偏移量。 您可以使用逗号分隔值在数据属性中传递字符串，例如：<code>data-bs-offset="10,20"</code>。</p>
+                      <p>当一个函数用于确定偏移量时，调用它时会使用一个包含 popper 位置、引用和 popper rects 作为其第一个参数的对象。 触发元素 DOM 节点作为第二个参数传递。 该函数必须返回一个包含两个数字的数组：<code>[<a href="https://popper.js.org/docs/v2/modifiers/offset/#skidding-1" target="_blank">skidding</a>, <a href="https://popper.js.org/docs/v2/modifiers/offset/#distance-1" target="_blank">distance</a>]</code>。</p>
+                      <p>有关更多信息，请参阅 Popper 的 <a href="https://popper.js.org/docs/v2/modifiers/offset/#options" target="_blank">offset 文档</a>。</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>popperConfig</code></td>
+                    <td>null | object | function</td>
+                    <td><code>null</code></td>
+                    <td>
+                      <p>更改 Bootstrap 的默认 Popper 配置, 参考 <a href="https://popper.js.org/docs/v2/constructors/#options" target="_blank">Popper 的配置</a>。</p>
+                      <p>当一个函数用于创建 Popper 配置时，它会被一个包含 Bootstrap 的默认 Popper 配置的对象调用。 它可以帮助您使用默认设置并将其与您自己的配置合并。 该函数必须为 Popper 返回一个配置对象。</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="callout callout-info mb-3">
+                <strong>单个工具提示的数据属性</strong>
+                <p>如上所述，可以通过使用数据属性来指定单个工具提示的选项。</p>
+              </div>
+              <p>使用带有 <code>popperConfig</code> 的函数</p>
+              <pre>var tooltip = new bootstrap.Tooltip(element, {
+        popperConfig: function (defaultBsPopperConfig) {
+          // var newPopperConfig = {...}
+          // use defaultBsPopperConfig if needed...
+          // return newPopperConfig
+        }
+      })</pre>
+              <h6>方法</h6>
+              <div class="callout callout-danger mb-3">
+                <strong>异步方法和转换</strong>
+                <p>所有 API 方法都是异步的并开始一个转换。 他们在转换开始但在结束之前立即返回给调用者。 此外，过渡组件上的方法调用将被忽略。</p>
+              </div>
+
+              <h6>show</h6>
+              <p>显示元素的工具提示。在工具提示实际显示之前（即在 <code>shown.bs.tooltip</code> 事件发生之前）返回给调用者。这被认为是工具提示的“手动”触发。从不显示具有零长度标题的工具提示。</p>
+              <pre>tooltip.show()</pre>
+
+              <h6>hide</h6>
+              <p>隐藏元素的工具提示。 在工具提示实际被隐藏之前（即在 <code>hidden.bs.tooltip</code> 事件发生之前）返回给调用者。 这被认为是工具提示的“手动”触发。</p>
+              <pre>tooltip.hide()</pre>
+
+              <h6>toggle</h6>
+              <p>切换元素的工具提示。 在工具提示实际显示或隐藏之前返回给调用者（即在 <code>shown.bs.tooltip</code> 或 <code>hidden.bs.tooltip</code> 事件发生之前）。 这被认为是工具提示的“手动”触发。</p>
+              <pre>tooltip.toggle()</pre>
+
+              <h6>dispose</h6>
+              <p>隐藏和销毁元素的工具提示（删除 DOM 元素上存储的数据）。 使用委托（使用选择器选项创建）的工具提示不能在后代触发器元素上单独销毁。</p>
+              <pre>tooltip.dispose()</pre>
+
+              <h6>enable</h6>
+              <p>使元素的工具提示能够显示。 默认情况下启用工具提示。</p>
+              <pre>tooltip.enable()</pre>
+
+              <h6>disable</h6>
+              <p>移除显示元素工具提示的能力。 工具提示只有在重新启用后才能显示。</p>
+              <pre>tooltip.disable()</pre>
+
+              <h6>setContent</h6>
+              <p>提供一种在初始化后更改工具提示内容的方法。</p>
+              <pre>tooltip.setContent({ '.tooltip-inner': 'another title' })</pre>
+
+              <div class="callout callout-info mb-3"><code>setContent</code> 方法接受一个对象参数，其中每个属性键是弹出框模板中的有效字符串选择器，每个相关的属性值可以是 string | element | function | null。</div>
+
+              <h6>toggleEnabled</h6>
+              <p>切换显示或隐藏元素工具提示的能力。</p>
+              <pre>tooltip.toggleEnabled()</pre>
+
+              <h6>update</h6>
+              <p>更新元素工具提示的位置。</p>
+              <pre>tooltip.update()</pre>
+
+              <h6>getInstance</h6>
+              <p>允许您获取与 DOM 元素关联的工具提示实例的静态方法。</p>
+              <pre>var exampleTriggerEl = document.getElementById('example')
+      var tooltip = bootstrap.Tooltip.getInstance(exampleTriggerEl) // Returns a Bootstrap tooltip instance</pre>
+
+              <h6>getOrCreateInstance</h6>
+              <p>静态方法，允许您获取与 DOM 元素关联的工具提示实例，或者在未初始化的情况下创建一个新实例。</p>
+              <pre>var exampleTriggerEl = document.getElementById('example')
+      var tooltip = bootstrap.Tooltip.getOrCreateInstance(exampleTriggerEl) // Returns a Bootstrap tooltip instance</pre>
+
+              <h6>事件</h6>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 150px;">事件类型</th>
+                    <th>描述</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>show.bs.tooltip</code></td>
+                    <td>此事件在调用 <code>show</code> 实例方法时立即触发。</td>
+                  </tr>
+                  <tr>
+                    <td><code>shown.bs.tooltip</code></td>
+                    <td>当工具提示对用户可见时触发此事件（将等待 CSS 转换完成）。</td>
+                  </tr>
+                  <tr>
+                    <td><code>hide.bs.tooltip</code></td>
+                    <td>当调用 <code>hide</code> 实例方法时，会立即触发此事件。</td>
+                  </tr>
+                  <tr>
+                    <td><code>hidden.bs.tooltip</code></td>
+                    <td>当工具提示完成对用户隐藏时触发此事件（将等待 CSS 转换完成）。</td>
+                  </tr>
+                  <tr>
+                    <td><code>inserted.bs.tooltip</code></td>
+                    <td>当工具提示模板已添加到 DOM 时，此事件在 <code>show.bs.tooltip</code> 事件之后触发。</td>
+                  </tr>
+                </tbody>
+              </table>
+              <pre>var myTooltipEl = document.getElementById('myTooltip')
+      var tooltip = new bootstrap.Tooltip(myTooltipEl)
+
+      myTooltipEl.addEventListener('hidden.bs.tooltip', function () {
+        // do something...
+      })
+
+      tooltip.hide()</pre>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

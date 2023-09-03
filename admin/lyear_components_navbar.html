@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>导航栏 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li class="active"> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">导航栏</div></header>
+              <div class="card-body">
+
+                <p>Bootstrap 强大的响应式导航标题导航栏的文档和示例。 包括对品牌、导航等的支持，包括对我们的折叠插件的支持。</p>
+
+                <h5>它是如何工作的</h5>
+                <p>在开始使用导航栏之前，您需要了解以下内容：</p>
+                <ul>
+                  <li>导航栏需要用 <code>.navbar-expand{-sm|-md|-lg|-xl|-xxl}</code> 包装 <code>.navbar</code> 以进行响应式折叠和配色方案类。</li>
+                  <li>默认情况下，导航栏及其内容是流动的。更改 <code>container</code> 以不同方式限制其水平宽度。</li>
+                  <li>使用我们的 <code>spacing</code> 和 <code>flex</code> 实用程序类来控制导航栏中的间距和对齐方式。</li>
+                  <li>导航栏默认情况下是响应式的，但您可以轻松修改它们以更改它。响应行为取决于我们的 Collapse JavaScript 插件。</li>
+                  <li>通过使用 <code>&lt;nav&gt;</code> 元素确保可访问性，或者，如果使用更通用的元素，例如 <code>&lt;div&gt;</code>，则添加 <code>role="navigation";</code> 到每个导航栏，以明确地将其标识为辅助技术用户的标志性区域。</li>
+                  <li>通过对当前页面使用 <code>aria-current="page"</code> 或对集合中的当前项目使用 <code>aria-current="true"</code> 来指示当前项目。</li>
+                </ul>
+                <div class="callout callout-info mb-3">该组件的动画效果依赖于 <code>prefers-reduced-motion</code> 媒体查询。</div>
+
+                <h5>支持的内容</h5>
+                <p>导航栏内置了对少数子组件的支持。 根据需要从以下选项中进行选择：</p>
+                <ul>
+                  <li><code>.navbar-brand</code> 为您的公司、产品或项目名称。</li>
+                  <li><code>.navbar-nav</code> 用于全高度和轻量级导航（包括对下拉菜单的支持）。</li>
+                  <li><code>.navbar-toggler</code> 用于我们的折叠插件和其他导航切换行为。</li>
+                  <li>适用于任何表单控件和操作的 Flex 和间距实用程序。</li>
+                  <li><code>.navbar-text</code> 用于添加垂直居中的文本字符串。</li>
+                  <li><code>.collapse.navbar-collapse</code> 用于按父断点分组和隐藏导航栏内容。</li>
+                  <li>添加可选的 <code>.navbar-scroll</code> 以设置 <code>max-height</code> 和滚动扩展导航栏内容。</li>
+                </ul>
+                <p>这是响应式轻主题导航栏中包含的所有子组件的示例，该导航栏在 <code>lg</code>（大）断点处自动折叠。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">链家</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              下拉
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">春天</a></li>
+                              <li><a class="dropdown-item" href="#">夏天</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">秋天</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">禁用的</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">搜素</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;链家&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item dropdown"&gt;
+                &lt;a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+                  下拉
+                &lt;/a&gt;
+                &lt;ul class="dropdown-menu" aria-labelledby="navbarDropdown"&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;春天&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;夏天&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;秋天&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;搜素&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>此示例使用背景 (<code>bg-light</code>) 和间距 (<code>me-auto</code>, <code>mb-2</code>, <code>mb-lg-0</code>, <code>me-2</code>) 实用程序类。</p>
+                <h6>品牌</h6>
+                <p><code>.navbar-brand</code> 可以应用于大多数元素，但锚点效果最好，因为某些元素可能需要实用程序类或自定义样式。</p>
+                <strong>Text</strong>
+                <p>使用 <code>.navbar-brand</code> 类在元素中添加您的文本。</p>
+                <div class="border-example">
+                  <!-- As a link -->
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">品牌</a>
+                    </div>
+                  </nav>
+
+                  <!-- As a heading -->
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <span class="navbar-brand mb-0 h1">品牌</span>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;!-- As a link --&gt;
+      &lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;品牌&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+
+      &lt;!-- As a heading --&gt;
+      &lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;span class="navbar-brand mb-0 h1"&gt;品牌&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <strong>图片</strong>
+                <p>您可以将 <code>.navbar-brand</code> 中的文本替换为 <code>&lt;img&gt;</code>。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="images/logo-ico.png" alt="" width="26" height="26">
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;
+            &lt;img src="images/logo-ico.png" alt="" width="26" height="26"&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <strong>图片和文本</strong>
+                <p>您还可以使用一些其他实用程序同时添加图像和文本。 注意在 <code>&lt;img&gt;</code> 上添加了 <code>.d-inline-block</code> 和 <code>.align-text-top</code>。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="images/logo-ico.png" alt="" width="26" height="26" class="d-inline-block align-text-top">
+                        光年模板
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;
+            &lt;img src="images/logo-ico.png" alt="" width="26" height="26" class="d-inline-block align-text-top"&gt;
+            光年模板
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h6>导航</h6>
+                <p>导航栏导航链接建立在我们的 <code>.nav</code> 选项之上，并带有自己的修饰符类，并且需要使用 <code>toggler</code> 类来获得正确的响应式样式。<strong>导航栏中的导航也将占用尽可能多的水平空间</strong>，以保持您的导航栏内容安全对齐。</p>
+                <p>在 <code>.nav-link</code> 上添加 <code>.active</code> 类来指示当前页面。</p>
+                <p>请注意，您还应该在活动的 <code>.nav-link</code> 上添加 <code>aria-current</code> 属性。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">禁用的</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+            &lt;ul class="navbar-nav"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;特征&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;价钱&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>而且因为我们为导航使用类，如果您愿意，您可以完全避免使用基于列表的方法。</p>
+                <div class="bd-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          <a class="nav-link" href="#">特征</a>
+                          <a class="nav-link" href="#">价钱</a>
+                          <a class="nav-link disabled">禁用的</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarNavAltMarkup"&gt;
+            &lt;div class="navbar-nav"&gt;
+              &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;a class="nav-link" href="#"&gt;特征&lt;/a&gt;
+              &lt;a class="nav-link" href="#"&gt;价钱&lt;/a&gt;
+              &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>您还可以在导航栏中使用下拉菜单。 下拉菜单需要一个包装元素来定位，因此请确保为 <code>.nav-item</code> 和 <code>.nav-link</code> 使用单独和嵌套的元素，如下所示。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              演义小说
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">三国演义</a></li>
+                              <li><a class="dropdown-item" href="#">隋唐演义</a></li>
+                              <li><a class="dropdown-item" href="#">七侠五义</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarNavDropdown"&gt;
+            &lt;ul class="navbar-nav"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;特征&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;价钱&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item dropdown"&gt;
+                &lt;a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+                  演义小说
+                &lt;/a&gt;
+                &lt;ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;三国演义&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;隋唐演义&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;七侠五义&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h6>表单</h6>
+                <p>在导航栏中放置各种表单控件和组件：</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">搜索</button>
+                      </form>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;form class="d-flex" role="search"&gt;
+            &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+            &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p><code>.navbar</code> 的直接子元素使用弹性布局，默认为 <code>justify-content: space-between</code>。 根据需要使用其他flex 实用程序来调整此行为。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand">导航栏</a>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">搜索</button>
+                      </form>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand"&gt;导航栏&lt;/a&gt;
+          &lt;form class="d-flex" role="search"&gt;
+            &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+            &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>输入组也可以工作。 如果您的导航栏是一个完整的表单，或者大部分是一个表单，您可以使用 <code>&lt;form&gt;</code> 元素作为容器并保存一些 HTML。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <form class="container-fluid">
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                    </form>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;form class="container-fluid"&gt;
+          &lt;div class="input-group"&gt;
+            &lt;span class="input-group-text" id="basic-addon1"&gt;@&lt;/span&gt;
+            &lt;input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/nav&gt;</pre>
+                <p>这些导航栏表单也支持各种按钮。 这也是一个很好的提醒，垂直对齐实用程序可用于对齐不同大小的元素。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <form class="container-fluid justify-content-start">
+                      <button class="btn btn-outline-success me-2" type="button">主按钮</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">较小的按钮</button>
+                    </form>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;form class="container-fluid justify-content-start"&gt;
+          &lt;button class="btn btn-outline-success me-2" type="button"&gt;主按钮&lt;/button&gt;
+          &lt;button class="btn btn-sm btn-outline-secondary" type="button"&gt;较小的按钮&lt;/button&gt;
+        &lt;/form&gt;
+      &lt;/nav&gt;</pre>
+                <h6>文本</h6>
+                <p>在 <code>.navbar-text</code> 的帮助下，导航栏可能包含一些文本。 此类调整文本字符串的垂直对齐和水平间距。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <span class="navbar-text">
+                        带有内联元素的导航栏文本
+                      </span>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;span class="navbar-text"&gt;
+            带有内联元素的导航栏文本
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>根据需要与其他组件和实用程序混合搭配。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">带有/文本的导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                        </ul>
+                        <span class="navbar-text">
+                          带有内联元素的导航栏文本
+                        </span>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;带有/文本的导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarText"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;特征&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;价钱&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;span class="navbar-text"&gt;
+              带有内联元素的导航栏文本
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h5>配色方案</h5>
+                <p>由于主题类和 <code>background-color</code> 实用程序的结合，导航栏的主题化从未如此简单。 从 <code>.navbar-light</code> 中选择用于浅色背景颜色，或从 <code>.navbar-dark</code> 中选择用于深色背景颜色。 然后，使用 <code>.bg-*</code> 实用程序进行自定义。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">关于</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-light" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarColor02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">关于</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-light" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarColor03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">特征</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">价钱</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">关于</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-primary" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-dark bg-dark"&gt;
+        &lt;!-- Navbar content --&gt;
+      &lt;/nav&gt;
+
+      &lt;nav class="navbar navbar-dark bg-primary"&gt;
+        &lt;!-- Navbar content --&gt;
+      &lt;/nav&gt;
+
+      &lt;nav class="navbar navbar-light" style="background-color: #e3f2fd;"&gt;
+        &lt;!-- Navbar content --&gt;
+      &lt;/nav&gt;</pre>
+                <p>尽管它不是必需的，但您可以将导航栏包装在 <code>.container</code> 中以使其在页面上居中 - 尽管请注意仍然需要内部容器。 或者，您可以在 <code>.navbar</code> 内添加一个容器，以仅将 <a href="#placement">固定或静态顶部导航栏</a>的内容居中。</p>
+                <div class="border-example">
+                  <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">导航栏</a>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+                <pre>&lt;div class="container"&gt;
+        &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+          &lt;div class="container-fluid"&gt;
+            &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/nav&gt;
+      &lt;/div&gt;</pre>
+                <p>使用任何响应式容器来更改导航栏中内容的显示宽度。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-md">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-md"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h5>放置方式</h5>
+                <p>使用我们的位置实用程序将导航栏放置在非静态位置。 选择固定到顶部、固定到底部、粘贴到顶部（随页面滚动直到它到达顶部，然后停留在那里）或固定到底部（随页面滚动直到它到达底部，然后停留 那里）。</p>
+                <p>固定导航栏使用 <code>position: fixed</code>，这意味着它们是从 DOM 的正常流程中拉出来的，并且可能需要自定义 CSS（例如，<code>&lt;body&gt;</code> 上的 <code>padding-top</code>) 以防止与其他元素重叠。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">默认</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;默认&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <div class="border-example">
+                  <nav class="navbar fixed-top navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">固定顶部</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar fixed-top navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;固定顶部&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <div class="border-example">
+                  <nav class="navbar fixed-bottom navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">固定底部</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar fixed-bottom navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;固定底部&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <div class="border-example">
+                  <nav class="navbar sticky-top navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">粘在顶部</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar sticky-top navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;粘在顶部&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <div class="border-example">
+                  <nav class="navbar sticky-bottom navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">粘在底部</a>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar sticky-bottom navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;粘在底部&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h5>滚动</h5>
+                <p>将 <code>.navbar-nav-scroll</code> 添加到 <code>.navbar-nav</code> （或其他导航栏子组件）以在折叠导航栏的可切换内容中启用垂直滚动。 默认情况下，滚动开始于 <code>75vh</code>（或视口高度的 75%），但您可以使用本地 CSS 自定义属性 <code>--bs-navbar-height</code> 覆盖它 或自定义样式。 当导航栏展开时，在较大的视口中，内容将像在默认导航栏中一样显示。</p>
+                <p>请注意，这种行为伴随着 <code>overflow</code> 的潜在缺点——当设置 <code>overflow-y: auto</code>（需要在此处滚动内容）时，<code>overflow-x</code> 相当于 <code>auto</code>，它将裁剪一些水平内容。</p>
+                <p>这是一个使用 <code>.navbar-nav-scroll</code> 和 <code>style="--bs-scroll-height: 100px;"</code> 的示例导航栏，以及一些额外的边距实用程序 以获得最佳间距。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏滚动</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              河图
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">陌上花早</a></li>
+                              <li><a class="dropdown-item" href="#">白马入芦花</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">春日迟</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">链接</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏滚动&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarScroll"&gt;
+            &lt;ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item dropdown"&gt;
+                &lt;a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+                  河图
+                &lt;/a&gt;
+                &lt;ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown"&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;陌上花早&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;白马入芦花&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;春日迟&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;链接&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h5>响应行为</h5>
+                <p>导航栏可以使用 <code>.navbar-toggler</code>、<code>.navbar-collapse</code> 和 <code>.navbar-expand{-sm|-md|-lg|-xl|-xxl}</code> 类来确定其内容何时折叠在按钮后面。 结合其他实用程序，您可以轻松选择何时显示或隐藏特定元素。</p>
+                <p>对于从不折叠的导航栏，在导航栏上添加 <code>.navbar-expand</code> 类。 对于总是折叠的导航栏，不会添加任何 <code>.navbar-expand</code> 类。</p>
+                <h6>Toggler</h6>
+                <p>默认情况下，导航栏切换器是左对齐的，但如果它们跟随像 <code>.navbar-brand</code> 这样的兄弟元素，它们将自动对齐到最右边。 反转标记将反转切换器的位置。 以下是不同切换样式的示例。</p>
+                <p>在最小断点处没有显示 <code>.navbar-brand</code> ：</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#">隐藏品牌</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">禁用的</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarTogglerDemo01"&gt;
+            &lt;a class="navbar-brand" href="#"&gt;隐藏品牌&lt;/a&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>左侧显示品牌名称，右侧显示切换器：</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">禁用的</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarTogglerDemo02"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>左侧是切换器，右侧是品牌名称：</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">禁用的</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">搜索</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarTogglerDemo03"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+              &lt;/li&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <h6>External content</h6>
+                <p>有时您想使用折叠插件来触发结构上位于 <code>.navbar</code> 之外的内容的容器元素。 因为我们的插件适用于 <code>id</code> 和 <code>data-bs-target</code> 匹配，所以很容易做到！</p>
+                <div class="border-example">
+                  <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                      <h5 class="text-white h4">折叠的内容</h5>
+                      <span class="text-muted">可通过导航栏品牌进行切换。</span>
+                    </div>
+                  </div>
+                  <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;div class="collapse" id="navbarToggleExternalContent"&gt;
+        &lt;div class="bg-dark p-4"&gt;
+          &lt;h5 class="text-white h4"&gt;折叠的内容&lt;/h5&gt;
+          &lt;span class="text-muted"&gt;可通过导航栏品牌进行切换。&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;nav class="navbar navbar-dark bg-dark"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>执行此操作时，我们建议您添加额外的 JavaScript，以便在容器打开时以编程方式将焦点移至容器。 否则，键盘用户和辅助技术用户可能很难找到新显示的内容 - 特别是如果打开的容器位于文档结构中的切换器之前<em></em>。 我们还建议确保切换器具有 <code>aria-controls</code> 属性，指向内容容器的 <code>id</code>。 从理论上讲，这允许辅助技术用户直接从切换器跳转到它控制的容器——但目前对此的支持相当不完整。</p>
+                <h6>Offcanvas</h6>
+                <p>使用 offcanvas 插件将您的展开和折叠导航栏转换为 offcanvas 抽屉。 我们扩展了 offcanvas 默认样式并使用我们的 <code>.navbar-expand-*</code> 类来创建动态且灵活的导航侧边栏。</p>
+                <p>在下面的示例中，要创建一个始终在所有断点之间折叠的 offcanvas 导航栏，请完全省略 <code>.navbar-expand-*</code> 类。</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-light bg-light fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Offcanvas 导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">首页</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">链接</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                下拉
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="#">北京</a></li>
+                                <li><a class="dropdown-item" href="#">上海</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">深圳</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">搜索</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-light bg-light fixed-top"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;Offcanvas 导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"&gt;
+            &lt;div class="offcanvas-header"&gt;
+              &lt;h5 class="offcanvas-title" id="offcanvasNavbarLabel"&gt;Offcanvas&lt;/h5&gt;
+              &lt;button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"&gt;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="offcanvas-body"&gt;
+              &lt;ul class="navbar-nav justify-content-end flex-grow-1 pe-3"&gt;
+                &lt;li class="nav-item"&gt;
+                  &lt;a class="nav-link active" aria-current="page" href="#"&gt;首页&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                  &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item dropdown"&gt;
+                  &lt;a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+                    下拉
+                  &lt;/a&gt;
+                  &lt;ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown"&gt;
+                    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;北京&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;上海&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;
+                      &lt;hr class="dropdown-divider"&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;深圳&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;form class="d-flex" role="search"&gt;
+                &lt;input class="form-control me-2" type="search" placeholder="搜索关键字" aria-label="Search"&gt;
+                &lt;button class="btn btn-outline-success" type="submit"&gt;搜索&lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+                <p>要创建一个在特定断点（如 <code>lg</code>）处扩展为普通导航栏的 offcanvas 导航栏，请使用 <code>.navbar-expand-lg</code>。</p>
+                <pre>&lt;nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top"&gt;
+        &lt;a class="navbar-brand" href="#"&gt;Offcanvas navbar&lt;/a&gt;
+        &lt;button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"&gt;
+          &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel"&gt;
+          ...
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>    
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

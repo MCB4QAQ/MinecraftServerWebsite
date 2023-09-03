@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>导航 &amp; 标签页 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li class="active"> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">导航 &amp; 标签页</div></header>
+              <div class="card-body">
+
+                <p>关于如何使用 Bootstrap 的文档和示例包括导航组件。</p>
+
+                <h5>基础导航</h5>
+                <p>Bootstrap 中可用的导航共享通用标记和样式，从基础 <code>.nav</code> 类到活动和禁用状态。 交换修饰符类以在每种样式之间切换。</p>
+                <p>基础 <code>.nav</code> 组件是使用 flexbox 构建的，为构建所有类型的导航组件提供了坚实的基础。 它包括一些样式覆盖（用于处理列表）、一些针对较大点击区域的链接填充以及基本的禁用样式。</p>
+                <div class="callout callout-info mb-3">
+                  <p>基本 <code>.nav</code> 组件不包含任何 <code>.active</code> 状态。 下面的例子包括了这个类，主要是为了说明这个特定的类不会触发任何特殊的样式。</p>
+                  <p>要将活动状态传达给辅助技术，请使用 <code>aria-current</code> 属性 — 对当前页面使用 <code>page</code> 值，或对当前页面使用 <code>true</code> 一组中的项目。</p>
+                </div>
+                <div class="border-example">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <p>类贯穿始终，因此您的标记可以非常灵活。 像上面一样使用 <code>&lt;ul&gt;</code>，如果您的项目顺序很重要，请使用 <code>&lt;ol&gt;</code>，或者使用 <code>&lt;nav&gt;</code> 元素。 因为 <code>.nav</code> 使用 <code>display: flex</code>，所以导航链接的行为与导航项目相同，但没有额外的标记。</p>
+                <div class="border-example">
+                  <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link disabled">禁用的</a>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="nav"&gt;
+        &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+      &lt;/nav&gt;</pre>
+
+                <h5>可用样式</h5>
+                <p>使用修饰符和实用程序更改 <code>.nav</code> 组件的样式。 根据需要混合和匹配，或构建自己的。</p>
+                <h6>水平对齐</h6>
+                <p>使用flexbox 实用程序更改导航的水平对齐方式。 默认情况下，导航是左对齐的，但您可以轻松地将它们更改为居中或右对齐。</p>
+                <p>以 <code>.justify-content-center</code> 为中心：</p>
+                <div class="border-example">
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav justify-content-center"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <p>与 <code>.justify-content-end</code> 右对齐：</p>
+                <div class="border-example">
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav justify-content-end"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <h6>Vertical</h6>
+                <p>通过使用 <code>.flex-column</code> 实用程序更改弹性项目方向来堆叠导航。 需要将它们堆叠在某些视口上而不是其他视口上？ 使用响应式版本（例如，<code>.flex-sm-column</code>）。</p>
+                <div class="border-example">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav flex-column"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <p>与往常一样，垂直导航也可以在没有 <code>&lt;ul&gt;</code> 的情况下进行。</p>
+                <div class="border-example">
+                  <nav class="nav flex-column">
+                    <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link disabled">禁用的</a>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="nav flex-column"&gt;
+        &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+      &lt;/nav&gt;</pre>
+                <h6>选项卡</h6>
+                <p>从上面获取基本导航并添加 <code>.nav-tabs</code> 类以生成选项卡式界面。 通过我们的 <a href="#javascript-behavior">tab JavaScript 插件</a>，使用它们创建可选项卡区域。</p>
+                <div class="border-example">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-tabs"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <h6>胶囊形式</h6>
+                <p>采用相同的 HTML，但使用 <code>.nav-pills</code> 代替：</p>
+                <div class="border-example">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-pills"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <h6>使...排满并对齐</h6>
+                <p>强制您的 <code>.nav</code>&rsquo;s 内容扩展两个修饰符类之一的完整可用宽度。 要使用 <code>.nav-item</code> 按比例填充所有可用空间，请使用 <code>.nav-fill</code>。 请注意，所有水平空间都被占用，但并非每个导航项都具有相同的宽度。</p>
+                <div class="border-example">
+                  <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">更长的导航链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-pills nav-fill"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;更长的导航链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <p>当使用基于 <code>&lt;nav&gt;</code> 的导航时，您可以安全地省略 <code>.nav-item</code>，因为样式只需要 <code>.nav-link</code> <code>&lt;a&gt;</code> 元素。</p>
+                <div class="border-example">
+                  <nav class="nav nav-pills nav-fill">
+                    <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    <a class="nav-link" href="#">更长的导航链接</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link disabled">禁用的</a>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="nav nav-pills nav-fill"&gt;
+        &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;更长的导航链接&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+      &lt;/nav&gt;</pre>
+                <p>对于等宽元素，请使用 <code>.nav-justified</code>。 所有水平空间都将被导航链接占用，但与上面的 <code>.nav-fill</code> 不同，每个导航项的宽度都相同。</p>
+                <div class="border-example">
+                  <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">更长的导航链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-pills nav-justified"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;更长的导航链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <p>类似于使用基于 <code>&lt;nav&gt;</code> 的导航的 <code>.nav-fill</code> 示例。</p>
+                <div class="border-example">
+                  <nav class="nav nav-pills nav-justified">
+                    <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    <a class="nav-link" href="#">更长的导航链接</a>
+                    <a class="nav-link" href="#">链接</a>
+                    <a class="nav-link disabled">禁用的</a>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="nav nav-pills nav-justified"&gt;
+        &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;更长的导航链接&lt;/a&gt;
+        &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+      &lt;/nav&gt;</pre>
+                <h5>使用 flex 实用程序</h5>
+                <p>如果您需要响应式导航变体，请考虑使用一系列flexbox 实用程序。 虽然更冗长，但这些实用程序提供了跨响应断点的更大定制。在下面的示例中，我们的导航将堆叠在最低断点上，然后适应水平布局，从小断点开始填充可用宽度。</p>
+                <div class="border-example">
+                  <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">选中的</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">更长的导航链接</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">链接</a>
+                    <a class="flex-sm-fill text-sm-center nav-link disabled">禁用的</a>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="nav nav-pills flex-column flex-sm-row"&gt;
+        &lt;a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;a class="flex-sm-fill text-sm-center nav-link" href="#"&gt;更长的导航链接&lt;/a&gt;
+        &lt;a class="flex-sm-fill text-sm-center nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;a class="flex-sm-fill text-sm-center nav-link disabled"&gt;禁用的&lt;/a&gt;
+      &lt;/nav&gt;</pre>
+                <h5>关于可访问性</h5>
+                <p>如果您正在使用 navs 提供导航栏，请务必将 <code>role="navigation"</code> 添加到 <code>&lt;ul&gt;</code> 最符合逻辑的父容器中， 或者在整个导航周围包裹一个 <code>&lt;nav&gt;</code> 元素。 不要将角色添加到 <code>&lt;ul&gt;</code> 本身，因为这会阻止它被辅助技术宣布为实际列表。</p>
+                <p>请注意，导航栏，即使在视觉上被设计为带有 <code>.nav-tabs</code> 类的选项卡，也应该<strong>不</strong>被赋予 <code>role=&quot;tablist&quot;</code> 、<code>role="tabpanel"</code> 或 <code>role="tabpanel"</code> 属性。 这些仅适用于动态选项卡式界面，如 <a href="https://www.w3.org/TR/wai-aria-practices/#tabpanel" target="_blank"><abbr title="无障碍网页倡议"> 中所述 WAI</abbr> <abbr title="可访问的富 Internet 应用程序">ARIA</abbr> 创作实践</a>。 有关示例，请参阅本节中的JavaScript 行为了解动态选项卡式界面。 <code>aria-current</code> 属性在动态选项卡式界面上不是必需的，因为我们的 JavaScript 通过在活动选项卡上添加 <code>aria-selected="true"</code> 来处理选定状态。</p>
+                <h5>使用下拉菜单</h5>
+                <p>添加带有一点额外 HTML 和 dropdowns JavaScript 插件的下拉菜单。</p>
+                <h6>带有下拉菜单的选项卡</h6>
+                <div class="border-example">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Beyond</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">长城</a></li>
+                        <li><a class="dropdown-item" href="#">光辉岁月</a></li>
+                        <li><a class="dropdown-item" href="#">喜欢你</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">谁伴我闯荡</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-tabs"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item dropdown"&gt;
+          &lt;a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"&gt;Beyond&lt;/a&gt;
+          &lt;ul class="dropdown-menu"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;长城&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;光辉岁月&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;喜欢你&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;谁伴我闯荡&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <h6>带有下拉菜单的胶囊样式</h6>
+                <div class="border-example">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">选中的</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Beyond</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">长城</a></li>
+                        <li><a class="dropdown-item" href="#">光辉岁月</a></li>
+                        <li><a class="dropdown-item" href="#">喜欢你</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">谁伴我闯荡</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">链接</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">禁用的</a>
+                    </li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="nav nav-pills"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" aria-current="page" href="#"&gt;选中的&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item dropdown"&gt;
+          &lt;a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"&gt;Beyond&lt;/a&gt;
+          &lt;ul class="dropdown-menu"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;长城&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;光辉岁月&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;喜欢你&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;谁伴我闯荡&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#"&gt;链接&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link disabled"&gt;禁用的&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre>
+                <h5>JavaScript 行为</h5>
+                <p>使用标签 JavaScript 插件（单独包含它或通过编译的 <code>bootstrap.js</code> 文件包含它）来扩展我们的导航标签和药丸以创建本地内容的可标签窗格。</p>
+                <p>动态选项卡式界面，如 <a href="https://www.w3.org/TR/wai-aria-practices/#tabpanel" target="_blank"><abbr title="无障碍网页倡议">WAI</abbr> 中所述 <abbr title="可访问的富 Internet 应用程序">ARIA</abbr> 创作实践</a>，需要 <code>role=&quot;tablist&quot;</code>，<code>role=&quot;tab&quot;</code >、<code>role="tabpanel"</code> 和其他 <code>aria-</code> 属性，以便将它们的结构、功能和当前状态传达给辅助技术（例如屏幕阅读器）的用户 . 作为最佳实践，我们建议对选项卡使用 <code>&lt;button&gt;</code> 元素，因为这些是触发动态更改的控件，而不是导航到新页面或新位置的链接。</p>
+                <div class="callout callout-danger mb-3">
+                请注意，标签 JavaScript 插件<strong>不支持</strong>包含下拉菜单的标签界面，因为这些会导致可用性和可访问性问题。 从可用性的角度来看，当前显示的选项卡的触发元素不是立即可见的（因为它位于关闭的下拉菜单中）这一事实可能会导致混淆。 从可访问性的角度来看，目前还没有明智的方法将这种结构映射到标准的 WAI ARIA 模式，这意味着辅助技术的用户不容易理解它。
+                </div>
+                <div class="border-example">
+                  <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">首页</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">个人简介</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">联系我们</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <p><strong>这是一些占位符内容，主页选项卡的相关内容。</strong>单击另一个选项卡将切换此选项卡的可见性以供下一个选项卡使用。 选项卡 JavaScript 交换类以控制内容可见性和样式。 您可以将它与标签、胶囊形式和任何其他 <code>.nav</code> 驱动的导航一起使用。</p>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <p>《辽海丹忠录》是一部有插图的章回体通俗小说。有崇祯年间刊本藏于日本内阁文库，共八卷四十回，题“平原孤愤生戏草，铁崖热肠人偶评”。未完结。显然是由于后来战事的发展超乎了作者的预料。</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                      <p>赤雅，书名。明邝露撰。三卷。作者南海人，以迕邑令走粤西，为傜女云亸娘之客，因悉其山川风土仪物，撰为此书。半系亲身经历，半亦取自古人笔乘。中如“猺人祀典”、“祸斗”、“木客”、“短狐”等条，均有神话传说。</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;ul class="nav nav-tabs mb-3" id="myTab" role="tablist"&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"&gt;首页&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"&gt;联系我们&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class="tab-content" id="myTabContent"&gt;
+        &lt;div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"&gt;
+          &lt;p&gt;&lt;strong&gt;这是一些占位符内容，主页选项卡的相关内容。&lt;/strong&gt;单击另一个选项卡将切换此选项卡的可见性以供下一个选项卡使用。 选项卡 JavaScript 交换类以控制内容可见性和样式。 您可以将它与标签、胶囊形式和任何其他 &lt;code&gt;.nav&lt;/code&gt; 驱动的导航一起使用。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"&gt;
+          &lt;p&gt;《辽海丹忠录》是一部有插图的章回体通俗小说。有崇祯年间刊本藏于日本内阁文库，共八卷四十回，题“平原孤愤生戏草，铁崖热肠人偶评”。未完结。显然是由于后来战事的发展超乎了作者的预料。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"&gt;
+          &lt;p&gt;赤雅，书名。明邝露撰。三卷。作者南海人，以迕邑令走粤西，为傜女云亸娘之客，因悉其山川风土仪物，撰为此书。半系亲身经历，半亦取自古人笔乘。中如“猺人祀典”、“祸斗”、“木客”、“短狐”等条，均有神话传说。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <p>为了帮助满足您的需求，这适用于基于 <code>&lt;ul&gt;</code> 的标记，如上所示，或任何任意的“滚动你自己的”。 标记。 请注意，如果您正在使用 <code>&lt;nav&gt;</code>，则不应直接向其添加 <code>role="tablist"</code>，因为这会覆盖元素的原生 作为导航地标的作用。相反，切换到一个替代元素（在下面的示例中，一个简单的 <code>&lt;div&gt;</code>）并将 <code>&lt;nav&gt;</code> 包裹在它周围。</p>
+                <div class="border-example">
+                  <nav>
+                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">首页</button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">个人简介</button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">联系我们</button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                      <p>作者谈迁是我国17世纪的爱国历史家，《北游录》是记述他1653年到1656年去北京期间的经历见闻，和他写的一些诗文。</p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                      <p>《飞龙全传》是清代吴璿根据旧本《飞龙传》增补改编的长篇英雄传奇小说，共六十回。飞龙：借指皇帝，喻其居高位而临天下，如飞龙在天。</p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                      <p>《银钩赌坊》描述的是西方魔教玉罗刹教主之子玉天宝被杀，银钩赌坊主人蓝胡子栽赃陆小凤。</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;nav&gt;
+        &lt;div class="nav nav-tabs mb-3" id="nav-tab" role="tablist"&gt;
+          &lt;button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"&gt;首页&lt;/button&gt;
+          &lt;button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+          &lt;button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"&gt;联系我们&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+      &lt;div class="tab-content" id="nav-tabContent"&gt;
+        &lt;div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"&gt;
+          &lt;p&gt;作者谈迁是我国17世纪的爱国历史家，《北游录》是记述他1653年到1656年去北京期间的经历见闻，和他写的一些诗文。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"&gt;
+          &lt;p&gt;《飞龙全传》是清代吴璿根据旧本《飞龙传》增补改编的长篇英雄传奇小说，共六十回。飞龙：借指皇帝，喻其居高位而临天下，如飞龙在天。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"&gt;
+          &lt;p&gt;《银钩赌坊》描述的是西方魔教玉罗刹教主之子玉天宝被杀，银钩赌坊主人蓝胡子栽赃陆小凤。&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <p>选项卡插件也适用于胶囊形式。</p>
+                <div class="border-example">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">首页</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">个人简介</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">联系我们</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <p>从来国家吉凶祸福，虽系天命，多因人事；既有定数，必有预兆。于此若能恐惧修省，便可转灾为祥。所谓妖由人兴，亦由人灭。若但心怀猜忌，欲遏乱萌，好行诛杀，因而奸佞乘机，设谋害人，此非但不足以弭灾，且适足以酿祸。</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <p>却说隋主，因梦洪水淹城，心疑有个水傍名姓之人为祸。时朝中有老臣成阝国公李浑，原系陈朝勋旧，陈亡而降隋，仍其旧爵为成阝公。隋主猛然想得：“浑字军傍着水，其封爵为成阝公，成阝者城也，正合水淹城之梦。且军乃兵像，莫非此人便是个祸胎也？但其人已老，又不掌兵权，干不得甚事，除非应在他子孙身上。”</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <p>因问左右：“李浑有几子，其子何名？”左右奏道：“李浑长子已亡，止存幼子，小名洪儿。”隋主闻洪儿两字，一发惊疑，想道：“我梦中曾见城上有树，树上有果。树乃本也，树上果是木之子也，木子二字，合来正是个李字。今李家儿子的小名，恰好的洪水的洪字，更合我之所梦。此子将来必不利于国家，当即除之。”</p>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"&gt;首页&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"&gt;联系我们&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class="tab-content" id="pills-tabContent"&gt;
+        &lt;div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"&gt;
+          &lt;p&gt;从来国家吉凶祸福，虽系天命，多因人事；既有定数，必有预兆。于此若能恐惧修省，便可转灾为祥。所谓妖由人兴，亦由人灭。若但心怀猜忌，欲遏乱萌，好行诛杀，因而奸佞乘机，设谋害人，此非但不足以弭灾，且适足以酿祸。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"&gt;
+          &lt;p&gt;却说隋主，因梦洪水淹城，心疑有个水傍名姓之人为祸。时朝中有老臣成阝国公李浑，原系陈朝勋旧，陈亡而降隋，仍其旧爵为成阝公。隋主猛然想得：“浑字军傍着水，其封爵为成阝公，成阝者城也，正合水淹城之梦。且军乃兵像，莫非此人便是个祸胎也？但其人已老，又不掌兵权，干不得甚事，除非应在他子孙身上。”&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"&gt;
+          &lt;p&gt;因问左右：“李浑有几子，其子何名？”左右奏道：“李浑长子已亡，止存幼子，小名洪儿。”隋主闻洪儿两字，一发惊疑，想道：“我梦中曾见城上有树，树上有果。树乃本也，树上果是木之子也，木子二字，合来正是个李字。今李家儿子的小名，恰好的洪水的洪字，更合我之所梦。此子将来必不利于国家，当即除之。”&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <p>垂直方向的胶囊形式。</p>
+                <div class="border-example">
+                  <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">首页</button>
+                      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">个人简介</button>
+                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">消息留言</button>
+                      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">设置</button>
+                    </div>
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <p>遂令内侍赍手敕至李浑家，将洪儿赐死。李浑逼于君命，不得不从。可怜洪儿无端殒命，举家号哭。后人有诗叹云：殷高与文王，因梦得良相。楚襄风流梦，感得神女降。堪叹隋高祖，恶梦添魔障。杀人当禳梦，举动殊孟浪。</p>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <p>隋主以疑心杀了李家之子，此事传播，早惊动了一个姓李的，陡起一片雄心。那人姓李，名靖，字药师，三原人氏，足智多谋深通兵法，且又弓马娴熟。真个能文能武。幼丧父母，育于外家，其舅即韩擒虎也。擒虎常与他谈兵，赞叹道：“可与谈孙吴者，非此子而谁？”时年方弱冠，却负大志。见隋朝用法太峻，料他国脉必不长久。</p>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <p>闻知隋主以梦杀人，暗笑道：“王者不死，杀人何益？”又想道：“据梦树木生子，固当是个李字；洪水滔天，乃天下混一也。将来有天下者，必是个姓李之人。”因便想到自己身上。一日，偶有事到华州，路经华山，闻说山神西岳大王，甚有灵应。</p>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                      <p>遂具香烛，到庙瞻拜，具疏默祷道：“布衣李靖，不揆狂简，献疏西岳大王殿下。靖闻上清下浊，爱分天地之仪；昼明夜昏，乃著神人之道。又闻聪明正直，依人而行，至诚感神，位不虚矣。伏惟大王嵯峨擅德，肃爽凝威；为灵术制百神，配位名雄四岳；...焚其庙宇，建纵横之略，未为晚也。惟神裁之。”</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="d-flex align-items-start"&gt;
+        &lt;div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"&gt;
+          &lt;button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"&gt;首页&lt;/button&gt;
+          &lt;button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+          &lt;button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"&gt;消息留言&lt;/button&gt;
+          &lt;button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"&gt;设置&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-content" id="v-pills-tabContent"&gt;
+          &lt;div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"&gt;
+          &lt;p&gt;遂令内侍赍手敕至李浑家，将洪儿赐死。李浑逼于君命，不得不从。可怜洪儿无端殒命，举家号哭。后人有诗叹云：殷高与文王，因梦得良相。楚襄风流梦，感得神女降。堪叹隋高祖，恶梦添魔障。杀人当禳梦，举动殊孟浪。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"&gt;
+          &lt;p&gt;隋主以疑心杀了李家之子，此事传播，早惊动了一个姓李的，陡起一片雄心。那人姓李，名靖，字药师，三原人氏，足智多谋深通兵法，且又弓马娴熟。真个能文能武。幼丧父母，育于外家，其舅即韩擒虎也。擒虎常与他谈兵，赞叹道：“可与谈孙吴者，非此子而谁？”时年方弱冠，却负大志。见隋朝用法太峻，料他国脉必不长久。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"&gt;
+          &lt;p&gt;闻知隋主以梦杀人，暗笑道：“王者不死，杀人何益？”又想道：“据梦树木生子，固当是个李字；洪水滔天，乃天下混一也。将来有天下者，必是个姓李之人。”因便想到自己身上。一日，偶有事到华州，路经华山，闻说山神西岳大王，甚有灵应。&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"&gt;
+          &lt;p&gt;遂具香烛，到庙瞻拜，具疏默祷道：“布衣李靖，不揆狂简，献疏西岳大王殿下。靖闻上清下浊，爱分天地之仪；昼明夜昏，乃著神人之道。又闻聪明正直，依人而行，至诚感神，位不虚矣。伏惟大王嵯峨擅德，肃爽凝威；为灵术制百神，配位名雄四岳；...焚其庙宇，建纵横之略，未为晚也。惟神裁之。”&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+                <h6>使用数据属性</h6>
+                <p>只需指定 <code>data-bs-toggle=&quot;tab&quot;</code> 或 <code>data-bs-toggle=&quot;pill&quot;</code> 即可激活选项卡或药丸导航，而无需编写任何 JavaScript 在一个元素上。 在 <code>.nav-tabs</code> 或 <code>.nav-pills</code> 上使用这些数据属性。</p>
+                <pre>&lt;!-- Nav tabs --&gt;
+      &lt;ul class="nav nav-tabs" id="myTab" role="tablist"&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"&gt;首页&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false"&gt;消息留言&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false"&gt;设置&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;!-- Tab panes --&gt;
+      &lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab"&gt;...&lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>通过 JavaScript</h6>
+                <p>通过 JavaScript 启用可选项卡（每个选项卡需要单独激活）：</p>
+                <pre>var triggerTabList = Array.prototype.slice.call(document.querySelectorAll('#myTab button'))
+      triggerTabList.forEach(function (triggerEl) {
+        var tabTrigger = new bootstrap.Tab(triggerEl)
+
+        triggerEl.addEventListener('click', function (event) {
+          event.preventDefault()
+          tabTrigger.show()
+        })
+      })</pre>
+
+                <p>您可以通过多种方式激活单个选项卡：</p>
+                <pre>var triggerEl = document.querySelector('#myTab button[data-bs-target="#profile"]')
+      bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+
+      var triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
+      bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab</pre>
+
+                <h6>淡化效果</h6>
+                <p>要使标签淡入，请将 <code>.fade</code> 添加到每个 <code>.tab-pane</code>。 第一个选项卡窗格还必须具有 <code>.show</code> 以使初始内容可见。</p>
+                <pre>&lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab"&gt;...&lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>方法</h6>
+                <div class="callout callout-danger mb-3">
+                  <strong>异步方法和转换</strong>
+                  <p>所有 API 方法都是<strong>异步</strong>并启动<strong>transition</strong>。 它们会在过渡开始后但<strong>在过渡结束之前</strong>返回给调用者。 此外，<strong>转换组件上的方法调用将被忽略</strong>。</p>
+                </div>
+
+                <strong>constructor</strong>
+                <p>激活选项卡元素和内容容器。 Tab 应该有一个 <code>data-bs-target</code> 或者，如果使用链接，一个 <code>href</code> 属性，以 DOM 中的容器节点为目标。</p>
+                <pre>&lt;ul class="nav nav-tabs" id="myTab" role="tablist"&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"&gt;首页&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"&gt;个人简介&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false"&gt;消息留言&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item" role="presentation"&gt;
+          &lt;button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false"&gt;设置&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab"&gt;...&lt;/div&gt;
+        &lt;div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab"&gt;...&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;script&gt;
+        var firstTabEl = document.querySelector('#myTab li:last-child button')
+        var firstTab = new bootstrap.Tab(firstTabEl)
+
+        firstTab.show()
+      &lt;/script&gt;</pre>
+
+                <strong>show</strong>
+                <p>选择给定的选项卡并显示其关联的窗格。 之前选择的任何其他选项卡都将被取消选择，并且其关联的窗格被隐藏。 <strong>在选项卡窗格实际显示之前返回调用方</strong>（即在 <code>shown.bs.tab</code> 事件发生之前）。</p>
+                <pre>  var someTabTriggerEl = document.querySelector('#someTabTrigger')
+        var tab = new bootstrap.Tab(someTabTriggerEl)
+
+        tab.show()</pre>
+
+                <strong>dispose</strong>
+                <p>销毁元素的选项卡。</p>
+                <strong>getInstance</strong>
+                <p><em>Static</em> 方法，允许您获取与 DOM 元素关联的选项卡实例。</p>
+                <pre>var triggerEl = document.querySelector('#trigger')
+      var tab = bootstrap.Tab.getInstance(triggerEl) // Returns a Bootstrap tab instance</pre>
+                <strong>getOrCreateInstance</strong>
+                <p>静态方法，允许您获取与 DOM 元素关联的选项卡实例，或创建一个新的实例以防它未初始化</p>
+                <pre>var triggerEl = document.querySelector('#trigger')
+      var tab = bootstrap.Tab.getOrCreateInstance(triggerEl) // Returns a Bootstrap tab instance</pre>
+
+                <h6>Events</h6>
+                <p>显示新选项卡时，事件按以下顺序触发：</p>
+                <ol>
+                  <li><code>hide.bs.tab</code> （在当前活动选项卡上）</li>
+                  <li><code>show.bs.tab</code>（在待显示的选项卡上）</li>
+                  <li><code>hidden.bs.tab</code>（在上一个活动选项卡上，与 <code>hide.bs.tab</code> 事件相同）</li>
+                  <li><code>shown.bs.tab</code>（在新激活的刚刚显示的选项卡上，与 <code>show.bs.tab</code> 事件相同）</li>
+                </ol>
+                <p>如果没有选项卡处于活动状态，则不会触发 <code>hide.bs.tab</code> 和 <code>hidden.bs.tab</code> 事件。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 150px;">事件类型</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>show.bs.tab</code></td>
+                      <td>此事件在标签显示时触发，但在新标签显示之前。 使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位活动选项卡和上一个活动选项卡（如果可用）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>shown.bs.tab</code></td>
+                      <td>显示选项卡后，此事件在选项卡显示时触发。 使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位活动选项卡和上一个活动选项卡（如果可用）。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hide.bs.tab</code></td>
+                      <td>此事件在要显示新选项卡时触发（因此要隐藏先前的活动选项卡）。 使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位当前活动选项卡和新的即将活动选项卡。</td>
+                    </tr>
+                    <tr>
+                      <td><code>hidden.bs.tab</code></td>
+                      <td>此事件在显示新选项卡后触发（因此先前的活动选项卡被隐藏）。 使用 <code>event.target</code> 和 <code>event.relatedTarget</code> 分别定位上一个活动选项卡和新活动选项卡。</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var tabEl = document.querySelector('button[data-bs-toggle="tab"]')
+      tabEl.addEventListener('shown.bs.tab', function (event) {
+        event.target // newly activated tab
+        event.relatedTarget // previous active tab
+      })</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div> 
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

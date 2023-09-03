@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>下拉菜单 - 光年(Light Year Admin V5)后台管理系统模板</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="images/loading-logo.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-television-guide"></i>
+                <span>布局</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_layout_break_point.html">拐点</a> </li>
+                <li> <a href="lyear_layout_containers.html">容器</a> </li>
+                <li> <a href="lyear_layout_grid.html">栅格</a> </li>
+                <li> <a href="lyear_layout_columns.html">列</a> </li>
+                <li> <a href="lyear_layout_gutters.html">沟槽</a> </li>
+                <li> <a href="lyear_layout_utilities.html">实用程序</a> </li>
+                <li> <a href="lyear_layout_zindex.html">Z-index</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-silo"></i>
+                <span>页面内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_content_typography.html">排版</a> </li>
+                <li> <a href="lyear_content_images.html">图片</a> </li>
+                <li> <a href="lyear_content_tables.html">表格</a> </li>
+                <li> <a href="lyear_content_figures.html">画像</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-outline"></i>
+                <span>表单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_forms_overview.html">概述</a> </li>
+                <li> <a href="lyear_forms_control.html">表单控件</a> </li>
+                <li> <a href="lyear_forms_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_forms_radio.html">单选框</a> </li>
+                <li> <a href="lyear_forms_checkbox.html">复选框</a> </li>
+                <li> <a href="lyear_forms_switch.html">开关</a> </li>
+                <li> <a href="lyear_forms_range.html">范围</a> </li>
+                <li> <a href="lyear_forms_input_group.html">输入组</a> </li>
+                <li> <a href="lyear_forms_floating_labels.html">浮动标签</a> </li>
+                <li> <a href="lyear_forms_layout.html">布局</a> </li>
+                <li> <a href="lyear_forms_validation.html">验证</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>组件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_components_accordion.html">手风琴菜单</a> </li>
+                <li> <a href="lyear_components_alerts.html">警告框</a> </li>
+                <li> <a href="lyear_components_badge.html">徽章</a> </li>
+                <li> <a href="lyear_components_breadcrumb.html">面包屑导航</a> </li>
+                <li> <a href="lyear_components_buttons.html">按钮</a> </li>
+                <li> <a href="lyear_components_button_group.html">按钮组</a> </li>
+                <li> <a href="lyear_components_card.html">卡片</a> </li>
+                <li> <a href="lyear_components_carousel.html">轮播</a> </li>
+                <li> <a href="lyear_components_close_button.html">关闭按钮</a> </li>
+                <li> <a href="lyear_components_collapse.html">折叠</a> </li>
+                <li class="active"> <a href="lyear_components_dropdowns.html">下拉菜单</a> </li>
+                <li> <a href="lyear_components_list_group.html">列表组</a> </li>
+                <li> <a href="lyear_components_modal.html">模态框</a> </li>
+                <li> <a href="lyear_components_navs_tabs.html">导航 &amp; 标签页</a> </li>
+                <li> <a href="lyear_components_navbar.html">导航栏</a> </li>
+                <li> <a href="lyear_components_offcanvas.html">滑动容器</a> </li>
+                <li> <a href="lyear_components_pagination.html">分页</a> </li>
+                <li> <a href="lyear_components_placeholders.html">占位符</a> </li>
+                <li> <a href="lyear_components_popovers.html">POP提示</a> </li>
+                <li> <a href="lyear_components_progress.html">进度条</a> </li>
+                <li> <a href="lyear_components_scrollspy.html">滚动监听</a> </li>
+                <li> <a href="lyear_components_spinners.html">加载状态</a> </li>
+                <li> <a href="lyear_components_toasts.html">通知消息</a> </li>
+                <li> <a href="lyear_components_tooltips.html">工具提示</a> </li>
+                <li> <a href="lyear_components_other.html">其他</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-bulleted-outline"></i>
+                <span>助手</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_helpers_clearfix.html">清除浮动</a> </li>
+                <li> <a href="lyear_helpers_colored_links.html">彩色链接</a> </li>
+                <li> <a href="lyear_helpers_ratio.html">比例</a> </li>
+                <li> <a href="lyear_helpers_position.html">定位</a> </li>
+                <li> <a href="lyear_helpers_stacks.html">堆叠</a> </li>
+                <li> <a href="lyear_helpers_visually_hidden.html">视觉隐藏</a> </li>
+                <li> <a href="lyear_helpers_stretched_link.html">延伸链接</a> </li>
+                <li> <a href="lyear_helpers_text_truncation.html">文本截断</a> </li>
+                <li> <a href="lyear_helpers_vertical_rule.html">垂直法则</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-map-search-outline"></i>
+                <span>工具类</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_utilities_background.html">背景</a> </li>
+                <li> <a href="lyear_utilities_borders.html">边框</a> </li>
+                <li> <a href="lyear_utilities_colors.html">颜色</a> </li>
+                <li> <a href="lyear_utilities_display.html">显示属性</a> </li>
+                <li> <a href="lyear_utilities_flex.html">弹性布局</a> </li>
+                <li> <a href="lyear_utilities_float.html">浮动</a> </li>
+                <li> <a href="lyear_utilities_interactions.html">交互</a> </li>
+                <li> <a href="lyear_utilities_opacity.html">透明度</a> </li>
+                <li> <a href="lyear_utilities_overflow.html">溢出处理</a> </li>
+                <li> <a href="lyear_utilities_position.html">定位</a> </li>
+                <li> <a href="lyear_utilities_shadows.html">阴影</a> </li>
+                <li> <a href="lyear_utilities_sizing.html">尺寸</a> </li>
+                <li> <a href="lyear_utilities_spacing.html">间距</a> </li>
+                <li> <a href="lyear_utilities_text.html">文本</a> </li>
+                <li> <a href="lyear_utilities_vertical_align.html">垂直对齐</a> </li>
+                <li> <a href="lyear_utilities_visibility.html">可见性</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-stove"></i>
+                <span>示例页面</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_doc.html">文档列表</a> </li>
+                <li> <a href="lyear_pages_table.html">表格插件</a> </li>
+                <li> <a href="lyear_pages_gallery.html">图库列表</a> </li>
+                <li> <a href="lyear_pages_config.html">网站配置</a> </li>
+                <li> <a href="lyear_pages_rabc.html">设置权限</a> </li>
+                <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
+                <li> <a href="lyear_pages_login_1.html" target="_blank">登录页面1</a> </li>
+                <li> <a href="lyear_pages_login_2.html" target="_blank">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html" target="_blank">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html" target="_blank">登录页面4</a> </li>
+                <li> <a href="lyear_pages_error.html">错误页面</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-card-text-outline"></i>
+                <span>其他内容</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_other_icons.html">图标</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-file-code-outline"></i>
+                <span>JS 插件</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
+                <li> <a href="lyear_js_datepicker.html">日期选取器</a> </li>
+                <li> <a href="lyear_js_colorpicker.html">选色器</a> </li>
+                <li> <a href="lyear_js_chartjs.html">Chart.js</a> </li>
+                <li> <a href="lyear_js_jconfirm.html">对话框</a> </li>
+                <li> <a href="lyear_js_tags_input.html">标签插件</a> </li>
+                <li> <a href="lyear_js_notify.html">通知消息</a> </li>
+                <li> <a href="lyear_js_maxlength.html">长度判断</a> </li>
+                <li> <a href="lyear_js_select.html">下拉选择</a> </li>
+                <li> <a href="lyear_js_fullcalendar.html">日程插件</a> </li>
+                <li> <a href="lyear_js_loading.html">loading插件</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+                <span>多级菜单</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">一级菜单</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">一级菜单</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">二级菜单</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">二级菜单</a>
+                      <ul class="nav nav-subnav">
+                        <li> <a href="#!">三级菜单</a> </li>
+                        <li> <a href="#!">三级菜单</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#!">一级菜单</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2022. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">笔下光年</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">7</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 10 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它">树莓派销量猛增，疫情期间居家工作学习、医疗领域都需要它</a>
+                  <a href="#!" class="dropdown-item"
+                    title="GNOME 用户体验团队将为 GNOME Shell 提供更多改进">GNOME 用户体验团队将为 GNOME Shell
+                    提供更多改进</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Linux On iPhone 即将面世，支持 iOS 的双启动">Linux On iPhone 即将面世，支持 iOS
+                    的双启动</a>
+                  <a href="#!" class="dropdown-item" title="GitHub 私有仓库完全免费面向团队提供">GitHub
+                    私有仓库完全免费面向团队提供</a>
+                  <a href="#!" class="dropdown-item"
+                    title="Wasmtime 为 WebAssembly 增加 Go 语言绑定">Wasmtime 为 WebAssembly 增加 Go
+                    语言绑定</a>
+                  <a href="#!" class="dropdown-item"
+                    title="红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁">红帽借“订阅”成开源一哥，首创者 Cormier 升任总裁</a>
+                  <a href="#!" class="dropdown-item" title="Zend 宣布推出两项 PHP 新产品">Zend 宣布推出两项
+                    PHP 新产品</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="images/users/avatar.jpg" alt="笔下光年" />
+              <span style="margin-left: 10px;">笔下光年</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_profile.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>个人信息</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_edit_pwd.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-lock-outline"></i>
+                  <span>修改密码</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出登录</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">下拉菜单</div></header>
+              <div class="card-body">
+
+                <p>使用 Bootstrap 下拉插件切换上下文覆盖以显示链接列表等。</p>
+
+                <h5>概述</h5>
+                <p>下拉菜单是可切换的上下文覆盖，用于显示链接列表等。 它们与包含的 Bootstrap 下拉 JavaScript 插件交互。它们是通过单击而不是悬停来切换的； 这是有意的设计决策。</p>
+                <p>下拉菜单基于第三方库 Popper 构建，该库提供动态定位和视口检测。 请务必包含 popper.min.js 在 Bootstrap 的 JavaScript 之前或使用包含 Popper 的 <code>bootstrap.bundle.min.js</code> / <code>bootstrap.bundle.js</code>。 尽管不需要动态定位，但 Popper 不习惯在导航栏中定位下拉菜单。</p>
+
+                <h5>可访问性</h5>
+                <p><a href="https://www.w3.org/TR/wai-aria/" target="_blank"><abbr title="无障碍网页倡议">WAI</abbr> <abbr title="可访问的富 Internet 应用程序"> ARIA</abbr></a> 标准定义了一个实际的 <code>role=&quot;menu&quot;</code> 小部件，但这是特定于触发动作或功能的类似应用程序的菜单。 <abbr title="可访问的富 Internet 应用程序">ARIA</abbr> 菜单只能包含菜单项、复选框菜单项、单选按钮菜单项、单选按钮组和子菜单。</p>
+                <p>另一方面，Bootstrap 的下拉菜单被设计为通用的，适用于各种情况和标记结构。 例如，可以创建包含其他输入和表单控件的下拉菜单，例如搜索字段或登录表单。 因此，Bootstrap 不期望（也不会自动添加）真正 <abbr title="可访问的富 Internet 应用程序">ARIA 所需的任何 <code>role</code> 和 <code>aria-</code> 属性 </abbr> 菜单。 作者必须自己包含这些更具体的属性。</p>
+                <p>但是，Bootstrap 确实为大多数标准键盘菜单交互添加了内置支持，例如使用光标键移动单个 <code>.dropdown-item</code> 元素并使用 <kbd>ESC 关闭菜单的功能</kbd>  键。</p>
+
+                <h5>示例</h5>
+                <p>在 <code>.dropdown</code> 或另一个声明 <code>position: relative;</code> 的元素中包装下拉菜单的切换（您的按钮或链接）和下拉菜单。 下拉菜单可以从 <code>&lt;a&gt;</code> 或 <code>&lt;button&gt;</code> 元素触发，以更好地满足您的潜在需求。 此处显示的示例在适当的情况下使用语义 <code>&lt;ul&gt;</code> 元素，但支持自定义标记。</p>
+                <h6>单个按钮</h6>
+                <p>任何单个 <code>.btn</code> 都可以通过一些标记更改变成下拉切换。 以下是如何让它们与 <code>&lt;button&gt;</code> 元素一起使用：</p>
+                <div class="border-example">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      哎哟,不错哦
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">美人鱼</a></li>
+                      <li><a class="dropdown-item" href="#">窃爱</a></li>
+                      <li><a class="dropdown-item" href="#">手写的从前</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          哎哟,不错哦
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;美人鱼&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;窃爱&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;手写的从前&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>并使用 <code>&lt;a&gt;</code> 元素：</p>
+                <div class="border-example">
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      哎哟,不错哦
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">算什么男人</a></li>
+                      <li><a class="dropdown-item" href="#">天涯过客</a></li>
+                      <li><a class="dropdown-item" href="#">听爸爸的话</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown"&gt;
+        &lt;a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          哎哟,不错哦
+        &lt;/a&gt;
+
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;算什么男人&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;天涯过客&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;听爸爸的话&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>最好的部分是您也可以使用任何按钮变体来执行此操作：</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">哎哟,不错哦</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">听见下雨的声音</a></li>
+                      <li><a class="dropdown-item" href="#">鞋子特大号</a></li>
+                      <li><a class="dropdown-item" href="#">阳明山</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">一口气全念对</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">八度空间</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">暗号</a></li>
+                      <li><a class="dropdown-item" href="#">半岛铁盒</a></li>
+                      <li><a class="dropdown-item" href="#">半兽人</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">分裂</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">范特西</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">爱在西元前</a></li>
+                      <li><a class="dropdown-item" href="#">安静</a></li>
+                      <li><a class="dropdown-item" href="#">爸，我回来了</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">对不起</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">惊叹号!</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">超跑女神</a></li>
+                      <li><a class="dropdown-item" href="#">公主病</a></li>
+                      <li><a class="dropdown-item" href="#">惊叹号</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">疗伤烧肉粽</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">跨时代</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">超人不会飞</a></li>
+                      <li><a class="dropdown-item" href="#">好久不见</a></li>
+                      <li><a class="dropdown-item" href="#">免费教学录影带</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">说了再见</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">魔杰座</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">稻香</a></li>
+                      <li><a class="dropdown-item" href="#">给我一首歌的时间</a></li>
+                      <li><a class="dropdown-item" href="#">花海</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">兰亭序</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;!-- 单个按钮 danger 示例 --&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;魔杰座&lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;稻香&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;给我一首歌的时间&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;花海&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;兰亭序&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>分裂式按钮</h6>
+                <p>同样，使用与单个按钮下拉菜单几乎相同的标记创建拆分按钮下拉菜单，但添加 <code>.dropdown-toggle-split</code> 以在下拉插入符号周围保持适当间距。</p>
+                <p>我们使用这个额外的类将插入符号两侧的水平 <code>padding</code> 减少 25%，并删除为常规按钮下拉添加的 <code>margin-left</code>。 这些额外的更改使插入符号保持在拆分按钮的中心，并在主按钮旁边提供了一个更合适大小的点击区域。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary">八度空间</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">回到过去</a></li>
+                      <li><a class="dropdown-item" href="#">火车叨位去</a></li>
+                      <li><a class="dropdown-item" href="#">龙拳</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">米兰的小铁匠</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary">范特西</button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">简单爱</a></li>
+                      <li><a class="dropdown-item" href="#">开不了口</a></li>
+                      <li><a class="dropdown-item" href="#">忍者</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">上海一九四三</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">惊叹号!</button>
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">迷魂曲</a></li>
+                      <li><a class="dropdown-item" href="#">你好吗</a></li>
+                      <li><a class="dropdown-item" href="#">皮影戏</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">琴伤</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-info">跨时代</button>
+                    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">说了再见</a></li>
+                      <li><a class="dropdown-item" href="#">我落泪情绪零碎</a></li>
+                      <li><a class="dropdown-item" href="#">嘻哈空姐</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">烟花易冷</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-warning">魔杰座</button>
+                    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">龙战骑士</a></li>
+                      <li><a class="dropdown-item" href="#">魔术先生</a></li>
+                      <li><a class="dropdown-item" href="#">乔克叔叔</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">时光机</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger">七里香</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">搁浅</a></li>
+                      <li><a class="dropdown-item" href="#">将军</a></li>
+                      <li><a class="dropdown-item" href="#">借口</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">困兽之斗</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;!-- 分裂式 danger 按钮示例 --&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-danger"&gt;七里香&lt;/button&gt;
+        &lt;button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;搁浅&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;将军&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;借口&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;困兽之斗&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>尺寸</h5>
+                <p>按钮下拉菜单适用于所有大小的按钮，包括默认和拆分下拉按钮。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      七里香
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">乱舞春秋</a></li>
+                      <li><a class="dropdown-item" href="#">外婆</a></li>
+                      <li><a class="dropdown-item" href="#">我的地盘</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">园游会</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-secondary">十二新作</button>
+                    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">爱你没差</a></li>
+                      <li><a class="dropdown-item" href="#">大笨钟</a></li>
+                      <li><a class="dropdown-item" href="#">公公偏头痛</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">红尘客栈</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          七里香
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-lg btn-secondary"&gt;十二新作&lt;/button&gt;
+        &lt;button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      十二新作
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">梦想启动</a></li>
+                      <li><a class="dropdown-item" href="#">明明就</a></li>
+                      <li><a class="dropdown-item" href="#">哪里都是你</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">手语</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-secondary">十一月的萧邦</button>
+                    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">发如雪</a></li>
+                      <li><a class="dropdown-item" href="#">枫</a></li>
+                      <li><a class="dropdown-item" href="#">黑色毛衣</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">蓝色风暴</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          十二新作
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-sm btn-secondary"&gt;十一月的萧邦&lt;/button&gt;
+        &lt;button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>深色下拉菜单</h5>
+                <p>通过将 <code>.dropdown-menu-dark</code> 添加到现有的 <code>.dropdown-menu</code> 来选择较暗的下拉菜单以匹配深色导航栏或自定义样式。 下拉项目不需要更改。</p>
+                <div class="border-example">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                      十一月的萧邦
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item active" href="#">浪漫手机</a></li>
+                      <li><a class="dropdown-item" href="#">麦芽糖</a></li>
+                      <li><a class="dropdown-item" href="#">逆鳞</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">飘移</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          十一月的萧邦
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item active" href="#"&gt;浪漫手机&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;麦芽糖&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;逆鳞&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;飘移&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>并将其用于导航栏：</p>
+                <div class="border-example">
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">导航栏</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              编程语言
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">PHP</a></li>
+                              <li><a class="dropdown-item" href="#">Python</a></li>
+                              <li><a class="dropdown-item" href="#">Java</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <pre>&lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="#"&gt;导航栏&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarNavDarkDropdown"&gt;
+            &lt;ul class="navbar-nav"&gt;
+              &lt;li class="nav-item dropdown"&gt;
+                &lt;a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+                  编程语言
+                &lt;/a&gt;
+                &lt;ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink"&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;PHP&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Python&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Java&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;</pre>
+
+                <h5>方向</h5>
+                <div class="callout callout-info mb-3">
+                  <strong>RTL</strong>
+                  <p>在 RTL 中使用 Bootstrap 时方向是镜像的，这意味着 <code>.dropstart</code> 将出现在右侧。
+                </div>
+                <h6>Dropup</h6>
+                <p>通过将 <code>.dropup</code> 添加到父元素来触发向上的下拉菜单。</p>
+                <div class="border-example">
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      十一月的萧邦
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">四面楚歌</a></li>
+                      <li><a class="dropdown-item" href="#">夜曲</a></li>
+                      <li><a class="dropdown-item" href="#">一路向北</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">珊瑚海</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary">
+                      十二新作
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">四季列车</a></li>
+                      <li><a class="dropdown-item" href="#">乌克丽丽</a></li>
+                      <li><a class="dropdown-item" href="#">比较大的大提琴</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">傻笑</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group dropup"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          十一月的萧邦
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;四面楚歌&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;夜曲&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;一路向北&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;珊瑚海&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group dropup"&gt;
+        &lt;button type="button" class="btn btn-secondary"&gt;
+          十二新作
+        &lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;四季列车&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;乌克丽丽&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;比较大的大提琴&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;傻笑&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>Dropend</h6>
+                <p>通过将 <code>.dropend</code> 添加到父元素来触发元素右侧的下拉菜单。</p>
+                <div class="border-example">
+                  <div class="btn-group dropend">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      我很忙
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">彩虹</a></li>
+                      <li><a class="dropdown-item" href="#">扯</a></li>
+                      <li><a class="dropdown-item" href="#">牛仔很忙</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">蒲公英的约定</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group dropend">
+                    <button type="button" class="btn btn-secondary">
+                      叶惠美
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">切换下拉端</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">爱情悬崖</a></li>
+                      <li><a class="dropdown-item" href="#">东风破</a></li>
+                      <li><a class="dropdown-item" href="#">你听得到</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">懦夫</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group dropend"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          我很忙
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;彩虹&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;扯&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;牛仔很忙&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;蒲公英的约定&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group dropend"&gt;
+        &lt;button type="button" class="btn btn-secondary"&gt;
+          叶惠美
+        &lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;span class="visually-hidden"&gt;切换下拉端&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;爱情悬崖&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;东风破&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;你听得到&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;懦夫&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>Dropstart</h6>
+                <p>通过将 <code>.dropstart</code> 添加到父元素来触发元素左侧的下拉菜单。</p>
+                <div class="border-example">
+                  <div class="btn-group dropstart">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      叶惠美
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">晴天</a></li>
+                      <li><a class="dropdown-item" href="#">三年二班</a></li>
+                      <li><a class="dropdown-item" href="#">双刀</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">她的睫毛</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <div class="btn-group dropstart" role="group">
+                      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">切换下拉</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">我不配</a></li>
+                        <li><a class="dropdown-item" href="#">无双</a></li>
+                        <li><a class="dropdown-item" href="#">阳光宅男</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">最长的电影</a></li>
+                      </ul>
+                    </div>
+                    <button type="button" class="btn btn-secondary">
+                      我很忙
+                    </button>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group dropstart"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          叶惠美
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;晴天&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;三年二班&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;双刀&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;她的睫毛&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;div class="btn-group dropstart" role="group"&gt;
+          &lt;button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+            &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;ul class="dropdown-menu"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;我不配&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;无双&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;阳光宅男&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;最长的电影&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;button type="button" class="btn btn-secondary"&gt;
+          我很忙
+        &lt;/button&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>菜单项</h5>
+                <p>您可以使用 <code>&lt;a&gt;</code> 或 <code>&lt;button&gt;</code> 元素作为下拉项。</p>
+                <div class="border-example">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      叶惠美
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">梯田</button></li>
+                      <li><button class="dropdown-item" type="button">同一种调调</button></li>
+                      <li><button class="dropdown-item" type="button">以父之名</button></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          叶惠美
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenu2"&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;梯田&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;同一种调调&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;以父之名&lt;/button&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>您还可以使用 <code>.dropdown-item-text</code> 创建非交互式下拉项。 随意使用自定义 CSS 或文本实用程序进一步设置样式。</p>
+                <div class="border-example">
+                  <ul class="dropdown-menu">
+                    <li><span class="dropdown-item-text">轨迹</span></li>
+                    <li><a class="dropdown-item" href="#">霍元甲</a></li>
+                    <li><a class="dropdown-item" href="#">断了的弦</a></li>
+                    <li><a class="dropdown-item" href="#">黄金甲</a></li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;span class="dropdown-item-text"&gt;轨迹&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;霍元甲&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;断了的弦&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;黄金甲&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>Active</h6>
+                <p>将 <code>.active</code> 添加到下拉列表中的项目以<strong>将它们设置为活动状态</strong>。 要将活动状态传达给辅助技术，请使用 <code>aria-current</code> 属性 — 对当前页面使用 <code>page</code> 值，或对当前页面使用 <code>true</code> 集合中的当前项目。</p>
+                <div class="border-example">
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">白色风车</a></li>
+                    <li><a class="dropdown-item active" href="#" aria-current="true">本草纲目</a></li>
+                    <li><a class="dropdown-item" href="#">红模仿</a></li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;白色风车&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item active" href="#" aria-current="true"&gt;本草纲目&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;红模仿&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>禁用的</h6>
+                <p>将 <code>.disabled</code> 添加到下拉列表中的项目以<strong>将它们设置为禁用</strong>。</p>
+                <div class="border-example">
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">菊花台</a></li>
+                    <li><a class="dropdown-item disabled">迷迭香</a></li>
+                    <li><a class="dropdown-item" href="#">听妈妈的话</a></li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;菊花台&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item disabled"&gt;迷迭香&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;听妈妈的话&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h5>菜单对齐</h5>
+                <p>默认情况下，下拉菜单会自动 100% 定位在其父级的顶部和左侧。 您可以使用定向 <code>.drop*</code> 类来更改它，但您也可以使用其他修饰符类来控制它们。</p>
+                <p>将 <code>.dropdown-menu-end</code> 添加到 <code>.dropdown-menu</code> 以右对齐下拉菜单。 在 RTL 中使用 Bootstrap 时方向是镜像的，这意味着 <code>.dropdown-menu-end</code> 将出现在左侧。</p>
+                <div class="callout callout-info mb-3">
+                  <strong>注意！</strong> 下拉菜单的位置要归功于 Popper，除非它们包含在导航栏中。
+                </div>
+
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      右对齐菜单示例
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">侠骨丹心</button></li>
+                      <li><button class="dropdown-item" type="button">草莽龙蛇传</button></li>
+                      <li><button class="dropdown-item" type="button">龙虎斗京华</button></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          右对齐菜单示例
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-end"&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;侠骨丹心&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;草莽龙蛇传&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;龙虎斗京华&lt;/button&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>响应式对齐</h6>
+                <p>如果您想使用响应式对齐，请通过添加 <code>data-bs-display="static"</code> 属性禁用动态定位并使用响应式变体类。</p>
+                <p>要将下拉菜单<strong>右</strong>与给定断点或更大的断点对齐，请添加 <code>.dropdown-menu{-sm|-md|-lg|-xl|-xxl}-end</code> 。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      大屏时左对齐但右对齐
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                      <li><button class="dropdown-item" type="button">幻剑灵旗</button></li>
+                      <li><button class="dropdown-item" type="button">剑网尘丝</button></li>
+                      <li><button class="dropdown-item" type="button">绝塞传烽录</button></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"&gt;
+          大屏时左对齐但右对齐
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-lg-end"&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;幻剑灵旗&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;剑网尘丝&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;绝塞传烽录&lt;/button&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>要将下拉菜单 <strong>left</strong> 与给定断点或更大的断点对齐，请添加 <code>.dropdown-menu-end</code> 和 <code>.dropdown-menu{-sm|-md|- lg|-xl|-xxl}-start</code>。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      大屏幕时右对齐但左对齐
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><button class="dropdown-item" type="button">弹指惊雷</button></li>
+                      <li><button class="dropdown-item" type="button">牧野流星</button></li>
+                      <li><button class="dropdown-item" type="button">游剑江湖</button></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"&gt;
+          大屏幕时右对齐但左对齐
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start"&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;弹指惊雷&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;牧野流星&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;游剑江湖&lt;/button&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <p>请注意，您不需要在导航栏中的下拉按钮中添加 <code>data-bs-display=”static"</code> 属性，因为导航栏中不使用 Popper。</p>
+                <h6>对齐选项</h6>
+                <p>采用上面显示的大部分选项，这里有一个小型厨房水槽演示，在一个地方展示了各种下拉对齐选项。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                      下拉
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">白发魔女传</a></li>
+                      <li><a class="dropdown-item" href="#">武当一剑</a></li>
+                      <li><a class="dropdown-item" href="#">还剑奇情录</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      右对齐菜单
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">萍踪侠影录</a></li>
+                      <li><a class="dropdown-item" href="#">散花女侠</a></li>
+                      <li><a class="dropdown-item" href="#">联剑风云录</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      左对齐，lg 右对齐
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                      <li><a class="dropdown-item" href="#">广陵剑</a></li>
+                      <li><a class="dropdown-item" href="#">龙凤宝钗缘</a></li>
+                      <li><a class="dropdown-item" href="#">大唐游侠传</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      右对齐，lg 左对齐
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><a class="dropdown-item" href="#">慧剑心魔</a></li>
+                      <li><a class="dropdown-item" href="#">女帝奇英传</a></li>
+                      <li><a class="dropdown-item" href="#">武林天骄</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group dropstart">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropstart
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">瀚海雄风</a></li>
+                      <li><a class="dropdown-item" href="#">飞凤潜龙</a></li>
+                      <li><a class="dropdown-item" href="#">鸣镝风云录</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group dropend">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropend
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">狂侠天骄魔女</a></li>
+                      <li><a class="dropdown-item" href="#">风云雷电</a></li>
+                      <li><a class="dropdown-item" href="#">武林三绝</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropup
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">柳湖侠隐</a></li>
+                      <li><a class="dropdown-item" href="#">龙山四友</a></li>
+                      <li><a class="dropdown-item" href="#">蛮荒侠隐</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          下拉
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;白发魔女传&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;武当一剑&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;还剑奇情录&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          右对齐菜单
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-end"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;萍踪侠影录&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;散花女侠&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;联剑风云录&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"&gt;
+          左对齐，lg 右对齐
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-lg-end"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;广陵剑&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;龙凤宝钗缘&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;大唐游侠传&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"&gt;
+          右对齐，lg 左对齐
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;慧剑心魔&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;女帝奇英传&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;武林天骄&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group dropstart"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          Dropstart
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;瀚海雄风&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;飞凤潜龙&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;鸣镝风云录&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group dropend"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          Dropend
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;狂侠天骄魔女&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;风云雷电&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;武林三绝&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group dropup"&gt;
+        &lt;button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          Dropup
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;柳湖侠隐&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;龙山四友&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;蛮荒侠隐&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>菜单内容</h5>
+                <h6>Headers</h6>
+                <p>添加标题以标记任何下拉菜单中的操作部分。</p>
+                <div class="border-example">
+                  <ul class="dropdown-menu">
+                    <li><h6 class="dropdown-header">下拉菜单标题</h6></li>
+                    <li><a class="dropdown-item" href="#">女侠夜明珠</a></li>
+                    <li><a class="dropdown-item" href="#">青城十九侠</a></li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;h6 class="dropdown-header"&gt;下拉菜单标题&lt;/h6&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;女侠夜明珠&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;青城十九侠&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>分隔线</h6>
+                <p>用分隔线分隔相关菜单项组。</p>
+                <div class="border-example">
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">青门十四侠</a></li>
+                    <li><a class="dropdown-item" href="#">拳王</a></li>
+                    <li><a class="dropdown-item" href="#">天山飞侠</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">铁笛子</a></li>
+                  </ul>
+                </div>
+                <pre>&lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;青门十四侠&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;拳王&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;天山飞侠&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;铁笛子&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;</pre>
+
+                <h6>文本</h6>
+                <p>将任何自由格式的文本放在带有文本的下拉菜单中，并使用间距实用程序。 请注意，我可能需要额外的尺寸样式来限制菜单宽度。</p>
+                <div class="border-example">
+                  <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+                    <p>
+                      以汤川学作为主角，该书里面有本格的推理，又有社会派的反思。
+                    </p>
+                    <p class="mb-0">
+                      伽利略的苦恼
+                    </p>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown-menu p-4 text-muted" style="max-width: 200px;"&gt;
+        &lt;p&gt;
+          以汤川学作为主角，该书里面有本格的推理，又有社会派的反思。
+        &lt;/p&gt;
+        &lt;p class="mb-0"&gt;
+          伽利略的苦恼
+        &lt;/p&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>表单</h6>
+                <p>将表单放在下拉菜单中，或将其放入下拉菜单，然后使用 margin 或 padding 实用程序为其提供所需的负空间。</p>
+                <div class="border-example">
+                  <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormEmail1" class="form-label">邮箱地址</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormPassword1" class="form-label">密码</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="密码">
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            记住我
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">登录</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">新用户？ 点击注册</a>
+                    <a class="dropdown-item" href="#">忘记密码？</a>
+                  </div>
+                </div>
+                <pre>&lt;div class="dropdown-menu"&gt;
+        &lt;form class="px-4 py-3"&gt;
+          &lt;div class="mb-3"&gt;
+            &lt;label for="exampleDropdownFormEmail1" class="form-label"&gt;邮箱地址&lt;/label&gt;
+            &lt;input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com"&gt;
+          &lt;/div&gt;
+          &lt;div class="mb-3"&gt;
+            &lt;label for="exampleDropdownFormPassword1" class="form-label"&gt;密码&lt;/label&gt;
+            &lt;input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="密码"&gt;
+          &lt;/div&gt;
+          &lt;div class="mb-3"&gt;
+            &lt;div class="form-check"&gt;
+              &lt;input type="checkbox" class="form-check-input" id="dropdownCheck"&gt;
+              &lt;label class="form-check-label" for="dropdownCheck"&gt;
+                记住我
+              &lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;登录&lt;/button&gt;
+        &lt;/form&gt;
+        &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+        &lt;a class="dropdown-item" href="#"&gt;新用户？ 点击注册&lt;/a&gt;
+        &lt;a class="dropdown-item" href="#"&gt;忘记密码？&lt;/a&gt;
+      &lt;/div&gt;</pre>
+
+                <div class="border-example">
+                  <form class="dropdown-menu p-4">
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormEmail2" class="form-label">邮箱地址</label>
+                      <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormPassword2" class="form-label">密码</label>
+                      <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="密码">
+                    </div>
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                        <label class="form-check-label" for="dropdownCheck2">
+                          记住我
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">登录</button>
+                  </form>
+                </div>
+                <pre>&lt;form class="dropdown-menu p-4"&gt;
+        &lt;div class="mb-3"&gt;
+          &lt;label for="exampleDropdownFormEmail2" class="form-label"&gt;邮箱地址&lt;/label&gt;
+          &lt;input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com"&gt;
+        &lt;/div&gt;
+        &lt;div class="mb-3"&gt;
+          &lt;label for="exampleDropdownFormPassword2" class="form-label"&gt;密码&lt;/label&gt;
+          &lt;input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="密码"&gt;
+        &lt;/div&gt;
+        &lt;div class="mb-3"&gt;
+          &lt;div class="form-check"&gt;
+            &lt;input type="checkbox" class="form-check-input" id="dropdownCheck2"&gt;
+            &lt;label class="form-check-label" for="dropdownCheck2"&gt;
+              记住我
+            &lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button type="submit" class="btn btn-primary"&gt;登录&lt;/button&gt;
+      &lt;/form&gt;</pre>
+
+                <h5>下拉选项</h5>
+                <p>使用 <code>data-bs-offset</code> 或 <code>data-bs-reference</code> 更改下拉菜单的位置。</p>
+                <div class="border-example">
+                  <div class="d-flex">
+                    <div class="dropdown me-1">
+                      <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                        Offset
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        <li><a class="dropdown-item" href="#">万里孤侠</a></li>
+                        <li><a class="dropdown-item" href="#">卧龙峡风云</a></li>
+                        <li><a class="dropdown-item" href="#">武当七女</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-secondary">Reference</button>
+                      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                        <span class="visually-hidden">切换下拉</span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                        <li><a class="dropdown-item" href="#">武当异人传</a></li>
+                        <li><a class="dropdown-item" href="#">侠丐木尊者</a></li>
+                        <li><a class="dropdown-item" href="#">翼人影无双</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">云海争奇记</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <pre>&lt;div class="d-flex"&gt;
+        &lt;div class="dropdown me-1"&gt;
+          &lt;button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20"&gt;
+            Offset
+          &lt;/button&gt;
+          &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;万里孤侠&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;卧龙峡风云&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;武当七女&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;div class="btn-group"&gt;
+          &lt;button type="button" class="btn btn-secondary"&gt;Reference&lt;/button&gt;
+          &lt;button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent"&gt;
+            &lt;span class="visually-hidden"&gt;切换下拉&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuReference"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;武当异人传&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;侠丐木尊者&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;翼人影无双&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;云海争奇记&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>自动关闭行为</h6>
+                <p>默认情况下，在下拉菜单内部或外部单击时，下拉菜单会关闭。 您可以使用 <code>autoClose</code> 选项来更改下拉菜单的这种行为。</p>
+                <div class="border-example">
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                      默认下拉菜单
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                      <li><a class="dropdown-item" href="#">征轮侠影</a></li>
+                      <li><a class="dropdown-item" href="#">蜀山剑侠后传</a></li>
+                      <li><a class="dropdown-item" href="#">蜀山剑侠新传</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                      外部可点击
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                      <li><a class="dropdown-item" href="#">蜀山剑侠传</a></li>
+                      <li><a class="dropdown-item" href="#">创世纪</a></li>
+                      <li><a class="dropdown-item" href="#">云梦城之谜</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                      内部可点击
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                      <li><a class="dropdown-item" href="#">灵琴杀手</a></li>
+                      <li><a class="dropdown-item" href="#">封神记</a></li>
+                      <li><a class="dropdown-item" href="#">龙神</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                      手动关闭
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+                      <li><a class="dropdown-item" href="#">时空浪族</a></li>
+                      <li><a class="dropdown-item" href="#">超级战士</a></li>
+                      <li><a class="dropdown-item" href="#">凌渡宇</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <pre>&lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"&gt;
+          默认下拉菜单
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="defaultDropdown"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;征轮侠影&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;蜀山剑侠后传&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;蜀山剑侠新传&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false"&gt;
+          外部可点击
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;蜀山剑侠传&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;创世纪&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;云梦城之谜&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"&gt;
+          内部可点击
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;灵琴杀手&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;封神记&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;龙神&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="btn-group"&gt;
+        &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false"&gt;
+          手动关闭
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;时空浪族&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;超级战士&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;凌渡宇&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h5>用法</h5>
+                <p>通过数据属性或 JavaScript，下拉插件通过切换父 <code>.dropdown-menu</code> 上的 <code>.show</code> 类来切换隐藏内容（下拉菜单）。 <code>data-bs-toggle="dropdown"</code> 属性用于在应用程序级别关闭下拉菜单，因此最好始终使用它。</p>
+                <div class="callout callout-info mb-3">在支持触摸的设备上，打开下拉菜单会将空的 <code>mouseover</code> 处理程序添加到 <code>&lt;body&gt;</code> 元素的直接子元素。 这个公认的丑陋黑客对于解决 <a href="https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html" target="_blank">iOS 事件委托中的怪癖</a>是必要的，它 否则会阻止在下拉列表之外的任何地方点击触发关闭下拉列表的代码。 关闭下拉菜单后，这些额外的空 <code>mouseover</code> 处理程序将被删除。</div>
+
+                <h6>通过数据属性</h6>
+                <p>将 <code>data-bs-toggle="dropdown"</code> 添加到链接或按钮以切换下拉菜单。</p>
+                <pre>&lt;div class="dropdown"&gt;
+        &lt;button id="dLabel" type="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          下拉触发器
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="dLabel"&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/div&gt;</pre>
+
+                <h6>通过 JavaScript</h6>
+                <p>通过 JavaScript 调用下拉菜单：</p>
+                <pre>var dropdownElementList = Array.prototype.slice.call(document.querySelectorAll('.dropdown-toggle'))
+      var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+        return new bootstrap.Dropdown(dropdownToggleEl)
+      })</pre>
+
+                <div class="callout callout-info mb-3">
+                  <strong><code>data-bs-toggle="dropdown"</code> 仍然需要</strong>
+                  <p>无论您是通过 JavaScript 调用下拉菜单还是使用 data-api，<code>data-bs-toggle=“dropdown”</code> 始终需要出现在下拉菜单的触发元素上。</p>
+                </div>
+
+                <h6>选项</h6>
+                <p>选项可以通过数据属性或 JavaScript 传递。 对于数据属性，将选项名称附加到 <code>data-bs-</code>，如 <code>data-bs-offset=""</code>。 通过数据属性传递选项时，请确保将选项名称的大小写类型从 camelCase 更改为 kebab-case。 例如，不要使用 <code>data-bs-autoClose="false"</code>，而是使用 <code>data-bs-auto-close="false"</code>。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th style="width: 100px;">名称</th>
+                      <th style="width: 100px;">类型</th>
+                      <th style="width: 50px;">默认</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>boundary</code></td>
+                      <td>string | element</td>
+                      <td><code>'clippingParents'</code></td>
+                      <td>下拉菜单的溢出约束边界（仅适用于 Popper 的 preventOverflow 修饰符）。 默认情况下它是 <code>'clippingParents'</code> 并且可以接受 HTMLElement 引用（仅通过 JavaScript）。 有关详细信息，请参阅 Popper 的 <a href="https://popper.js.org/docs/v2/utils/detect-overflow/#boundary" target="_blank">detectOverflow 文档</a>。</td>
+                    </tr>
+                    <tr>
+                      <td><code>reference</code></td>
+                      <td>string | element | object</td>
+                      <td><code>'toggle'</code></td>
+                      <td>下拉菜单的引用元素。 接受 <code>'toggle'</code>、<code>'parent'</code>、HTMLElement 引用或提供 <code>getBoundingClientRect</code> 的对象的值。 有关详细信息，请参阅 Popper 的 <a href="https://popper.js.org/docs/v2/constructors/#createpopper" target="_blank">构造函数文档</a> 和 <a href="https://popper.js .org/docs/v2/virtual-elements/" target="_blank">虚拟元素文档</a>。</td>
+                    </tr>
+                    <tr>
+                      <td><code>display</code></td>
+                      <td>string</td>
+                      <td><code>'dynamic'</code></td>
+                      <td>默认情况下，我们使用 Popper 进行动态定位。 使用 <code>static</code> 禁用它。</td>
+                    </tr>
+                    <tr>
+                      <td><code>offset</code></td>
+                      <td>array | string | function</td>
+                      <td><code>[0, 2]</code></td>
+                      <td>
+                        <p>下拉菜单相对于其目标的偏移量。 您可以使用逗号分隔值在数据属性中传递字符串，例如：<code>data-bs-offset="10,20"</code></p>
+                        <p>W当一个函数用于确定偏移量时，它会使用一个包含 popper 放置、引用和 popper rects 作为其第一个参数的对象来调用。 触发元素 DOM 节点作为第二个参数传递。 该函数必须返回一个包含两个数字的数组：<code>[<a href="https://popper.js.org/docs/v2/modifiers/offset/#skidding-1" target="_blank">skidding</a>, < a href="https://popper.js.org/docs/v2/modifiers/offset/#distance-1" target="_blank">距离</a>]</code>。</p>
+                        <p>有关详细信息，请参阅 Popper 的 <a href="https://popper.js.org/docs/v2/modifiers/offset/#options" target="_blank">偏移文档</a>。</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>autoClose</code></td>
+                      <td>boolean | string</td>
+                      <td><code>true</code></td>
+                      <td>
+                        <p>配置下拉菜单的自动关闭行为：</p>
+                        <ul>
+                          <li><code>true</code> - 单击下拉菜单外部或内部将关闭下拉菜单。</li>
+                          <li><code>false</code> - 单击切换按钮并手动调用 <code>hide</code> 或 <code>toggle</code> 方法将关闭下拉菜单。 （也不会按<kbd>esc</kbd>键关闭）</li>
+                          <li><code>'inside'</code> - 通过单击下拉菜单内部，将（仅）关闭下拉菜单。</li>
+                          <li><code>'outside'</code> - 下拉菜单将（仅）通过单击下拉菜单外部关闭。</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>popperConfig</code></td>
+                      <td>null | object | function</td>
+                      <td><code>null</code></td>
+                      <td>
+                        <p>要更改 Bootstrap 的默认 Popper 配置，请参阅 <a href="https://popper.js.org/docs/v2/constructors/#options" target="_blank">Popper 的配置</a>。</p>
+                        <p>当一个函数用于创建 Popper 配置时，它会使用一个包含 Bootstrap 的默认 Popper 配置的对象来调用。 它可以帮助您使用默认设置并将其与您自己的配置合并。 该函数必须为 Popper 返回一个配置对象。</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <strong>使用带有 <code>popperConfig</code> 的函数</strong>
+                <pre>var dropdown = new bootstrap.Dropdown(element, {
+        popperConfig: function (defaultBsPopperConfig) {
+          // var newPopperConfig = {...}
+          // use defaultBsPopperConfig if needed...
+          // return newPopperConfig
+        }
+      })</pre>
+                <h6>方法</h6>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Method</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>toggle</code></td>
+                      <td>
+                        切换给定导航栏或选项卡式导航的下拉菜单。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>show</code></td>
+                      <td>
+                        显示给定导航栏或选项卡式导航的下拉菜单。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>hide</code></td>
+                      <td>
+                        隐藏给定导航栏或选项卡式导航的下拉菜单。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>update</code></td>
+                      <td>
+                        更新元素下拉列表的位置。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>dispose</code></td>
+                      <td>
+                        销毁元素的下拉列表。 （删除 DOM 元素上存储的数据）
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getInstance</code>
+                      </td>
+                      <td>
+                        允许您获取与 DOM 元素关联的下拉实例的静态方法，您可以像这样使用它：<code>bootstrap.Dropdown.getInstance(element)</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>getOrCreateInstance</code>
+                      </td>
+                      <td>
+                        静态方法，它返回与 DOM 元素关联的下拉实例，或者在未初始化的情况下创建一个新实例。你可以像这样使用它：<code>bootstrap.Dropdown.getOrCreateInstance(element)</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6>事件</h6>
+                <p>所有下拉事件都在切换元素上触发，然后冒泡。 所以你也可以在 <code>.dropdown-menu</code>&rsquo;s 的父元素上添加事件监听器。 <code>hide.bs.dropdown</code> 和 <code>hidden.bs.dropdown</code> 事件具有 <code>clickEvent</code> 属性（仅当原始事件类型为 <code>click</code>)，其中包含单击事件的事件对象。</p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>方法</th>
+                      <th>描述</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <code>show.bs.dropdown</code>
+                      </td>
+                      <td>
+                        调用 show 实例方法时立即触发。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>shown.bs.dropdown</code>
+                      </td>
+                      <td>
+                        当下拉菜单对用户可见并且 CSS 转换完成时触发。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>hide.bs.dropdown</code>
+                      </td>
+                      <td>
+                        调用 hide 实例方法时立即触发。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>hidden.bs.dropdown</code>
+                      </td>
+                      <td>
+                        当下拉菜单完成对用户隐藏并且 CSS 转换完成时触发。
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <pre>var myDropdown = document.getElementById('myDropdown')
+      myDropdown.addEventListener('show.bs.dropdown', function () {
+        // do something...
+      })</pre>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+	
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>
