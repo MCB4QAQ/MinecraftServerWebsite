@@ -622,9 +622,9 @@ function getIP()
     return $realip;
 }
 $servername = "localhost";
-$username = "cwweb";
-$password = "EmFZRiJRxyXse4BR";
-$dbname = "cwweb";
+$username = "***";
+$password = "***";
+$dbname = "***";
 $ip = getIP();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -652,17 +652,17 @@ try {
     $mail->CharSet ="UTF-8";                     //设定邮件编码
     $mail->SMTPDebug = 0;                        // 调试模式输出
     $mail->isSMTP();                             // 使用SMTP
-    $mail->Host = 'smtp.qiye.aliyun.com';                // SMTP服务器
+    $mail->Host = '***';                // SMTP服务器
     $mail->SMTPAuth = true;                      // 允许 SMTP 认证
-    $mail->Username = 'web@b4qaq.top';                // SMTP 用户名  即邮箱的用户名
-    $mail->Password = 'MingchengNetwork134';             // SMTP 密码  部分邮箱是授权码(例如163邮箱)
+    $mail->Username = '***';                // SMTP 用户名  即邮箱的用户名
+    $mail->Password = '***';             // SMTP 密码  部分邮箱是授权码(例如163邮箱)
     $mail->SMTPSecure = 'ssl';                    // 允许 TLS 或者ssl协议
-    $mail->Port = 465;                            // 服务器端口 25 或者465 具体要看邮箱服务器支持
+    $mail->Port = ***;                            // 服务器端口 25 或者465 具体要看邮箱服务器支持
 
-    $mail->setFrom('web@b4qaq.top', 'MCNSWeb反馈');  //发件人
-    $mail->addAddress('525148989@qq.com', 'admin');  // 收件人
-    $mail->addAddress('3039809400@qq.com');  // 可添加多个收件人
-    $mail->addReplyTo('web@b4qaq.top', 'info'); //回复的时候回复给哪个邮箱 建议和发件人一致
+    $mail->setFrom('***', '***');  //发件人
+    $mail->addAddress('***', '***');  // 收件人
+    //$mail->addAddress('***');  // 可添加多个收件人
+    $mail->addReplyTo('***', 'info'); //回复的时候回复给哪个邮箱 建议和发件人一致
     //$mail->addCC('cc@example.com');                    //抄送
     //$mail->addBCC('bcc@example.com');                    //密送
 
@@ -673,8 +673,8 @@ try {
     //Content
     $mail->isHTML(true);                                  // 是否以HTML文档格式发送  发送后客户端可直接显示对应HTML内容
     $mail->Subject = '您的网站数据库连接出错！';
-    $mail->Body    = '<h1>您的网站数据库连接出错！</h1>您的网站 www.caryworld.top 所使用的 cwweb 数据库无法连接，请尽快修复！<br>错误代码：<br>' . $conn->error . '<br>执行的SQL语句：<br>' . $sql . '<br>由phpMailer自动发送<br>' . date('Y-m-d H:i:s');
-    $mail->AltBody = '您的网站 www.caryworld.top 所使用的 cwweb 数据库无法连接，请尽快修复！错误代码：' . $conn->error . '执行的SQL语句：' . $sql . '由phpMailer自动发送' . date('Y-m-d H:i:s');
+    $mail->Body    = '<h1>您的网站数据库连接出错！</h1>您的网站 *** 所使用的 *** 数据库无法连接，请尽快修复！<br>错误代码：<br>' . $conn->error . '<br>执行的SQL语句：<br>' . $sql . '<br>由phpMailer自动发送<br>' . date('Y-m-d H:i:s');
+    $mail->AltBody = '您的网站 *** 所使用的 *** 数据库无法连接，请尽快修复！错误代码：' . $conn->error . '执行的SQL语句：' . $sql . '由phpMailer自动发送' . date('Y-m-d H:i:s');
 
     $mail->send();
     echo '问题反馈成功！';

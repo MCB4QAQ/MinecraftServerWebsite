@@ -316,9 +316,9 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['login_time']) || !isset($
               <div class="card-body">
                 <?php
 $servername = "localhost";
-$username = "cwweb";
-$password = "EmFZRiJRxyXse4BR";
-$dbname = "cwweb";
+$username = "***";
+$password = "***";
+$dbname = "***";
 
 // 创建连接
 $conn = new mysqli($servername, $username, $password, $dbname);

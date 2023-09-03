@@ -93,9 +93,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // 连接数据库
     $servername = "localhost";
-    $dbname = "cwweb";
-    $username_db = "cwweb";
-    $password_db = "EmFZRiJRxyXse4BR";
+    $dbname = "***";
+    $username_db = "***";
+    $password_db = "***";
     
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);
     

@@ -14,9 +14,9 @@ $oldpwd = $_GET['oldpwd'];
 $newpwd = $_GET['newpwd'];
 $confirmpwd = $_GET['confirmpwd'];
 $servername = "localhost";
-$username = "cwweb";
-$password = "EmFZRiJRxyXse4BR";
-$dbname = "cwweb";
+$username = "***";
+$password = "***";
+$dbname = "***";
 
 // 创建连接
 $conn = new mysqli($servername, $username, $password, $dbname);

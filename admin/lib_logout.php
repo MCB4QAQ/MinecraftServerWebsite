@@ -22,9 +22,9 @@ function getIP()
     return $realip;
 }
 $servername = "localhost";
-$username = "cwweb";
-$password = "EmFZRiJRxyXse4BR";
-$dbname = "cwweb";
+$username = "***";
+$password = "***";
+$dbname = "***";
 $ip = getIP();
 // 创建连接
 $conn = new mysqli($servername, $username, $password, $dbname);
