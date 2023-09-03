@@ -24,7 +24,7 @@
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.6">
 <meta name="keywords" content="铭城网络科技工作室, B4, CaryWorld服务器, CaryWorld, CaryWorld服务器官网">
-<title>CaryWorld服务器官网</title>
+<title>CaryWorld服务器官网 - R2.1 GitHub开源版</title>
 <link rel="stylesheet" type="text/css" href="static/index.css">
 </head>
 <body>
@@ -531,6 +531,7 @@
     <p>由铭城网络工作室编写</p>
 	</footer>
 </div>
+<!--以下为版权声明,禁止修改 -->
 	<script>
 		    function secondToDate(second) {
 				if (!second) {
@@ -575,7 +576,7 @@
 console.group("冰幻阁");
     console.log("%c%c域名支持%c @y QQ3039809400", "line-height:28px;", "line-height:28px;padding:4px;background:#00a650;color:#fff;border-radius: 5px;font-size:16px;margin-right:15px", "color:#008000;line-height:28px;font-size:16px;");
     console.log("%c%c下载页面想法支持%c @血族土豪 QQ1989206322", "line-height:28px;", "line-height:28px;padding:4px;background:#00a650;color:#fff;border-radius: 5px;font-size:16px;margin-right:15px", "color:#f0f;line-height:28px;font-size:16px;");
-console.log("%c%c版权%c © 2020-2023 CaryWorld.top 未经作者允许禁止使用！", "line-height:28px;", "line-height:28px;padding:4px;background:#00a650;color:#fff;border-radius: 5px;font-size:16px;margin-right:15px", "color:#f0f;line-height:28px;font-size:16px;");
+console.log("%c%c版权%c © 2020-2023 CaryWorld.top GitHub开源版", "line-height:28px;", "line-height:28px;padding:4px;background:#00a650;color:#fff;border-radius: 5px;font-size:16px;margin-right:15px", "color:#f0f;line-height:28px;font-size:16px;");
 			</script>
 <script>
 	const hamburger = document.querySelector('.hamburger')
