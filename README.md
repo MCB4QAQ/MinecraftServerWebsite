@@ -1,15 +1,11 @@
 ![工作室LOGO](https://caryworld.b4qaq.top/admin/images/logo2.png) 
 # MinecraftServerWebwebsite
-****
-
 |开发团队|铭诚网络工作室
 |---|---
 |开源工作|B4QAQ
 |维护工作|B4QAQ
 |开源协议|GPL V3
 |项目状态|开源维护
-
-****
 Copyright by 2023 Mingcheng Network Studio  
 ### 网站预览
 [前往Caryworld.b4qaq.top预览最新Beta版](https://caryworld.b4qaq.top)  
