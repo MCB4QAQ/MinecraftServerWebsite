@@ -7,7 +7,9 @@
 |维护工作|B4QAQ
 |开源协议|![LICENSE](https://img.shields.io/badge/License-GPLV3-green)
 |项目状态|![Build](https://img.shields.io/badge/Bulid-passing-green)
+|项目版本|![LICENSE](https://img.shields.io/badge/Release-2.1-green)
 
+![LICENSE](https://img.shields.io/badge/Using-PHP-green)![LICENSE](https://img.shields.io/badge/Using-HTML-green)![LICENSE](https://img.shields.io/badge/MySql-5.7-green)
 Copyright by 2023 Mingcheng Network Studio  
 
 ### 网站预览
