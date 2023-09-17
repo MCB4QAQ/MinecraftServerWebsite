@@ -3,24 +3,13 @@
 ### 项目作者及开源信息
 ****
 
-|开发团队|铭诚网络工作室|
-|---|---
-|加入我们|[![zhihu-shield]][zhihu]
-|---|---
-|开源工作|B4QAQ|
-|个人站|[zhihu-shield]][zhihu]
-|Github|---
-|JihuLab|---
-|B站|---
-|QQ|---
-
-
+|开发团队|铭诚网络工作室
+|开源工作|B4QAQ
+|维护工作|B4QAQ
+|开源协议|GPL V3
+|项目状态|开源维护
 
 ****
-开发团队 铭诚网络工作室
-开源工作 B4QAQ
-开源协议 GPL V3  
-维护者 B4QAQ
 Copyright by 2023 Mingcheng Network Studio  
 ### 网站预览
 [前往Caryworld.b4qaq.top预览最新Beta版](https://caryworld.b4qaq.top)  
