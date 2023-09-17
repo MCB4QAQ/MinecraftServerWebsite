@@ -1,6 +1,5 @@
 ![工作室LOGO](https://caryworld.b4qaq.top/admin/images/logo2.png) 
 # MinecraftServerWebwebsite
-### 项目作者及开源信息
 ****
 
 |开发团队|铭诚网络工作室
