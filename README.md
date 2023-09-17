@@ -5,8 +5,8 @@
 |---|---
 |开源工作|B4QAQ
 |维护工作|B4QAQ
-|开源协议|GPL V3
-|项目状态|开源维护
+|开源协议|![LICENSE](https://img.shields.io/badge/License-GPL V3-green)
+|项目状态|![Build](https://img.shields.io/badge/Bulid-passing-green)
 
 Copyright by 2023 Mingcheng Network Studio  
 
