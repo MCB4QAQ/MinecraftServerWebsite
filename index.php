@@ -66,8 +66,8 @@
 <div class="banner">
 			<div class="join-buttom">
 				<div class="join-item">
-					<h2>Minecraft Cary World公益服务器</h2><!-- 更多mc腐竹工具，源码+源码+QQ 1612704618 -->
-					    <p>Cary World公益服务器 - 生存|科技|养老|1.18.2插件服</p><!-- 更多mc腐竹工具，源码+源码+QQ 1612704618 -->
+					<h2>Minecraft Cary World公益服务器</h2>
+					    <p>Cary World公益服务器 - 生存|科技|养老|1.18.2插件服</p>
 					</div>
 				<h1><a href="https://jq.qq.com/?_wv=1027&k=ZTq6SQNt/">加入♂服务器</a></h1>
 				<h1><a href="https://bbs.mcb4qaq.top/t/cary-world/">BBS社区</a></h1>
