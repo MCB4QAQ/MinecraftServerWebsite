@@ -9,22 +9,16 @@
 |项目状态|开源维护
 
 Copyright by 2023 Mingcheng Network Studio  
-<details>
-<summary>目录</summary>、
-
-###目录
-
-* [网站预览](###网站预览)
-* [项目介绍](###项目介绍)
-* [项目引用](###项目引用)
-* [项目功能](###项目功能)
-* [项目计划](###项目计划)
-</details>
 
 ### 网站预览
 [前往Caryworld.b4qaq.top预览最新Beta版](https://caryworld.b4qaq.top)   
 [前往Caryworld.top预览最新正式版](https://caryworld.top)   
-注意！正式版预览暂时无法访问，请等待修复！    
+```diff
+
+- 注意！正式版预览暂时无法访问，请等待修复！ 。
+
+```
+   
 ### 项目介绍
 一个基于Compose+PHP的开源我的世界服务器官网，目前项目版本为2.1版本  
 共3个分支：main（主线分支，发布正式版），beta（测试版本分区，功能可能不稳定），allphp（纯PHP版，用于虚拟主机的同学）  
