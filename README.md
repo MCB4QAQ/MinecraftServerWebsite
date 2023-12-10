@@ -1,4 +1,4 @@
-![工作室LOGO](https://caryworld.b4qaq.top/admin/images/logo2.png) 
+![工作室LOGO](https://s2.loli.net/2023/12/10/vIUlsmzJn4i2oB9.png) 
 # MinecraftServerWebwebsite
 
 |开发团队|铭诚网络工作室
